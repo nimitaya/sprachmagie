@@ -1,1 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Barriecito&display=swap");
+
 @import "tailwindcss";
+
+h1 {
+  font-family: "Barriecito", cursive;
+}
