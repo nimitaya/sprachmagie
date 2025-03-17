@@ -7,8 +7,9 @@ const Header = () => {
       <h1 className="text-xl">Sprachmagie</h1>
       <nav className="flex flex-col sm:flex-row">
         <ul className="flex flex-col sm:flex-row">
-            <li className="m-2 p-2 border-2 rounded-lg sm:m-4 sm:p-4">Punktestand</li>
             <li className="m-2 p-2 border-2 rounded-lg sm:m-4 sm:p-4">Lernseite</li>
+            <li className="m-2 p-2 border-2 rounded-lg sm:m-4 sm:p-4">Profil</li>
+            {/* TODO anstatt Profil Profilbild einfügen ?*/}
         </ul>
         {/* <NavLink to="/lernseite">Lernseite</NavLink>
         <NavLink to="/punkte">Punktestand</NavLink> */}
