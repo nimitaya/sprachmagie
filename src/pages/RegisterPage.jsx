@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const RegisterPage = () => {
   return (
@@ -40,12 +40,12 @@ const RegisterPage = () => {
           </button>
         </form>
 
-        <Link
+        {/* <Link
           to="/"
           className="mt-4 text-lg text-center block text-blue-500 hover:underline"
         >
           Zurück zur Startseite
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
