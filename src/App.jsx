@@ -1,15 +1,19 @@
+
 import Footer from "./components/Footer";
 import Lernseite from "./pages/Lernseite";
-
-
+import HomePage from "./pages/HomePage";
 function App() {
-
-  return (
-    <>
-     <Lernseite />
-     <Footer />
+  return 
+  <>
+  <HomePage />
+  <Lernseite />
+  <Footer />
     </>
-  )
-}
+ }
+  
+ export default App;
+   
 
-export default App
+
+
+
