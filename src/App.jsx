@@ -1,8 +1,13 @@
+import Footer from "./components/Footer";
+import Lernseite from "./pages/Lernseite";
+
+
 function App() {
 
   return (
     <>
-      <h1 className="bg-amber-500">Hallo</h1>
+     <Lernseite />
+     <Footer />
     </>
   )
 }
