@@ -3,7 +3,7 @@
 const Header = () => {
   return (
     <header className="p-3 flex justify-between items-center bg-amber-500 sm:p-5">
-      <img src="./vite.svg" alt="Logo Placeholder" />
+      <img src="./logo.png" alt="Logo Placeholder" className="max-w-40"/>
       <h1 className="text-xl">Sprachmagie</h1>
       <nav className="flex flex-col sm:flex-row">
         <ul className="flex flex-col sm:flex-row">
