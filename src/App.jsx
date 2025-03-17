@@ -8,7 +8,8 @@ function App() {
   <HomePage />
   <Lernseite />
   <Footer />
-    </>)
+    </>
+  );
  }
   
  export default App;
