@@ -1,10 +1,7 @@
-function App() {
+import HomePage from "./pages/HomePage";
 
-  return (
-    <>
-      <h1 className="bg-amber-500">Hallo</h1>
-    </>
-  )
+function App() {
+  return <HomePage />;
 }
 
-export default App
+export default App;
