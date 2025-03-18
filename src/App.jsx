@@ -25,8 +25,8 @@ function App() {
           <Route path="/cards/:categoryId" element={<CardsPage />} />
           <Route path="/quiz" element={<QuizTopicsPage />} />
           <Route path="/quiz/:topic" element={<Quiz />} />
-          <Route path="picquiz" element={<PicQuizCategories />} />
-          <Route path="picquiz/:categoryPath" element={<PicQuizQuestions />} />
+          <Route path="/picquiz" element={<PicQuizCategories />} />
+          <Route path="/picquiz/:categoryPath" element={<PicQuizQuestions />} />
           <Route path="*" element={<Error />} />
         </Route>
       </Routes>
