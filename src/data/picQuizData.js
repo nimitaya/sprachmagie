@@ -21,7 +21,87 @@ export const picQuizData = [
                     {word: {de:"Banane", en: "Banana"}, correct: true},
                     {word: {de:"Traube", en: "Grape"}, correct: false},
                 ]
-            }
+            },
+            {
+                id: 103,
+                img: "/images/fruits/pear.svg",
+                options: [
+                    {word: {de:"xxx", en: "xxx"}, correct: false},
+                    {word: {de:"xxx", en: "xxx"}, correct: true},
+                    {word: {de:"xxx", en: "xxx"}, correct: false},
+                    {word: {de:"xxx", en: "xxx"}, correct: false},
+                ]
+            },
+            {
+                id: 104,
+                img: "/images/fruits/strawberry.svg",
+                options: [
+                    {word: {de:"xxx", en: "xxx"}, correct: false},
+                    {word: {de:"xxx", en: "xxx"}, correct: true},
+                    {word: {de:"xxx", en: "xxx"}, correct: false},
+                    {word: {de:"xxx", en: "xxx"}, correct: false},
+                ]
+            },
+            {
+                id: 105,
+                img: "/images/fruits/orange.svg",
+                options: [
+                    {word: {de:"xxx", en: "xxx"}, correct: false},
+                    {word: {de:"xxx", en: "xxx"}, correct: true},
+                    {word: {de:"xxx", en: "xxx"}, correct: false},
+                    {word: {de:"xxx", en: "xxx"}, correct: false},
+                ]
+            },
+            {
+                id: 106,
+                img: "/images/fruits/cherry.svg",
+                options: [
+                    {word: {de:"xxx", en: "xxx"}, correct: false},
+                    {word: {de:"xxx", en: "xxx"}, correct: true},
+                    {word: {de:"xxx", en: "xxx"}, correct: false},
+                    {word: {de:"xxx", en: "xxx"}, correct: false},
+                ]
+            },
+            {
+                id: 107,
+                img: "/images/fruits/pineapple.svg",
+                options: [
+                    {word: {de:"xxx", en: "xxx"}, correct: false},
+                    {word: {de:"xxx", en: "xxx"}, correct: true},
+                    {word: {de:"xxx", en: "xxx"}, correct: false},
+                    {word: {de:"xxx", en: "xxx"}, correct: false},
+                ]
+            },
+            {
+                id: 108,
+                img: "/images/fruits/grape.svg",
+                options: [
+                    {word: {de:"xxx", en: "xxx"}, correct: false},
+                    {word: {de:"xxx", en: "xxx"}, correct: true},
+                    {word: {de:"xxx", en: "xxx"}, correct: false},
+                    {word: {de:"xxx", en: "xxx"}, correct: false},
+                ]
+            },
+            {
+                id: 109,
+                img: "/images/fruits/plum.svg",
+                options: [
+                    {word: {de:"xxx", en: "xxx"}, correct: false},
+                    {word: {de:"xxx", en: "xxx"}, correct: true},
+                    {word: {de:"xxx", en: "xxx"}, correct: false},
+                    {word: {de:"xxx", en: "xxx"}, correct: false},
+                ]
+            },
+            {
+                id: 110,
+                img: "/images/fruits/orange.svg",
+                options: [
+                    {word: {de:"xxx", en: "xxx"}, correct: false},
+                    {word: {de:"xxx", en: "xxx"}, correct: true},
+                    {word: {de:"xxx", en: "xxx"}, correct: false},
+                    {word: {de:"xxx", en: "xxx"}, correct: false},
+                ]
+            },
         ]
     },
     {
