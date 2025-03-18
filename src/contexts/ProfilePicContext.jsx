@@ -26,5 +26,3 @@ const ProfilePicContextProvider = ({ children }) => {
   );
 };
 export default ProfilePicContextProvider;
-
-// IMPORTANT add Context to main.jsx
