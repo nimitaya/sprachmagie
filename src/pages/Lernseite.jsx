@@ -15,6 +15,7 @@ const Lernseite = () => {
             </p>
           </div>
         </div>
+
         {/*Bilder Quiz */}
         <div className="relative cursor-pointer rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105">
           <img
@@ -28,6 +29,7 @@ const Lernseite = () => {
             </p>
           </div>
         </div>
+
         {/*Wort Quiz */}
         <div className="relative cursor-pointer rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105">
           <img
