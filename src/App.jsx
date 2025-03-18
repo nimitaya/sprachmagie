@@ -9,6 +9,8 @@ import Quiz from "./components/Quiz";
 import QuizTopicsPage from "./pages/QuizTopicsPage";
 import CardsCategoriesPage from "./pages/CardsCategoriesPage";
 import CardsPage from "./pages/CardsPage";
+import PicQuizCategories from "./pages/PicQuizCategories";
+import PicQuizQuestions from "./pages/PicQuizQuestions";
 
 function App() {
   return (
@@ -16,13 +18,15 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index path="/" element={<HomePage />} />
-          <Route index path="/quiz/:topic" element={<Quiz />} />
-          <Route index path="/quiz" element={<QuizTopicsPage/>}/>
-          <Route path="/learning" element={<Lernseite />} />
           <Route path="/register" element={<RegisterPage />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/learning" element={<Lernseite />} />
           <Route path="/cards-categories" element={<CardsCategoriesPage />} />
           <Route path="/cards/:categoryId" element={<CardsPage />} />
-          <Route path="/profile" element={<Profile />} />
+          <Route path="/quiz" element={<QuizTopicsPage />} />
+          <Route path="/quiz/:topic" element={<Quiz />} />
+          <Route path="picquiz" element={<PicQuizCategories />} />
+          <Route path="picquiz/:categoryPath" element={<PicQuizQuestions />} />
           <Route path="*" element={<Error />} />
         </Route>
       </Routes>
