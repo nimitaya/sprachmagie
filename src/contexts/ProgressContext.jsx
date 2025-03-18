@@ -15,5 +15,3 @@ const ProgressContextProvider = ({ children }) => {
   );
 };
 export default ProgressContextProvider;
-
-// IMPORTANT add Context to main.jsx
