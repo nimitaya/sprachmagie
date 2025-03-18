@@ -5,9 +5,7 @@ import Card from "../components/Card";
 
 const CardsPage = () => {
   const { categoryId } = useParams();
-console.log("categoryId:", categoryId );
-
-
+  // console.log(categoryId);
 
   const category = cardsData[categoryId];
 
@@ -16,29 +14,62 @@ console.log("categoryId:", categoryId );
   }
 
   const [language, setLanguage] = useState("de");
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const nextCard = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % category.length);
+  };
+
+  const prevCard = () => {
+    setCurrentIndex(
+      (prevIndex) => (prevIndex - 1 + category.length) % category.length
+    );
+  };
+
+  const currentCard = category[currentIndex];
 
   return (
-    <div>
-      {/* Knopf zum Ändern der Sprache */}
+    <div className="container mx-auto p-10">
+      {/* Sprachauswahl */}
       <div>
-        {["de", "en"].map((lang) => (
-          <button key={lang} onClick={() => setLanguage(lang)}>
-            {lang.toUpperCase()}
-          </button>
-        ))}
+        <label htmlFor="language" className="mr-2 text-lg font-bold">
+          Sprache wählen
+        </label>
+        <select
+          id="language"
+          value={language}
+          onChange={(e) => setLanguage(e.target.value)}
+          className="p-3 bg-green-500 rounded"
+        >
+          <option value="de">Deutsch</option>
+          <option value="en">Englisch</option>
+          <option value="es">Spanisch</option>
+          <option value="fr">Französisch</option>
+          <option value="it">Ukrainisch</option>
+        </select>
       </div>
 
-      {/* Karten */}
-      <div>
-        {category.map((card) => (
-          <Card
-            key={card.id}
-            words={card.words}
-            img={card.img}
-            language={language}
-          />
-        ))}
-      </div>
+      {/* Karte */}
+      <div className="flex flex-col items-center p-10 shadow-lg rounded-lg  bg-purple-500 mt-6">
+        <img
+          src={currentCard.img}
+          alt={currentCard.words.de}
+          style={{ width: "100px", height: "100px" }}
+        />
+        <p className="text-2xl font-bold mt-5">{currentCard.words.de}</p>
+        <p className="text-2xl font-bold mt-5">{currentCard.words[language]}</p>
+        </div>
+
+        {/* Knöpfe */}
+        <div className="flex justify-center gap-4 w-full mt-6">
+          <button onClick={prevCard} className="p-4 bg-green-500 rounded">
+            Zurück
+          </button>
+          <button onClick={nextCard} className="p-4 bg-green-500 rounded">
+            Weiter
+          </button>
+        </div>
+      
     </div>
   );
 };

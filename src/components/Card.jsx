@@ -1,15 +1,10 @@
 const Card = ({ words, img, language }) => {
 
-  const word = words[language];
-
-  const allWords = Object.entries(words)
-    .map(([lang, translation]) => `${lang.toUpperCase()}: ${translation}`)
-    .join(" / ");
-
   return (
-    <div>
-      <img src={img} alt={word} style={{width: "50px", height: "50px"}}/>
-      <div>{allWords}</div>
+    <div className="p-4 shadow-lg rounded-lg w-full sm:w-80 md:w-96 lg:w-1/3">
+      <img src={img} alt={words.de} style={{ width: "50px", height: "50px" }} />
+      <p className="text-lg font-bold">{words.de}</p>
+      <p className="text-lg font-bold">{words[language]}</p>
     </div>
   );
 };
