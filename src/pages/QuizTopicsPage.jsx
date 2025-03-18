@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import "../index.css";
 
 const topics = [
   "fruits",
@@ -20,20 +21,13 @@ const QuizTopicsPage = () => {
   const navigate = useNavigate();
 
   return (
-    <div>
-      <h1>Wähle eine Kategorie</h1>
-      <div style={{ display: "flex", flexWrap: "wrap", gap: "10px" }}>
+    <div className="page-container">
+      <div className="topics-container">
         {topics.map((topic) => (
           <div
             key={topic}
             onClick={() => navigate(`/quiz/${topic}`)}
-            style={{
-              padding: "30px",
-              border: "1px solid black",
-              borderRadius: "10px",
-              cursor: "pointer",
-              background: "lightyellow",
-            }}
+            className="topic-card"
           >
             {topic}
           </div>
