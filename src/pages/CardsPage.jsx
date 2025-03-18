@@ -5,19 +5,27 @@ import Card from "../components/Card";
 
 const CardsPage = () => {
   const { categoryId } = useParams();
+console.log("categoryId:", categoryId );
+
+
+
   const category = cardsData[categoryId];
-  const [language, setLanguage] = useState("de");
 
   if (!category) {
     return <div>Kategorie nicht gefunden</div>;
   }
 
+  const [language, setLanguage] = useState("de");
+
   return (
     <div>
       {/* Knopf zum Ändern der Sprache */}
       <div>
-        <button onClick={() => setLanguage("de")}></button>
-        <button onClick={() => setLanguage("en")}></button>
+        {["de", "en"].map((lang) => (
+          <button key={lang} onClick={() => setLanguage(lang)}>
+            {lang.toUpperCase()}
+          </button>
+        ))}
       </div>
 
       {/* Karten */}
