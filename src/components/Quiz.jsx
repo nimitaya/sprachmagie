@@ -5,29 +5,27 @@ import quizData from "../data/quizData";
 const Quiz = () => {
   const { topic } = useParams();
   const questions = quizData[topic] || [];
-  const navigate = useNavigate(); /* Navigation für letzte Button  */
+  const navigate = useNavigate();
 
-  /*   Zustände für die aktuelle Frage, die ausgewählte Antwort, die Punktzahl und die Ergebnisanzeige*/
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [score, setScore] = useState(0);
   const [showResults, setShowResults] = useState(false);
 
-  /*   Nicht notwendig*/
   if (questions.length === 0) {
     return <h2>Keine Fragen für dieses Thema.</h2>;
   }
-  /*   handleAnswerClick ändert die ausgewählte Antwort  */
+
   const handleAnswerClick = (option) => {
     setSelectedAnswer(option);
   };
-  /*   Funktion, um zur nächsten Frage zu gelangen*/
+
   const handleNextQuestion = () => {
     if (selectedAnswer === questions[currentQuestion].answer) {
-      setScore(score + 1); /* +1 score */
+      setScore(score + 1);
     }
-    /* wenn das ist nicht letzte frage ist wir gehen weiter
-     */ if (currentQuestion + 1 < questions.length) {
+
+    if (currentQuestion + 1 < questions.length) {
       setCurrentQuestion(currentQuestion + 1);
       setSelectedAnswer(null);
     } else {
@@ -48,8 +46,8 @@ const Quiz = () => {
     >
       {showResults ? (
         <div className="text-center text-4xl">
-          <h2>Quiz beendet!</h2>
-          <p className="mt-4 mb-9 text-3xl">
+          <h2 className="text-3xl">Quiz beendet!</h2>
+          <p className="mt-4 mb-9 text-xl sm:text-3xl">
             Dein Ergebnis: {score} von {questions.length}
           </p>
           <div className="mt-4 animate-bounce text-4xl text-yellow-400">🌞</div>
@@ -57,13 +55,12 @@ const Quiz = () => {
             onClick={() => navigate("/quiz")}
             className="mt-8 py-4 px-8 bg-lime-500 text-white font-bold text-3xl rounded-xl transition-all duration-300 transform hover:scale-105 active:scale-95"
           >
-            {" "}
             Zurück zum Thema Auswahl
           </button>
         </div>
       ) : (
         <div className="text-center max-w-xl w-full p-6 bg-opacity-30 rounded-lg shadow-2xl relative z-10">
-          <h2 className="text-3xl font-bold text-purple-600 mb-6 relative z-10 ">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-purple-600 mb-6 relative z-10">
             {questions[currentQuestion].question}
           </h2>
           <ul className="space-y-4">
@@ -87,7 +84,7 @@ const Quiz = () => {
           <button
             onClick={handleNextQuestion}
             disabled={!selectedAnswer}
-            className="mt-8 py-3 px-9 bg-purple-500 text-white font-bold  text-2xl rounded-xl transition-all duration-300 transform hover:scale-105 active:scale-95 disabled:opacity-60"
+            className="mt-8 py-3 px-9 bg-purple-500 text-white font-bold text-lg sm:text-2xl md:text-3xl rounded-xl transition-all duration-300 transform hover:scale-105 active:scale-95 disabled:opacity-60"
           >
             {currentQuestion + 1 < questions.length
               ? "Nächste Frage"

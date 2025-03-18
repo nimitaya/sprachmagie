@@ -27,7 +27,7 @@ const QuizTopicsPage = () => {
           <div
             key={topic}
             onClick={() => navigate(`/quiz/${topic}`)}
-            className="topic-card"
+            className="topic-card text-lg sm:text-xl md:text-2xl lg:text-3xl"
           >
             {topic}
           </div>
