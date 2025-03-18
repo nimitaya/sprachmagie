@@ -12,7 +12,7 @@ const HomePage = () => {
         />
       </div>
 
-      <h1 className=" font-barriecito text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-center  text-blue-300">
+      <h1 className=" font-barriecito text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-center  text-indigo-400">
         Sprachmagie
       </h1>
       <h2 className="text-center text-xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-2xl text-emerald-600 mt-7">
@@ -26,14 +26,14 @@ const HomePage = () => {
             <label className="mb-1 font-medium"></label>
             <input
               type="text"
-              className="p-2 border rounded mb-2 focus:outline-none focus:ring-2  border-sky-200 focus:ring-blue-200 text-transparent bg-clip-text bg-gradient-to-r from-green-200 via bg-purple-500 to-blue-400 text-xl"
+              className="p-2 border rounded mb-2 focus:outline-none focus:ring-2  border-amber-300 focus:ring-amber-300 text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via bg-amber-400 to-yellow-200 text-xl"
               placeholder="Gib deinen Namen an"
             />
 
             <label className="mb-5 font-medium"></label>
             <input
               type="password"
-              className="p-2 border rounded mb-4 focus:outline-none focus:ring-2 border-sky-200 focus:ring-blue-200 text-transparent bg-clip-text bg-gradient-to-r from-green-200 via bg-purple-500 to-blue-400 text-xl "
+              className="p-2 border rounded mb-4 focus:outline-none focus:ring-2 border-amber-300 focus:ring-amber-300 text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via bg-amber-400 to-yellow-200 text-xl "
               placeholder="Gib dein Passwort ein"
             />
 
