@@ -1,12 +1,66 @@
-# React + Vite
+# Sprachmagie
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Jede Sprache ist ein Abenteuer
 
-Currently, two official plugins are available:
+Sprachenlernen ist Magie! Du kannst mehr von der Welt entdecken und verstehen, wenn du dich mit Personen aus anderen Ländern, die eine andere Sprache sprechen, verständigen kannst.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Diese App soll Kindern spielerisch helfen, neue Sprachen zu lernen und ihre Neugierde zu wecken.
 
-## Expanding the ESLint configuration
+## Projektübersicht
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Sprachmagie ist eine interaktive Lernplattform, die speziell für Kinder entwickelt wurde. Die App bietet eine Vielzahl von Funktionen, um das Sprachenlernen spannend und unterhaltsam zu gestalten.
+
+## Aktueller Stand
+
+Derzeit ist die Grundstruktur der App implementiert. Zu den aktuellen Funktionen gehören:
+
+- **Profilseite**: Benutzer können ihr Profilbild ändern, indem sie auf das Bild klicken.
+- **Fortschrittspunkte**: Anzeige des Lernfortschritts.
+- **Quiz**: Kleine Quizspiele, um das Gelernte zu überprüfen.
+
+## Geplante Funktionen
+
+In zukünftigen Versionen der App planen wir, folgende Funktionen hinzuzufügen:
+
+- **Interaktive Spiele**: Verschiedene Spiele, die das Lernen von Vokabeln und Grammatik fördern.
+- **Mehrsprachige Unterstützung**: Unterstützung für mehrere Sprachen, damit Kinder verschiedene Sprachen lernen können.
+- **Belohnungssystem**: Ein System, das Kinder für ihre Fortschritte belohnt und sie motiviert, weiterzulernen.
+- **Eltern-Dashboard**: Ein Dashboard für Eltern, um den Fortschritt ihrer Kinder zu überwachen.
+
+## Installation
+
+Um die App lokal zu installieren und auszuführen, folge diesen Schritten:
+
+1. Klone das Repository:
+   ```bash
+   git clone https://github.com/nimitaya/sprachmagie.git
+   ```
+2. Wechsle in das Projektverzeichnis:
+   ```bash
+   cd sprachmagie
+   ```
+3. Installiere die Abhängigkeiten:
+   ```bash
+   npm install
+   ```
+4. Starte die Entwicklungsumgebung:
+   ```bash
+   npm start
+   ```
+
+## Mitwirken
+
+Wir freuen uns über Beiträge zu diesem Projekt! Wenn du einen Fehler gefunden hast oder eine neue Funktion vorschlagen möchtest, eröffne bitte ein Issue oder erstelle einen Pull Request.
+
+## Lizenz
+
+Dieses Projekt steht unter der MIT-Lizenz. Weitere Informationen findest du in der [LICENSE](LICENSE)-Datei.
+
+## Kontakt
+
+Bei Fragen oder Anregungen kannst du uns gerne kontaktieren:
+
+<!-- - E-Mail: info@sprachmagie.de -->
+- GitHub: [nimitaya](https://github.com/nimitaya)
+
+Vielen Dank, dass du Sprachmagie nutzt und unterstützt!
