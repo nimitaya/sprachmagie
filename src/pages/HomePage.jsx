@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
@@ -45,11 +45,11 @@ const HomePage = () => {
             </button>
           </form>
 
-          {/* <Link to="/register">
+          <Link to="/register">
             <button className="mt-4 text-lg bg-amber-400 text-white py-2 rounded hover:bg-amber-300 transition w-full">
               Neu registrieren
             </button>
-          </Link> */}
+          </Link>
         </div>
       </div>
     </div>
