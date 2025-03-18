@@ -5,7 +5,11 @@ export const cardsData = {
       words: { de: "Apfel", en: "Apple" },
       img: "/images/fruits/apple.svg",
     },
-    { id: 2, wordDe: "Birne", wordEn: "Pear", img: "/images/fruits/pear.svg" },
+    {
+      id: 2,
+      words: { de: "Birne", en: "Pear" },
+      img: "/images/fruits/pear.svg",
+    },
     {
       id: 3,
       words: { de: "Banane", en: "Banana" },
