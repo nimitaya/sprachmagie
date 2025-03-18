@@ -42,13 +42,13 @@ const quizData = {
     { question: "Wie heißt „Drei“ auf Englisch?", options: ["Eight", "Nine", "Ten", "Three"], answer: "Three" },
     { question: "Wie heißt „Zehn“ auf Englisch?", options: ["Nine", "Ten", "Eleven", "Twelve"], answer: "Ten" },
     { question: "Wie heißt „Dreizehn“ auf Englisch?", options: ["Twelve", "Thirteen", "Fourteen", "Fifteen"], answer: "Thirteen" },
-    { question: "Wie heißt „Vierunddreißig“ auf Englisch?", options: ["Thirty-three", "Thirty-four", "Thirty-five", "Thirty-six"], answer: "Thirty-four" },
-    { question: "Wie heißt „Acht“ auf Englisch?", options: ["Six", "Seven", "Eight", "Nine"], answer: "Eight" },
+    /* { question: "Wie heißt „Vierunddreißig“ auf Englisch?", options: ["Thirty-three", "Thirty-four", "Thirty-five", "Thirty-six"], answer: "Thirty-four" }, */
+   /*  { question: "Wie heißt „Acht“ auf Englisch?", options: ["Six", "Seven", "Eight", "Nine"], answer: "Eight" },
     { question: "Wie heißt „Fünf“ auf Englisch?", options: ["Four", "Five", "Six", "Seven"], answer: "Five" },
     { question: "Wie heißt „Zwei“ auf Englisch?", options: ["Five", "Six", "Two", "Seven"], answer: "Two" },
     { question: "Wie heißt „Zwölf“ auf Englisch?", options: ["Ten", "Eleven", "Twelve", "Thirteen"], answer: "Twelve" },
     { question: "Wie heißt „Sechsundfünfzig“ auf Englisch?", options: ["Fifty-four", "Fifty-five", "Fifty-six", "Fifty-seven"], answer: "Fifty-six" },
-    { question: "Wie heißt „Sieben“ auf Englisch?", options: ["Seven", "Eight", "Nine", "Ten"], answer: "Seven" }
+    { question: "Wie heißt „Sieben“ auf Englisch?", options: ["Seven", "Eight", "Nine", "Ten"], answer: "Seven" } */
 ],
 
 weekdays: [
