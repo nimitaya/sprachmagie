@@ -11,7 +11,7 @@ const Profile = () => {
       <h2 className="text-4xl m-5 text-teal-600">Name von Nutzer</h2>
       <div className="relative w-40 aspect-square bg-indigo-100 rounded-full border-8 border-b-amber-600 flex justify-center items-center self-center shadow-lg cursor-pointer transition-transform transform hover:scale-105">
         {/* shows random profile picture when you click on it */}
-        <img className="rounded-full" src={profilePic} alt="Profile picture" onClick={changeProfilePic}/>
+        <img className="rounded-full h-full w-auto object-cover" src={profilePic} alt="Profile picture" onClick={changeProfilePic}/>
 
         {/* click div to show random profile picture 
         <div
