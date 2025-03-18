@@ -115,7 +115,46 @@ furniture: [
   { question: "Wie nennt man „Kissen“ auf Englisch?", options: ["Pillow", "Blanket", "Bed", "Sofa"], answer: "Pillow" },
   { question: "Wie nennt man „Teppich“ auf Englisch?", options: ["Carpet", "Curtain", "Sofa", "Desk"], answer: "Carpet" },
   { question: "Wie nennt man „Stuhl“ auf Englisch?", options: ["Couch", "Chair", "Table", "Desk"], answer: "Chair" }
+],
+vegetables: [
+  { question: "Wie nennt man „Karotte“ auf Englisch?", options: ["Carrot", "Potato", "Cucumber", "Onion"], answer: "Carrot" },
+  { question: "Wie nennt man „Kartoffel“ auf Englisch?", options: ["Potato", "Tomato", "Onion", "Carrot"], answer: "Potato" },
+  { question: "Wie nennt man „Zwiebel“ auf Englisch?", options: ["Onion", "Cucumber", "Tomato", "Carrot"], answer: "Onion" },
+  { question: "Wie nennt man „Gurke“ auf Englisch?", options: ["Cucumber", "Lettuce", "Tomato", "Carrot"], answer: "Cucumber" },
+  { question: "Wie nennt man „Tomate“ auf Englisch?", options: ["Tomato", "Onion", "Cucumber", "Carrot"], answer: "Tomato" },
+  { question: "Wie nennt man „Erbse“ auf Englisch?", options: ["Pea", "Bean", "Corn", "Tomato"], answer: "Pea" },
+  { question: "Wie nennt man „Salat“ auf Englisch?", options: ["Lettuce", "Carrot", "Onion", "Tomato"], answer: "Lettuce" },
+  { question: "Wie nennt man „Brokkoli“ auf Englisch?", options: ["Broccoli", "Spinach", "Lettuce", "Carrot"], answer: "Broccoli" },
+  { question: "Wie nennt man „Paprika“ auf Englisch?", options: ["Pepper", "Tomato", "Cucumber", "Carrot"], answer: "Pepper" },
+  { question: "Wie nennt man „Spinat“ auf Englisch?", options: ["Spinach", "Lettuce", "Tomato", "Broccoli"], answer: "Spinach" }
+],
+body: [
+  { question: "Wie nennt man „Kopf“ auf Englisch?", options: ["Head", "Arm", "Leg", "Hand"], answer: "Head" },
+  { question: "Wie nennt man „Hand“ auf Englisch?", options: ["Hand", "Leg", "Arm", "Head"], answer: "Hand" },
+  { question: "Wie nennt man „Arm“ auf Englisch?", options: ["Arm", "Leg", "Head", "Foot"], answer: "Arm" },
+  { question: "Wie nennt man „Bein“ auf Englisch?", options: ["Leg", "Head", "Hand", "Foot"], answer: "Leg" },
+  { question: "Wie nennt man „Fuß“ auf Englisch?", options: ["Foot", "Leg", "Hand", "Head"], answer: "Foot" },
+  { question: "Wie nennt man „Auge“ auf Englisch?", options: ["Eye", "Ear", "Mouth", "Nose"], answer: "Eye" },
+  { question: "Wie nennt man „Ohr“ auf Englisch?", options: ["Ear", "Mouth", "Nose", "Eye"], answer: "Ear" },
+  { question: "Wie nennt man „Nase“ auf Englisch?", options: ["Nose", "Mouth", "Eye", "Ear"], answer: "Nose" },
+  { question: "Wie nennt man „Mund“ auf Englisch?", options: ["Mouth", "Nose", "Ear", "Eye"], answer: "Mouth" },
+  { question: "Wie nennt man „Hals“ auf Englisch?", options: ["Neck", "Head", "Arm", "Leg"], answer: "Neck" }
+],
+clothes: [
+  { question: "Wie nennt man „Hemd“ auf Englisch?", options: ["Shirt", "Pants", "Jacket", "Sweater"], answer: "Shirt" },
+  { question: "Wie nennt man „Hose“ auf Englisch?", options: ["Pants", "Shirt", "Skirt", "Sweater"], answer: "Pants" },
+  { question: "Wie nennt man „Jacke“ auf Englisch?", options: ["Jacket", "Sweater", "Shirt", "T-shirt"], answer: "Jacket" },
+  { question: "Wie nennt man „Rock“ auf Englisch?", options: ["Skirt", "Pants", "Shirt", "Sweater"], answer: "Skirt" },
+  { question: "Wie nennt man „Pullover“ auf Englisch?", options: ["Sweater", "Shirt", "Jacket", "Pants"], answer: "Sweater" },
+  { question: "Wie nennt man „Schuhe“ auf Englisch?", options: ["Shoes", "Socks", "Pants", "Shirt"], answer: "Shoes" },
+  { question: "Wie nennt man „Socken“ auf Englisch?", options: ["Socks", "Shoes", "Pants", "Shirt"], answer: "Socks" },
+  { question: "Wie nennt man „T-Shirt“ auf Englisch?", options: ["T-shirt", "Sweater", "Shirt", "Jacket"], answer: "T-shirt" },
+  { question: "Wie nennt man „Mantel“ auf Englisch?", options: ["Coat", "Sweater", "Shirt", "Pants"], answer: "Coat" },
+  { question: "Wie nennt man „Kleid“ auf Englisch?", options: ["Dress", "Skirt", "Shirt", "Pants"], answer: "Dress" }
 ]
+
+
+
 
 };
 
