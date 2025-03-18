@@ -1,19 +1,15 @@
+import CardsPage from "./pages/CardsPage";
+import CardsCategoriesPage from "./pages/CardsCategoriesPage";
+import BildQuizPage from "./pages/BildQuizPage";
 
-import Footer from "./components/Footer";
-import Lernseite from "./pages/Lernseite";
-import HomePage from "./pages/HomePage";
 function App() {
-  return 
-  <>
-  <HomePage />
-  <Lernseite />
-  <Footer />
+  return (
+    <>
+      <CardsPage />
+      <CardsCategoriesPage />
+      <BildQuizPage />
     </>
- }
-  
- export default App;
-   
+  );
+}
 
-
-
-
+export default App;
