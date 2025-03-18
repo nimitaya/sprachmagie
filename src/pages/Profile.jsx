@@ -1,16 +1,10 @@
-import { useState } from "react";
+import { useContext } from "react";
 import ProgressPoints from "../components/ProgressPoints";
 import ProgressQuiz from "../components/ProgressQuiz";
-import { profilbilder } from "../data/profilbilder";
+import { ProfilePicContext } from "../contexts/ProfilePicContext";
 
 const Profile = () => {
-    // TODO put in context to use on every site
-  const [profilePic, setProfilePic] = useState(profilbilder[0]);
-
-  const changeProfilePic = () => {
-    const randomIndex = Math.floor(Math.random() * profilbilder.length);
-    setProfilePic(profilbilder[randomIndex]);
-  };
+  const {profilePic, changeProfilePic} = useContext(ProfilePicContext)
 
   return (
     <div className="max-w-sm mx-auto flex flex-col items-center">
