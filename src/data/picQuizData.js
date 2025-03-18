@@ -11,6 +11,16 @@ export const picQuizData = [
                     {word: {de:"Erdbeere", en: "Strawberry"}, correct: false},
                     {word: {de:"Traube", en: "Grape"}, correct: false},
                 ]
+            },
+            {
+                id: 102,
+                img: "/images/fruits/banana.svg",
+                options: [
+                    {word: {de:"Birne", en: "Pear"}, correct: false},
+                    {word: {de:"Erdbeere", en: "Strawberry"}, correct: false},
+                    {word: {de:"Banane", en: "Banana"}, correct: true},
+                    {word: {de:"Traube", en: "Grape"}, correct: false},
+                ]
             }
         ]
     },
