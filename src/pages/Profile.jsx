@@ -1,21 +1,15 @@
-import { useState } from "react";
+import { useContext } from "react";
 import ProgressPoints from "../components/ProgressPoints";
 import ProgressQuiz from "../components/ProgressQuiz";
-import { profilbilder } from "../data/profilbilder";
+import { ProfilePicContext } from "../contexts/ProfilePicContext";
 
 const Profile = () => {
-    // TODO put in context to use on every site
-  const [profilePic, setProfilePic] = useState(profilbilder[0]);
-
-  const changeProfilePic = () => {
-    const randomIndex = Math.floor(Math.random() * profilbilder.length);
-    setProfilePic(profilbilder[randomIndex]);
-  };
+  const {profilePic, changeProfilePic} = useContext(ProfilePicContext)
 
   return (
     <div className="max-w-sm mx-auto flex flex-col items-center">
       <h2 className="text-4xl m-5 text-teal-600">Name von Nutzer</h2>
-      <div className="relative w-40 aspect-square bg-indigo-100 rounded-full border-8 border-b-amber-600 flex justify-center items-center self-center">
+      <div className="relative w-40 aspect-square bg-indigo-100 rounded-full border-8 border-b-amber-600 flex justify-center items-center self-center shadow-lg cursor-pointer transition-transform transform hover:scale-105">
         {/* shows random profile picture when you click on it */}
         <img className="rounded-full" src={profilePic} alt="Profile picture" onClick={changeProfilePic}/>
 

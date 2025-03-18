@@ -1,8 +1,12 @@
+import { useContext } from "react";
+import { ProgressContext } from "../contexts/ProgressContext";
+
 const ProgressQuiz = () => {
+  const {earnedProgress} = useContext(ProgressContext)
+
     const progressValue = {
-        width: "70%",
+        width: `${earnedProgress}%`,
       };
-    // TODO needs to be changed to be dynamic
 
   return (
     <div className="p-4 flex flex-col">
@@ -15,13 +19,12 @@ const ProgressQuiz = () => {
         {/* Prograss Bar */}
         <div className="flex mb-2 rounded-full h-6 bg-gray-200">
           <div style={progressValue} className="rounded-full bg-teal-500"></div>
-          {/* TODO see above */}
         </div>
         {/* Percentage */}
         <div className="w-28 aspect-square bg-indigo-100 rounded-full flex justify-center items-center self-center">
           <span className="text-xl font-semibold inline-block text-teal-600">
-            {/* TODO percentage needs to be dynamic */}
-            70%
+            {/* percentage taken from context */}
+            {earnedProgress}%
           </span>
         </div>
       </div>
