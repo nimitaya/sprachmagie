@@ -20,7 +20,7 @@ const Footer = () => {
 
       {/* youtube */}
       <div>
-        <a href="https://www.youtube.com/ " className="text-red-600">
+        <a href="https://www.youtube.com/intl/ALL_de/kids/ " className="text-red-600">
           <BsYoutube size={30} />
         </a>
       </div>
