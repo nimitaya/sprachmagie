@@ -1,5 +1,5 @@
-import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import LanguageSelect from "../components/LanguageSelect";
 import { picQuizData } from "../data/picQuizData";
 
 const PicQuizCategories = () => {
@@ -14,6 +14,9 @@ const PicQuizCategories = () => {
       <h1 className="text-center p-4 my-4 text-4xl sm:text-6xl">Kategorien</h1>
 
       <section className="container mx-auto p-6">
+        <div className="flex justify-center">
+          <LanguageSelect />
+        </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* dynamically creates cards for available categories */}
           {picQuizData.map((data, index) => (

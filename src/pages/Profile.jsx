@@ -10,7 +10,9 @@ const Profile = () => {
   const { appState } = useContext(UserContext);
 
   return (
-    <main className="max-w-sm mx-auto flex flex-col items-center flex-1">
+    <main className="max-w-sm mx-auto flex flex-col items-center flex-1" style={{
+      backgroundImage: `url('https://64.media.tumblr.com/35b0676ce21fc9a9471ab45b1e241444/tumblr_ol6o615mfP1qa9gmgo5_1280.jpg')`,
+    }}>
       <h2 className="text-4xl m-5 text-indigo-400">
         {appState.currentUser
           ? appState.currentUser.username.toUpperCase()
