@@ -53,14 +53,14 @@ const Quiz = () => {
           <div className="mt-4 animate-bounce text-4xl text-yellow-400">🌞</div>
           <button
             onClick={() => navigate("/quiz")}
-            className="mt-8 py-4 px-8 bg-lime-500 text-white font-bold text-3xl rounded-xl transition-all duration-300 transform hover:scale-105 active:scale-95"
+            className="mt-8 py-2 px-4 text-lg sm:py-3 sm:px-6 sm:text-2xl lg:py-4 lg:px-8 lg:text-2xl bg-lime-500 text-white font-bold rounded-lg sm:rounded-xl transition-all duration-300 transform hover:scale-105 active:scale-95"
           >
             Zurück zum Thema Auswahl
           </button>
         </div>
       ) : (
-        <div className="text-center max-w-xl w-full p-6 bg-opacity-30 rounded-lg shadow-2xl relative z-10">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-purple-600 mb-6 relative z-10">
+        <div className="text-center max-w-xl w-full p-9 bg-white/40 rounded-lg shadow-2xl relative z-10  mx-6 sm:mx-0">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-purple-800 mb-6 relative z-10">
             {questions[currentQuestion].question}
           </h2>
           <ul className="space-y-4">
@@ -71,10 +71,10 @@ const Quiz = () => {
                 className={`cursor-pointer py-4 px-6 rounded-xl text-center transition-all duration-300 relative z-10 ${
                   selectedAnswer === option
                     ? "bg-purple-300"
-                    : "bg-orange-300 hover:bg-orange-400"
+                    : "bg-orange-400 hover:bg-yellow-300"
                 } transform hover:scale-105`}
                 style={{
-                  backgroundColor: selectedAnswer === option ? "#E9D5FF" : "",
+                  backgroundColor: selectedAnswer === option ? "#7715e0" : "",
                 }}
               >
                 {option}
@@ -84,7 +84,7 @@ const Quiz = () => {
           <button
             onClick={handleNextQuestion}
             disabled={!selectedAnswer}
-            className="mt-8 py-3 px-9 bg-purple-500 text-white font-bold text-lg sm:text-2xl md:text-3xl rounded-xl transition-all duration-300 transform hover:scale-105 active:scale-95 disabled:opacity-60"
+            className="mt-8 py-3 px-9 bg-purple-700 text-white font-bold text-lg sm:text-2xl md:text-3xl rounded-xl transition-all duration-300 transform hover:scale-105 active:scale-95 disabled:opacity-70"
           >
             {currentQuestion + 1 < questions.length
               ? "Nächste Frage"
