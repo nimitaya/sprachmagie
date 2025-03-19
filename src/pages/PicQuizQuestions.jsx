@@ -25,8 +25,10 @@ const PicQuizQuestions = () => {
         setShowResult(true);
         // set Points and Progress in profile
         setEarnedPoints((prevPoints) => prevPoints + score);
-        // setEarnedProgress((prevPoints) => prevPoints + score * 10);
-        //======================================== IMPORTANT try to calculate Percentage above ========================================
+        // Only when score is 100% add progress
+        if (score === currQuestionIndex) {
+          setEarnedProgress((prevProgress) => prevProgress + 4.16);
+        }
       } else {
         setCurrQuestion(categoryData.questions[currQuestionIndex]);
         // Reset correct answer for the new question

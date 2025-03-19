@@ -1,11 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { useParams, useNavigate } from "react-router-dom";
+import { ProgressContext } from "../contexts/ProgressContext";
 import quizData from "../data/quizData";
 
 const Quiz = () => {
   const { topic } = useParams();
   const questions = quizData[topic] || [];
   const navigate = useNavigate();
+  const { setEarnedPoints, setEarnedProgress, earnedProgress } =
+    useContext(ProgressContext);
 
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
@@ -39,6 +42,12 @@ const Quiz = () => {
         // Reset correct answer for the next question
       } else {
         setShowResults(true);
+        setEarnedPoints((prevPoints) => prevPoints + score);
+        console.log(score, "---", earnedProgress);
+        // Only when score is 100% add progress
+        if (score + 1 === questions.length) {
+          setEarnedProgress((prevProgress) => prevProgress + 4.16);
+        }
       }
     }, 2000);
     // 2-second delay
