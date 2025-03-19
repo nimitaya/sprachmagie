@@ -5,7 +5,7 @@ const ProgressPoints = () => {
 const {earnedPoints} = useContext(ProgressContext)
 
   return (
-    <div className="p-4 w-full flex justify-between">
+    <div className="p-4 w-full flex justify-evenly"> {/* Ich habe hier geändern */}
       {/* Badge above Progress Bar */}
       <div className="flex m-2 items-center">
         <span className="text-xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-indigo-400 bg-amber-100">
