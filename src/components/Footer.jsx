@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="flex w-full items-center justify-between py-1 px-10 bg-yellow-400">
       {/* logo-name */}
       <div className="flex items-center space-x-0.5">
-        <img src="/logo.png" alt="Logo" width={100} height={100} />
+       {/*  <img src="/logo.png" alt="Logo" width={100} height={100} /> */}
         <h1 className="">Sprachmagie</h1>
       </div>
 
