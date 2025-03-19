@@ -1,11 +1,24 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { UserContext } from "../contexts/UserContext";
 
 const RegisterPage = () => {
-  const { userObj, setUserObj, registerUser, warning } =
+  const { userObj, setUserObj, registerUser, appState, setAppState } =
     useContext(UserContext);
+  const navigate = useNavigate();
+
+  const handleNavigation = () => {
+    setAppState((prevState) => ({
+      ...prevState,
+      success: ""
+    }));
+    if (appState.isLoggedIn) {
+      navigate("/profile");
+    } else {
+      navigate("/");
+    }
+  };
 
   return (
     <div className="flex flex-col items-center min-h-screen bg-white p-4 md:p-8">
@@ -39,7 +52,9 @@ const RegisterPage = () => {
           />
 
           {/* Warnung, falls der Name schon existiert! */}
-          {warning && <p className="text-red-500 text-sm mt-2">{warning}</p>}
+          {appState.warning && (
+            <p className="text-red-500 text-sm mt-2">{appState.warning}</p>
+          )}
 
           <label htmlFor="age" className="mb-1 font-medium">
             Alter:
@@ -76,14 +91,18 @@ const RegisterPage = () => {
           >
             Registrieren
           </button>
+          {/* Info, wenn erfolgreich registriert */}
+          {appState.success && (
+            <p className="text-red-500 text-sm mt-2">{appState.success}</p>
+          )}
         </form>
 
-        <Link
-          to="/"
+        <button
+          onClick={handleNavigation}
           className="mt-4 text-lg text-center block text-blue-500 hover:underline"
         >
           Zurück zur Startseite
-        </Link>
+        </button>
       </div>
     </div>
   );
