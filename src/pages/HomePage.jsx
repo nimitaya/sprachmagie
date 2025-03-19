@@ -9,7 +9,7 @@ const HomePage = () => {
         backgroundImage: `url('https://64.media.tumblr.com/1ada14b60cf5b70a887b045d6e83fbd4/tumblr_ol6o615mfP1qa9gmgo2_1280.jpg')`,
       }}
     >
-      {/* backgtound */}
+      {/* background */}
       <div className="absolute inset-0 backdrop-blur-sm"></div>
 
       

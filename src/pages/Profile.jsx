@@ -9,7 +9,18 @@ const Profile = () => {
   const { appState } = useContext(UserContext);
 
   return (
-    <main className="max-w-sm mx-auto flex flex-col items-center flex-1">
+    <main className="w-full min-h-screen flex flex-col items-center flex-1
+    "
+    style={{
+      backgroundImage: `url('https://64.media.tumblr.com/1ada14b60cf5b70a887b045d6e83fbd4/tumblr_ol6o615mfP1qa9gmgo2_1280.jpg')`,
+      backgroundSize: "cover", 
+    backgroundPosition: "center", 
+    backgroundRepeat: "no-repeat", 
+      
+    }}
+    >
+      
+
       <h2 className="text-4xl m-5 text-indigo-400">
         {appState.currentUser ? appState.currentUser.username.toUpperCase() : "ANONYM"}
       </h2>
