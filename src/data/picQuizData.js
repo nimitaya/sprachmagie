@@ -48,7 +48,7 @@ export const picQuizData = [
         options: [
           { word: { de: "Zitrone", en: "Lemon" }, correct: false },
           { word: { de: "Orange", en: "Orange" }, correct: true },
-          { word: { de: "Mandarine", en: "Mandarin" }, correct: false },
+          { word: { de: "Kokosnuss", en: "Coconut" }, correct: false },
           { word: { de: "Grapefruit", en: "Grapefruit" }, correct: false },
         ],
       },

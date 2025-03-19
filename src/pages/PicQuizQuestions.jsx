@@ -11,6 +11,7 @@ const PicQuizQuestions = () => {
   const [currQuestionIndex, setCurrQuestionIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
+  const [correctAnswer, setCorrectAnswer] = useState(null);
   const [showResult, setShowResult] = useState(false);
 
   useEffect(() => {
@@ -28,6 +29,8 @@ const PicQuizQuestions = () => {
         //======================================== IMPORTANT try to calculate Percentage above ========================================
       } else {
         setCurrQuestion(categoryData.questions[currQuestionIndex]);
+        // Reset correct answer for the new question
+        setCorrectAnswer(null);
       }
     }
   }, [categoryPath, currQuestionIndex]);
@@ -46,9 +49,19 @@ const PicQuizQuestions = () => {
       if (isCorrect) {
         setScore((prevScore) => prevScore + 1);
       }
-      setCurrQuestionIndex((prevIndex) => prevIndex + 1);
-      // Reset selected answer for the next question
-      setSelectedAnswer(null);
+
+      // Highlight the correct answer
+      const correctOption = currQuestion.options.find(
+        (option) => option.correct
+      );
+      setCorrectAnswer(correctOption.word.en);
+
+      // Delay moving to the next question to allow the user to see the correct answer
+      setTimeout(() => {
+        setCurrQuestionIndex((prevIndex) => prevIndex + 1);
+        // Reset selected answer for the next question
+        setSelectedAnswer(null);
+      }, 2000); // 2-second delay
     }
   };
 
@@ -72,14 +85,14 @@ const PicQuizQuestions = () => {
             <h2 className="text-center p-4 my-4 text-4xl sm:text-6xl">
               Wähle die korrekte Übersetzung
             </h2>
-            <section className="container mx-auto p-6">
-              <div className="flex justify-center">
+            <section className="container mx-auto p-6 flex flex-col justify-center items-center gap-5">
+              <div className="flex justify-center max-w-80">
                 <img src={currQuestion.img} alt={currCategory} />
               </div>
-              <form className="max-w-sm mx-auto flex justify-between">
+              <form className="mx-auto flex justify-between flex-col gap-2 sm:flex-row">
                 {/* dynamically creates options to answer */}
                 {currQuestion.options.map((option, index) => (
-                  <div key={index}>
+                  <div key={index} className="flex flex-col sm:flex-row">
                     <input
                       type="radio"
                       name={currCategory}
@@ -87,8 +100,18 @@ const PicQuizQuestions = () => {
                       value={option.word.en}
                       onChange={handleAnswerChange}
                       checked={selectedAnswer === option.word.en}
+                      className="appearance-none"
                     />
-                    <label htmlFor={option.word.en} className="text-xl">
+                    <label
+                      htmlFor={option.word.en}
+                      className={`cursor-pointer min-w-36 py-4 px-6 rounded-xl text-xl text-center transition-all duration-300 relative z-10 ${
+                        correctAnswer === option.word.en
+                          ? "bg-green-300"
+                          : selectedAnswer === option.word.en
+                          ? "bg-purple-300"
+                          : "bg-orange-300 hover:bg-orange-400"
+                      } transform hover:scale-105`}
+                    >
                       {option.word.en}
                     </label>
                   </div>
@@ -100,8 +123,8 @@ const PicQuizQuestions = () => {
                 className="mt-6 py-2 px-8 bg-purple-500 text-white font-bold rounded-xl transition-all duration-300 transform hover:scale-105 active:scale-95 disabled:opacity-50"
               >
                 {currQuestionIndex + 1 < currCategory.questions.length
-              ? "Nächste Frage"
-              : "Ergebnisse anzeigen"}
+                  ? "Nächste Frage"
+                  : "Ergebnisse anzeigen"}
               </button>
             </section>
           </div>
