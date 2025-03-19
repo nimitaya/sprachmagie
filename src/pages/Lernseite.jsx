@@ -1,8 +1,12 @@
 import { Link } from "react-router-dom";
+import LanguageSelect from "../components/LanguageSelect";
 
 const Lernseite = () => {
   return (
     <div className="container mx-auto p-6">
+      <div className="flex justify-center">
+        <LanguageSelect />
+      </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {/* Karten */}
         <div className="relative cursor-pointer rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105">
