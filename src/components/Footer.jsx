@@ -6,7 +6,7 @@ const Footer = () => {
       {/* logo-name */}
       <div className="flex items-center space-x-0.5">
        {/*  <img src="/logo.png" alt="Logo" width={100} height={100} /> */}
-        <h1 className="">Sprachmagie</h1>
+        <h3 className="">Sprachmagie</h3>
       </div>
 
       {/* copyrite */}
