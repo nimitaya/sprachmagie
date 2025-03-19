@@ -65,15 +65,17 @@ const Quiz = () => {
       }}
     >
       {showResults ? (
-        <div className="text-center text-4xl">
-          <h2 className="text-3xl">Quiz beendet!</h2>
-          <p className="mt-4 mb-9 text-xl sm:text-3xl">
+        <div className="rounded-lg sm:rounded-xl bg-violet-300 text-center text-3xl sm:text-4xl mt-4 sm:mt-2">
+          <h2 className="text-2xl sm:text-3xl mt-5 ">Quiz beendet!</h2>
+          <p className="mt-2 sm:mt-4 mb-4 sm:mb-9 text-lg sm:text-3xl">
             Dein Ergebnis: {score} von {questions.length}
           </p>
-          <div className="mt-4 animate-bounce text-4xl text-yellow-400">🌞</div>
+          <div className="mt-2 sm:mt-4 animate-bounce text-3xl sm:text-4xl text-yellow-400">
+            🌞
+          </div>
           <button
             onClick={() => navigate("/quiz")}
-            className="mt-8 py-2 px-4 text-lg sm:py-3 sm:px-6 sm:text-2xl lg:py-4 lg:px-8 lg:text-2xl bg-lime-500 text-white font-bold rounded-lg sm:rounded-xl transition-all duration-300 transform hover:scale-105 active:scale-95"
+            className="mt- sm:mt-8 py-2 px-4 text-lg sm:py-3 sm:px-3 sm:text-2xl lg:py-4 lg:px-8 lg:text-2xl mb-7 mx-6 bg-lime-500 text-white font-bold rounded-lg sm:rounded-xl transition-all duration-300 transform hover:scale-105 active:scale-95"
           >
             Zurück zum Thema Auswahl
           </button>
@@ -92,10 +94,10 @@ const Quiz = () => {
                   correctAnswer === option
                     ? "bg-green-300"
                     : selectedAnswer === option
-                    ? "bg-purple-300"
-                    : "bg-orange-400 hover:bg-yellow-300"
+                    ? "bg-purple-400"
+                    : "bg-orange-400"
                 } transform hover:scale-105`}
-             >
+              >
                 {option}
               </li>
             ))}
