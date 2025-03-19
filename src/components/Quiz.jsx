@@ -1,14 +1,18 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { useParams, useNavigate } from "react-router-dom";
+import { ProgressContext } from "../contexts/ProgressContext";
 import quizData from "../data/quizData";
 
 const Quiz = () => {
   const { topic } = useParams();
   const questions = quizData[topic] || [];
   const navigate = useNavigate();
+  const { setEarnedPoints, setEarnedProgress, earnedProgress } =
+    useContext(ProgressContext);
 
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedAnswer, setSelectedAnswer] = useState(null);
+  const [correctAnswer, setCorrectAnswer] = useState(null);
   const [score, setScore] = useState(0);
   const [showResults, setShowResults] = useState(false);
 
@@ -21,16 +25,32 @@ const Quiz = () => {
   };
 
   const handleNextQuestion = () => {
+    // Highlight the correct answer
+    const currentCorrectAnswer = questions[currentQuestion].answer;
+    setCorrectAnswer(currentCorrectAnswer);
+
     if (selectedAnswer === questions[currentQuestion].answer) {
       setScore(score + 1);
     }
 
-    if (currentQuestion + 1 < questions.length) {
-      setCurrentQuestion(currentQuestion + 1);
-      setSelectedAnswer(null);
-    } else {
-      setShowResults(true);
-    }
+    // Delay moving to the next question to allow the user to see the correct answer
+    setTimeout(() => {
+      if (currentQuestion + 1 < questions.length) {
+        setCurrentQuestion(currentQuestion + 1);
+        setSelectedAnswer(null);
+        setCorrectAnswer(null);
+        // Reset correct answer for the next question
+      } else {
+        setShowResults(true);
+        setEarnedPoints((prevPoints) => prevPoints + score);
+        console.log(score, "---", earnedProgress);
+        // Only when score is 100% add progress
+        if (score + 1 === questions.length) {
+          setEarnedProgress((prevProgress) => prevProgress + 4.16);
+        }
+      }
+    }, 2000);
+    // 2-second delay
   };
 
   return (
@@ -69,14 +89,13 @@ const Quiz = () => {
                 key={index}
                 onClick={() => handleAnswerClick(option)}
                 className={`cursor-pointer py-4 px-6 rounded-xl text-center transition-all duration-300 relative z-10 ${
-                  selectedAnswer === option
+                  correctAnswer === option
+                    ? "bg-green-300"
+                    : selectedAnswer === option
                     ? "bg-purple-300"
                     : "bg-orange-400 hover:bg-yellow-300"
                 } transform hover:scale-105`}
-                style={{
-                  backgroundColor: selectedAnswer === option ? "#7715e0" : "",
-                }}
-              >
+             >
                 {option}
               </li>
             ))}
