@@ -13,13 +13,13 @@ const Lernseite = () => {
         }}
       ></div>
 
-      <div className="flex justify-center w-full">
+      <div className="flex justify-center w-full mt-40">
         <LanguageSelect />
       </div>
 
-      <div className="flex flex-wrap  justify-center items-center  gap-4 lg:mt-40 sm:mt-10 ">
+      <div className="flex flex-wrap  justify-center items-center  gap-4 lg:mt-4 sm:mt-10 ">
         {/* Karten */}
-        <div className="w-48 sm:w-56 md:w-64 lg:w-96 relative cursor-pointer rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105">
+        <div className="w-48 sm:w-56 md:w-64 lg:w-96 relative cursor-pointer rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-106">
           <Link to={"/cards-categories"}>
             <img
               src="https://www.themarysue.com/wp-content/uploads/2011/04/myneighbourtotoro12.jpeg?w=448"
