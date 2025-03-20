@@ -61,7 +61,7 @@ const Quiz = () => {
           "url('https://pbs.twimg.com/media/FOtUhw6XEAYt1sP.jpg:large')",
         backgroundBlendMode: "overlay",
         fontFamily: '"Indie Flower", cursive',
-        fontSize: "24px",
+        fontSize: "26px",
       }}
     >
       {showResults ? (

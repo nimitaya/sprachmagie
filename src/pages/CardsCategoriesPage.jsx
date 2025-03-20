@@ -32,8 +32,8 @@ const CardsCategoriesPage = () => {
       fontFamily: '"Indie Flower", cursive',
       fontSize: "24px",
     }}
-  > 
-      <div className="flex justify-center">
+  >
+    <div className="flex justify-center">
         <LanguageSelect />
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

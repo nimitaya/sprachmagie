@@ -58,7 +58,7 @@ const HomePage = () => {
       <div className="absolute inset-0 backdrop-blur-sm"></div>
 
       <div className="relative z-10 flex flex-col items-center">
-        <div className="w-56 h-56 sm:w-56 sm:h-56 md:w-72 md:h-72 lg:w-80 lg:h-80">
+        <div className="w-33 h-36 sm:w-36 sm:h-56 md:w-50 md:h-50 lg:w-47 lg:h-47">
           <img
             src="logo.png"
             alt="Logo"
@@ -66,14 +66,14 @@ const HomePage = () => {
           />
         </div>
 
-        <h1 className="font-barriecito text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-center text-pink-200">
+        <h1 className="font-barriecito text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-6xl font-bold text-center text-pink-200">
           Sprachmagie
         </h1>
         <h2 className="text-center text-xl sm:text-3xl md:text-2xl lg:text-3xl xl:text-2xl text-emerald-200 mt-7">
           Jede Sprache ist ein Abenteuer
         </h2>
 
-        <div className="w-full max-w-xs md:max-w-md lg:max-w-lg bg-pink-200 p-6 rounded-lg shadow-xl mt-11">
+        <div className="w-full max-w-xs md:max-w-md lg:max-w-lg bg-pink-200 p-6 rounded-lg shadow-2xl mt-11">
           <div className="mt-4">
             <h2 className="text-xl font-semibold text-center text-purple-600 mb-5">
               Login:
@@ -87,7 +87,7 @@ const HomePage = () => {
                 required
                 value={username}
                 onChange={(e) => setUsername(e.target.value.toLowerCase().trim())}
-                className="p-2 border-3 rounded mb-2 focus:outline-none focus:ring-2 border-pink-400 focus:ring-amber-300 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via bg-purple-300 to-purple-400 text-2xl "
+                className="p-2 border-3 rounded mb-2 focus:outline-none focus:ring-2 border-pink-400 focus:ring-pink-400 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via bg-purple-300 to-purple-400 text-2xl "
                 placeholder="Gib deinen Namen an"
               />
 
@@ -99,7 +99,7 @@ const HomePage = () => {
                 required
                 value={password}
                 onChange={(e) => setPassword(e.target.value.trim())}
-                className="p-2  border-3 rounded mb-4 focus:outline-none focus:ring-2 border-pink-400 focus:ring-amber-300 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via bg-purple-300 to-purple-400 text-2xl  "
+                className="p-2  border-3 rounded mb-4 focus:outline-none focus:ring-2 border-pink-400 focus:ring-pink-400 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via bg-purple-300 to-purple-400 text-2xl  "
                 placeholder="Gib dein Passwort ein"
               />
 
