@@ -1,10 +1,38 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { useContext, useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { UserContext } from "../contexts/UserContext";
 
 const HomePage = () => {
+  const { users, setAppState } = useContext(UserContext);
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
+  const [information, setInformation] = useState("");
+  const navigate = useNavigate();
+
+  const handleLogin = (e) => {
+    e.preventDefault();
+    const isUserPresent = users.some((user) => user.username === username);
+    const currentLoginUser = users.filter((user) => user.username === username);
+    // currentLoginUser ist ein Array
+
+    setInformation("");
+    if (!isUserPresent) {
+      setInformation("Das Konto existiert nicht. Bitte registriere dich erst.");
+    } else {
+      if (currentLoginUser[0].password !== password) {
+        setInformation("Das Passwort ist falsch. Bitte versuche es erneut.");
+      } else {
+        setInformation("");
+        setAppState((prevState) => ({ ...prevState, isLoggedIn: true }));
+        navigate("/profile");
+      }
+    }
+  };
+
   return (
     <div
-      className="flex flex-col items-center min-h-screen bg-amber-100 px-4 py-8 md:p-8 bg-cover bg-center relative"
+      className="flex flex-col items-center flex-1 bg-amber-100 px-4 py-8 md:p-8 bg-cover bg-center relative"
       style={{
         backgroundImage: `url('https://64.media.tumblr.com/1ada14b60cf5b70a887b045d6e83fbd4/tumblr_ol6o615mfP1qa9gmgo2_1280.jpg')`,
       }}
@@ -12,7 +40,6 @@ const HomePage = () => {
       {/* background */}
       <div className="absolute inset-0 backdrop-blur-sm"></div>
 
-      
       <div className="relative z-10 flex flex-col items-center">
         <div className="w-56 h-56 sm:w-56 sm:h-56 md:w-72 md:h-72 lg:w-80 lg:h-80">
           <img
@@ -25,27 +52,41 @@ const HomePage = () => {
         <h1 className="font-barriecito text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-center text-pink-200">
           Sprachmagie
         </h1>
-    {/*     <h2 className="text-center text-xl sm:text-3xl md:text-2xl lg:text-3xl xl:text-2xl text-emerald-200 mt-7">
+        <h2 className="text-center text-xl sm:text-3xl md:text-2xl lg:text-3xl xl:text-2xl text-emerald-200 mt-7">
           Jede Sprache ist ein Abenteuer
-        </h2> */}
+        </h2>
 
         <div className="w-full max-w-xs md:max-w-md lg:max-w-lg bg-pink-200 p-6 rounded-lg shadow-xl mt-11">
           <div className="mt-4">
-            <h2 className="text-xl font-semibold text-center text-purple-600 mb-5">Login:</h2>
-            <form className="mt-2 flex flex-col">
-              <label className="mb-1 font-medium"></label>
+            <h2 className="text-xl font-semibold text-center text-purple-600 mb-5">
+              Login:
+            </h2>
+            <form onSubmit={handleLogin} className="mt-2 flex flex-col">
+              <label htmlFor="username" className="mb-1 font-medium"></label>
               <input
                 type="text"
+                name="username"
+                id="username"
+                required
+                value={username}
+                onChange={(e) => setUsername(e.target.value.toLowerCase())}
                 className="p-2 border-3 rounded mb-2 focus:outline-none focus:ring-2 border-pink-400 focus:ring-amber-300 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via bg-purple-300 to-purple-400 text-2xl "
                 placeholder="Gib deinen Namen an"
               />
 
-              <label className="mb-5 font-medium"></label>
+              <label htmlFor="password" className="mb-5 font-medium"></label>
               <input
                 type="password"
+                name="password"
+                id="password"
+                required
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
                 className="p-2  border-3 rounded mb-4 focus:outline-none focus:ring-2 border-pink-400 focus:ring-amber-300 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via bg-purple-300 to-purple-400 text-2xl  "
                 placeholder="Gib dein Passwort ein"
               />
+
+              <p className="mb-2 text-pink-400 font-bold">{information}</p>
 
               <button
                 type="submit"
