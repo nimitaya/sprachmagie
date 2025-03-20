@@ -2,7 +2,7 @@ import { BsYoutube } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <footer className="flex w-full items-center justify-between py-1 px-10 bg-yellow-400">
+    <footer className="flex w-full items-center justify-between py-1 px-10 bg-yellow-400 mt-auto">
       {/* logo-name */}
       <div className="flex items-center space-x-0.5">
        {/*  <img src="/logo.png" alt="Logo" width={100} height={100} /> */}

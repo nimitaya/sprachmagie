@@ -1,43 +1,4 @@
 const quizData = {
-  colors: [
-    { question: "Wie heißt „Rot“ auf Englisch?", options: ["Blue", "Green", "Yellow", "Red"], answer: "Red" },
-    { question: "Wie heißt „Blau“ auf Englisch?", options: ["Red", "Yellow", "Green", "Blue"], answer: "Blue" },
-    { question: "Wie heißt „Gelb“ auf Englisch?", options: ["Red", "Yellow", "Black", "White"], answer: "Yellow" },
-    { question: "Wie heißt „Grün“ auf Englisch?", options: ["Black", "White", "Green", "Pink"], answer: "Green" },
-    { question: "Wie heißt „Schwarz“ auf Englisch?", options: ["Black", "White", "Blue", "Yellow"], answer: "Black" },
-    { question: "Wie heißt „Weiß“ auf Englisch?", options: ["Black", "White", "Brown", "Purple"], answer: "White" },
-    { question: "Wie heißt „Rosa“ auf Englisch?", options: ["Pink", "Blue", "Red", "Green"], answer: "Pink" },
-    { question: "Wie heißt „Lila“ auf Englisch?", options: ["Black", "Purple", "Yellow", "Red"], answer: "Purple" },
-    { question: "Wie heißt „Orange“ auf Englisch?", options: ["Red", "Orange", "Pink", "Green"], answer: "Orange" },
-    { question: "Wie heißt „Braun“ auf Englisch?", options: ["Brown", "Black", "White", "Blue"], answer: "Brown" },
-  ],
-
-  fruits: [
-    { question: "Wie heißt „Apfel“ auf Englisch?", options: ["Banana", "Orange", "Apple", "Grape"], answer: "Apple" },
-    { question: "Wie heißt „Banane“ auf Englisch?", options: ["Apple", "Banana", "Grape", "Cherry"], answer: "Banana" },
-    { question: "Wie heißt „Orange“ auf Englisch?", options: ["Lemon", "Pear", "Orange", "Grape"], answer: "Orange" },
-    { question: "Wie heißt „Kirsche“ auf Englisch?", options: ["Apple", "Cherry", "Banana", "Lemon"], answer: "Cherry" },
-    { question: "Wie heißt „Zitrone“ auf Englisch?", options: ["Lemon", "Orange", "Apple", "Pear"], answer: "Lemon" },
-    { question: "Wie heißt „Erdbeere“ auf Englisch?", options: ["Strawberry", "Blueberry", "Raspberry", "Grape"], answer: "Strawberry" },
-    { question: "Wie heißt „Traube“ auf Englisch?", options: ["Apple", "Grape", "Plum", "Cherry"], answer: "Grape" },
-    { question: "Wie heißt „Pfirsich“ auf Englisch?", options: ["Pear", "Peach", "Plum", "Mango"], answer: "Peach" },
-    { question: "Wie heißt „Birne“ auf Englisch?", options: ["Peach", "Pear", "Lemon", "Orange"], answer: "Pear" },
-    { question: "Wie heißt „Wassermelone“ auf Englisch?", options: ["Watermelon", "Melon", "Pumpkin", "Coconut"], answer: "Watermelon" }
-  ],
-
-  animals: [
-    { question: "Wie heißt „Hund“ auf Englisch?", options: ["Cow", "Cat", "Horse", "Dog"], answer: "Dog" },
-    { question: "Wie heißt „Katze“ auf Englisch?", options: ["Dog", "Cow", "Cat", "Horse"], answer: "Cat" },
-    { question: "Wie heißt „Kuh“ auf Englisch?", options: ["Dog", "Cow", "Cat", "Horse"], answer: "Cow" },
-    { question: "Wie heißt „Pferd“ auf Englisch?", options: ["Dog", "Cow", "Cat", "Horse"], answer: "Horse" },
-    { question: "Wie heißt „Fuchs“ auf Englisch?", options: ["Wolf", "Fox", "Bear", "Rabbit"], answer: "Fox" },
-    { question: "Wie heißt „Löwe“ auf Englisch?", options: ["Tiger", "Lion", "Elephant", "Giraffe"], answer: "Lion" },
-    { question: "Wie heißt „Elefant“ auf Englisch?", options: ["Rhino", "Hippo", "Elephant", "Gorilla"], answer: "Elephant" },
-    { question: "Wie heißt „Schlange“ auf Englisch?", options: ["Lizard", "Snake", "Crocodile", "Frog"], answer: "Snake" },
-    { question: "Wie heißt „Bär“ auf Englisch?", options: ["Wolf", "Bear", "Deer", "Fox"], answer: "Bear" },
-    { question: "Wie heißt „Wolf“ auf Englisch?", options: ["Wolf", "Fox", "Dog", "Bear"], answer: "Wolf" }
-  ],
-
   numbers: [
     { question: "Wie heißt „Drei“ auf Englisch?", options: ["Eight", "Nine", "Ten", "Three"], answer: "Three" },
     { question: "Wie heißt „Zehn“ auf Englisch?", options: ["Nine", "Ten", "Eleven", "Twelve"], answer: "Ten" },
@@ -152,10 +113,6 @@ clothes: [
   { question: "Wie nennt man „Mantel“ auf Englisch?", options: ["Coat", "Sweater", "Shirt", "Pants"], answer: "Coat" },
   { question: "Wie nennt man „Kleid“ auf Englisch?", options: ["Dress", "Skirt", "Shirt", "Pants"], answer: "Dress" }
 ]
-
-
-
-
 };
 
 export default quizData;
