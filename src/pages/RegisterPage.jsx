@@ -22,7 +22,7 @@ const RegisterPage = () => {
 
   return (
     <div
-      className="flex flex-col items-center min-h-screen bg-amber-100 p-4 md:p-8 bg-cover bg-center relative"
+      className="flex flex-col items-center flex-1 bg-amber-100 px-4 py-8 md:p-8 bg-cover bg-center relative"
       style={{
         backgroundImage: `url('https://64.media.tumblr.com/1ada14b60cf5b70a887b045d6e83fbd4/tumblr_ol6o615mfP1qa9gmgo2_1280.jpg')`,
       }}
@@ -56,7 +56,7 @@ const RegisterPage = () => {
               required
               value={userObj.username}
               onChange={(e) =>
-                setUserObj({ ...userObj, username: e.target.value })
+                setUserObj({ ...userObj, username: e.target.value.toLowerCase().trim() })
               }
               className="p-2 border-3 rounded mb-2 focus:outline-none focus:ring-2 border-amber-300 focus:ring-amber-300 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via bg-purple-300 to-purple-400 text-2xl"
               placeholder="Gib deinen Namen an"
@@ -76,7 +76,7 @@ const RegisterPage = () => {
               name="age"
               id="age"
               value={userObj.age}
-              onChange={(e) => setUserObj({ ...userObj, age: e.target.value })}
+              onChange={(e) => setUserObj({ ...userObj, age: e.target.value.trim() })}
               className="p-2 border-3 rounded mb-2 focus:outline-none focus:ring-2 border-amber-300 focus:ring-amber-300 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via bg-purple-300 to-purple-400 text-2xl"
               placeholder="Gib dein Alter an"
             />
