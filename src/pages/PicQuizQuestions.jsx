@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { ProgressContext } from "../contexts/ProgressContext";
 import { LanguageContext } from "../contexts/LanguageContext";
 import { picQuizData } from "../data/picQuizData";
+import BackButton from "../components/BackButton"
 
 const PicQuizQuestions = () => {
   const { categoryPath } = useParams();
@@ -15,7 +16,7 @@ const PicQuizQuestions = () => {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [correctAnswer, setCorrectAnswer] = useState(null);
   const [showResult, setShowResult] = useState(false);
-  const language = currentLanguage.short
+  const language = currentLanguage.short;
 
   useEffect(() => {
     const categoryData = picQuizData.find(
@@ -74,9 +75,20 @@ const PicQuizQuestions = () => {
     return <div>Loading...</div>;
   } else {
     return (
-      <main>
+      <main
+        className="flex-1 flex justify-center items-center"
+        style={{
+          backgroundImage:
+            "url('https://pbs.twimg.com/media/FOtUhw6XEAYt1sP.jpg:large')",
+          backgroundBlendMode: "overlay",
+          fontFamily: '"Indie Flower", cursive',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
         {showResult ? (
-          <div className="text-center text-3xl">
+          <div className="text-center text-3xl p-10 bg-white/40 rounded-lg shadow-2xl w-fit">
             <h2>Quiz beendet!</h2>
             <p className="mt-4 text-xl">
               Dein Ergebnis: {score} von {currQuestionIndex}
@@ -84,14 +96,15 @@ const PicQuizQuestions = () => {
             <div className="mt-4 animate-bounce text-4xl text-yellow-400">
               🌞
             </div>
+            <BackButton path="/picquiz"/>
           </div>
         ) : (
-          <div>
-            <h2 className="text-center p-4 my-4 text-4xl sm:text-6xl">
+          <div className="bg-white/40 sm:rounded-lg shadow-2xl w-fit">
+            <h2 className="text-center p-4 text-4xl text-purple-800 sm:text-6xl">
               Wähle die korrekte Übersetzung
             </h2>
-            <section className="container mx-auto p-6 flex flex-col justify-center items-center gap-5">
-              <div className="flex justify-center max-w-80">
+            <section className="container mx-auto p-6 sm:py-10 flex flex-col justify-center items-center w-fit gap-5">
+              <div className="flex justify-center max-w-80 rounded-2xl overflow-hidden mb-6 sm:max-w-xl">
                 <img src={currQuestion.img} alt={currCategory} />
               </div>
               <form className="mx-auto flex justify-between flex-col gap-2 sm:flex-row">
@@ -113,8 +126,8 @@ const PicQuizQuestions = () => {
                         correctAnswer === option.word[language]
                           ? "bg-green-300"
                           : selectedAnswer === option.word[language]
-                          ? "bg-purple-300"
-                          : "bg-orange-300 hover:bg-orange-400"
+                          ? "bg-purple-400"
+                          : "bg-orange-400 hover:bg-orange-300"
                       } transform hover:scale-105`}
                     >
                       {option.word[language]}
@@ -125,7 +138,7 @@ const PicQuizQuestions = () => {
               <button
                 onClick={handleClick}
                 disabled={!selectedAnswer}
-                className="mt-6 py-2 px-8 bg-purple-500 text-white font-bold rounded-xl transition-all duration-300 transform hover:scale-105 active:scale-95 disabled:opacity-50"
+                className="mt-6 py-4 px-8 bg-purple-700 text-white font-bold rounded-xl transition-all duration-300 transform hover:scale-105 active:scale-95 disabled:opacity-50"
               >
                 {currQuestionIndex + 1 < currCategory.questions.length
                   ? "Nächste Frage"

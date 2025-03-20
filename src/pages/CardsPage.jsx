@@ -35,7 +35,6 @@ const CardsPage = () => {
   const currentCard = category[currentIndex];
 
   return (
-    // <div className="container mx-auto p-10">
     <div
       className="flex-1 flex flex-col justify-center items-center bg-cover bg-center"
       style={{

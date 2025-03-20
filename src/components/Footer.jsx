@@ -2,11 +2,11 @@ import { BsYoutube } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <footer className="flex w-full items-center justify-between py-1 px-10 bg-yellow-400 mt-auto">
+    <footer className="flex w-full items-center justify-between py-2 px-5 bg-yellow-400 mt-auto  text-xs sm:text-sm md:text-base lg:text-lg ">
       {/* logo-name */}
       <div className="flex items-center space-x-0.5">
        {/*  <img src="/logo.png" alt="Logo" width={100} height={100} /> */}
-        <h3 className="">Sprachmagie</h3>
+       <h3 className="font-extrabold text-xs sm:text-sm md:text-base lg:text-lg ">Sprachmagie</h3>
       </div>
 
       {/* copyrite */}
