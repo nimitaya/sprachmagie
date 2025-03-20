@@ -5,6 +5,9 @@ const Card = ({ words, img, language }) => {
   const speakWord = (word, language) => {
     const msg = new SpeechSynthesisUtterance(word);
     msg.lang = language; // Sprache einstellen
+    msg.onend = () => {
+      window.speechSynthesis.cancel(); // Sprachausgabe beenden
+    };
     window.speechSynthesis.speak(msg); // Text vorlesen
   };
 
