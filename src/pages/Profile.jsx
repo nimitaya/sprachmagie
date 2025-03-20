@@ -10,7 +10,7 @@ const Profile = () => {
   const { appState } = useContext(UserContext);
 
   return (
-    <div className="relative w-full min-h-screen py-20">
+    <div className="relative w-full flex-1 py-20">
       
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"

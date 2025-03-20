@@ -55,7 +55,7 @@ const Quiz = () => {
 
   return (
     <div
-      className="min-h-screen bg-cover bg-center py-10 flex justify-center items-center"
+      className="flex-1 bg-cover bg-center py-10 flex justify-center items-center"
       style={{
         backgroundImage:
           "url('https://pbs.twimg.com/media/FOtUhw6XEAYt1sP.jpg:large')",
