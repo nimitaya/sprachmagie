@@ -4143,7 +4143,7 @@ export const picQuizData = [
     "questions": [
       {
         "id": 1001,
-        "img": "/images/seasons/autumn.svg",
+        "img": "/images/seasons/autumn.jpg",
         "options": [
           {
             "word": {
@@ -4189,7 +4189,7 @@ export const picQuizData = [
       },
       {
         "id": 1002,
-        "img": "/images/seasons/spring.svg",
+        "img": "/images/seasons/spring.jpg",
         "options": [
           {
             "word": {
@@ -4235,7 +4235,7 @@ export const picQuizData = [
       },
       {
         "id": 1003,
-        "img": "/images/seasons/winter.svg",
+        "img": "/images/seasons/winter.jpg",
         "options": [
           {
             "word": {
@@ -4281,7 +4281,7 @@ export const picQuizData = [
       },
       {
         "id": 1004,
-        "img": "/images/seasons/summer.svg",
+        "img": "/images/seasons/summer.jpg",
         "options": [
           {
             "word": {

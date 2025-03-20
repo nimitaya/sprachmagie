@@ -4,9 +4,9 @@ const BackButton = ({path}) => {
   const navigate = useNavigate();
   return (
     <button onClick={navigate(path)}
-      className="bg-purple-700 text-xl text-white py-3 rounded hover:bg-purple-600 transition"
+      className="bg-purple-700 text-xl text-white px-9 py-3 rounded hover:bg-purple-600 transition cursor-pointer"
     >
-      Los geht’s
+      Zurück
     </button>
   );
 };
