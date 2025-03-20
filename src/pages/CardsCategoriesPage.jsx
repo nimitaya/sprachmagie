@@ -2,18 +2,18 @@ import { Link } from "react-router-dom";
 import LanguageSelect from "../components/LanguageSelect";
 
 const categories = [
-  { id: "fruits", name: "Obst" },
-  { id: "vegetables", name: "Gemüse" },
-  { id: "animals", name: "Tiere" },
-  { id: "clothes", name: "Kleidung" },
-  { id: "body", name: "Körperteile" },
-  { id: "colors", name: "Farben" },
-  { id: "weekdays", name: "Wochentage" },
-  { id: "months", name: "Monate" },
-  { id: "seasons", name: "Jahreszeiten" },
-  { id: "numbers", name: "Zahlen" },
-  { id: "transport", name: "Transportmittel" },
-  { id: "furniture", name: "Möbel" },
+  { id: "fruits", name: "Obst", img:"./public/images/categories/obst.png"},
+  { id: "vegetables", name: "Gemüse", img:"./public/images/categories/gemüse.png" },
+  { id: "animals", name: "Tiere", img:"./public/images/categories/tiere.png" },
+  { id: "clothes", name: "Kleidung", img:"./public/images/categories/kleidung.png" },
+  { id: "body", name: "Körperteile", img:"./public/images/categories/körper.png" },
+  { id: "colors", name: "Farben", img:"./public/images/categories/farben.png" },
+  { id: "weekdays", name: "Wochentage", img:"./public/images/categories/wochentage.png" },
+  { id: "months", name: "Monate", img:"./public/images/categories/monate.png"  },
+  { id: "seasons", name: "Jahreszeiten", img:"./public/images/categories/jahreszeiten.png" },
+  { id: "numbers", name: "Zahlen", img:"./public/images/categories/zahlen.png" },
+  { id: "transport", name: "Transportmittel", img:"./public/images/categories/verkehr.png" },
+  { id: "furniture", name: "Möbel", img:"./public/images/categories/möbel.png" },
 ];
 
 const CardsCategoriesPage = () => {
@@ -30,7 +30,7 @@ const CardsCategoriesPage = () => {
           >
             <Link to={`/cards/${category.id}`}>
               <img
-                src=""
+                src={category.img}
                 alt="category.name"
                 className="w-full h-48 sm:h-56 md:h-64 lg:h-72 object-cover"
               />
