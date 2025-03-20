@@ -1,10 +1,15 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
 import { useParams } from "react-router-dom";
+import { LanguageContext } from "../contexts/LanguageContext";
 import { cardsData } from "../data/data";
 import Card from "../components/Card";
 
+
 const CardsPage = () => {
   const { categoryId } = useParams();
+  // console.log(categoryId);
+
+  const { currentLanguage } = useContext(LanguageContext);
   const category = cardsData[categoryId];
 
   if (!category) {
@@ -58,7 +63,7 @@ const CardsPage = () => {
         <Card
           words={currentCard.words}
           img={currentCard.img}
-          language={language}
+          language={currentLanguage.short}
         />
       </div>
 
