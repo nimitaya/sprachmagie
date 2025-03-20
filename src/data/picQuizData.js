@@ -242,7 +242,7 @@ export const picQuizData = [
               "en": "Peach",
               "uk": "Персик",
               "es": "Melocotones",
-              "fr": "pêche"
+              "fr": "Pêche"
             },
             "correct": false
           },
@@ -297,7 +297,7 @@ export const picQuizData = [
               "de": "Ananas",
               "en": "Pineapple",
               "uk": "Ананас",
-              "fr": "ananas",
+              "fr": "Ananas",
               "es": "Piña"
             },
             "correct": true
@@ -307,7 +307,7 @@ export const picQuizData = [
               "de": "Kokosnuss",
               "en": "Coconut",
               "uk": "Кокосова пальма",
-              "fr": "noix de coco",
+              "fr": "Noix de coco",
               "es": "Coco"
             },
             "correct": false
@@ -317,7 +317,7 @@ export const picQuizData = [
               "de": "Banane",
               "en": "Banana",
               "es": "manzana",
-              "fr": "banane",
+              "fr": "Banane",
               "uk": "Банан"
             },
             "correct": false
@@ -334,7 +334,7 @@ export const picQuizData = [
               "en": "Plum",
               "uk": "Слива домашня",
               "es": "Ciruela",
-              "fr": "prune"
+              "fr": "Prune"
             },
             "correct": false
           },
@@ -389,7 +389,7 @@ export const picQuizData = [
               "de": "Pflaume",
               "en": "Plum",
               "uk": "Слива домашня",
-              "fr": "prune",
+              "fr": "Prune",
               "es": "Ciruela"
             },
             "correct": true
@@ -4143,6 +4143,52 @@ export const picQuizData = [
     "questions": [
       {
         "id": 1001,
+        "img": "/images/seasons/autumn.svg",
+        "options": [
+          {
+            "word": {
+              "de": "Frühling",
+              "en": "Spring",
+              "fr": "Printemps",
+              "uk": "Весна",
+              "es": "Primavera"
+            },
+            "correct": false
+          },
+          {
+            "word": {
+              "de": "Sommer",
+              "en": "Summer",
+              "es": "Verano",
+              "uk": "Літо",
+              "fr": "Été"
+            },
+            "correct": false
+          },
+          {
+            "word": {
+              "de": "Herbst",
+              "en": "Autumn",
+              "fr": "Automne",
+              "uk": "Осінь",
+              "es": "Otoño"
+            },
+            "correct": true
+          },
+          {
+            "word": {
+              "de": "Winter",
+              "en": "Winter",
+              "uk": "Зима",
+              "es": "Invierno",
+              "fr": "Hiver"
+            },
+            "correct": false
+          },
+        ]
+      },
+      {
+        "id": 1002,
         "img": "/images/seasons/spring.svg",
         "options": [
           {
@@ -4150,7 +4196,7 @@ export const picQuizData = [
               "de": "Frühling",
               "en": "Spring",
               "uk": "Весна",
-              "es": "primavera",
+              "es": "Primavera",
               "fr": "Printemps"
             },
             "correct": true
@@ -4170,7 +4216,7 @@ export const picQuizData = [
               "de": "Herbst",
               "en": "Autumn",
               "uk": "Осінь",
-              "es": "otoño",
+              "es": "Otoño",
               "fr": "Automne"
             },
             "correct": false
@@ -4188,127 +4234,15 @@ export const picQuizData = [
         ]
       },
       {
-        "id": 1002,
-        "img": "/images/seasons/summer.svg",
-        "options": [
-          {
-            "word": {
-              "de": "Sommer",
-              "en": "Summer",
-              "fr": "Été",
-              "uk": "Літо",
-              "es": "Verano"
-            },
-            "correct": true
-          },
-          {
-            "word": {
-              "de": "Winter",
-              "en": "Winter",
-              "uk": "Зима",
-              "es": "Invierno",
-              "fr": "Hiver"
-            },
-            "correct": false
-          },
-          {
-            "word": {
-              "de": "Herbst",
-              "en": "Autumn",
-              "fr": "Automne",
-              "es": "otoño",
-              "uk": "Осінь"
-            },
-            "correct": false
-          },
-          {
-            "word": {
-              "de": "Frühling",
-              "en": "Spring",
-              "uk": "Весна",
-              "fr": "Printemps",
-              "es": "primavera"
-            },
-            "correct": false
-          }
-        ]
-      },
-      {
         "id": 1003,
-        "img": "/images/seasons/autumn.svg",
-        "options": [
-          {
-            "word": {
-              "de": "Herbst",
-              "en": "Autumn",
-              "fr": "Automne",
-              "uk": "Осінь",
-              "es": "otoño"
-            },
-            "correct": true
-          },
-          {
-            "word": {
-              "de": "Winter",
-              "en": "Winter",
-              "uk": "Зима",
-              "es": "Invierno",
-              "fr": "Hiver"
-            },
-            "correct": false
-          },
-          {
-            "word": {
-              "de": "Sommer",
-              "en": "Summer",
-              "es": "Verano",
-              "uk": "Літо",
-              "fr": "Été"
-            },
-            "correct": false
-          },
-          {
-            "word": {
-              "de": "Frühling",
-              "en": "Spring",
-              "fr": "Printemps",
-              "uk": "Весна",
-              "es": "primavera"
-            },
-            "correct": false
-          }
-        ]
-      },
-      {
-        "id": 1004,
         "img": "/images/seasons/winter.svg",
         "options": [
           {
             "word": {
-              "de": "Winter",
-              "en": "Winter",
-              "es": "Invierno",
-              "uk": "Зима",
-              "fr": "Hiver"
-            },
-            "correct": true
-          },
-          {
-            "word": {
-              "de": "Herbst",
-              "en": "Autumn",
-              "es": "otoño",
-              "fr": "Automne",
-              "uk": "Осінь"
-            },
-            "correct": false
-          },
-          {
-            "word": {
               "de": "Frühling",
               "en": "Spring",
               "uk": "Весна",
-              "es": "primavera",
+              "es": "Primavera",
               "fr": "Printemps"
             },
             "correct": false
@@ -4322,9 +4256,75 @@ export const picQuizData = [
               "uk": "Літо"
             },
             "correct": false
-          }
+          },
+          {
+            "word": {
+              "de": "Herbst",
+              "en": "Autumn",
+              "es": "Otoño",
+              "fr": "Automne",
+              "uk": "Осінь"
+            },
+            "correct": false
+          },
+          {
+            "word": {
+              "de": "Winter",
+              "en": "Winter",
+              "es": "Invierno",
+              "uk": "Зима",
+              "fr": "Hiver"
+            },
+            "correct": true
+          },
         ]
-      }
+      },
+      {
+        "id": 1004,
+        "img": "/images/seasons/summer.svg",
+        "options": [
+          {
+            "word": {
+              "de": "Frühling",
+              "en": "Spring",
+              "uk": "Весна",
+              "fr": "Printemps",
+              "es": "Primavera"
+            },
+            "correct": false
+          },
+          {
+            "word": {
+              "de": "Sommer",
+              "en": "Summer",
+              "fr": "Été",
+              "uk": "Літо",
+              "es": "Verano"
+            },
+            "correct": true
+          },
+          {
+            "word": {
+              "de": "Herbst",
+              "en": "Autumn",
+              "fr": "Automne",
+              "es": "Otoño",
+              "uk": "Осінь"
+            },
+            "correct": false
+          },
+          {
+            "word": {
+              "de": "Winter",
+              "en": "Winter",
+              "uk": "Зима",
+              "es": "Invierno",
+              "fr": "Hiver"
+            },
+            "correct": false
+          },
+        ]
+      },
     ]
   },
   {
