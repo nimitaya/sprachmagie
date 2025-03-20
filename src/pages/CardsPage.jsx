@@ -68,10 +68,10 @@ const CardsPage = () => {
 
       {/* Knöpfe */}
       <div className="flex justify-center gap-4 w-full mt-6">
-        <button onClick={prevCard} className="p-4 bg-purple-700 rounded">
+        <button onClick={prevCard} className="mt-6 py-4 px-8 bg-purple-700 text-white font-bold rounded-xl transition-all duration-300 transform hover:scale-105 active:scale-95 disabled:opacity-50">
           Zurück
         </button>
-        <button onClick={nextCard} className="p-4 bg-purple-700 rounded">
+        <button onClick={nextCard} className="mt-6 py-4 px-8 bg-purple-700 text-white font-bold rounded-xl transition-all duration-300 transform hover:scale-105 active:scale-95 disabled:opacity-50">
           Weiter
         </button>
       </div>
