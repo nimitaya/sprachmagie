@@ -1,6 +1,10 @@
+import { useContext } from "react";
 import { NavLink, Link } from "react-router-dom";
+import { UserContext } from "../contexts/UserContext";
 
 const Header = () => {
+const {appState} = useContext(UserContext)
+
   return (
     <header className=" min-h-27 sm:min-h-20 p-2 flex justify-between items-center bg-yellow-400 sm:p-3">
       {/* Logo + Sprachmagie */}
@@ -20,13 +24,13 @@ const Header = () => {
         {/* TODO nicht nur Schrift, sondern auch Bilder einfügen??*/}
         <NavLink
           to="/learning"
-          className=" text-white bg-purple-700 m-2 p-2 text-center border-1 border-purple-500  hover:bg-purple-600 transition rounded-lg lg:min-w-35 lg:w-40 lg:p-5 sm:min-w-24 sm:m-4 sm:p-4"
+          className={`text-white bg-purple-700 m-2 p-2 text-center border-1 border-purple-500  hover:bg-purple-600 transition rounded-lg lg:min-w-35 lg:w-40 lg:p-5 sm:min-w-24 sm:m-4 sm:p-4 ${appState.isLoggedIn ? "block" : "hidden"}`}
         >
           Lernen
         </NavLink>
         <NavLink
           to="/profile"
-          className=" text-white bg-purple-700 m-2 p-2 text-center border-1 border-purple-500   hover:bg-purple-600 transition rounded-lg  lg:min-w-35 lg:w-40 lg:p-5  sm:min-w-24 sm:m-4 sm:p-4"
+          className={`text-white bg-purple-700 m-2 p-2 text-center border-1 border-purple-500   hover:bg-purple-600 transition rounded-lg  lg:min-w-35 lg:w-40 lg:p-5  sm:min-w-24 sm:m-4 sm:p-4 ${appState.isLoggedIn ? "block" : "hidden"}`}
         >
           Profil
         </NavLink>
