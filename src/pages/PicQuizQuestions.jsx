@@ -96,7 +96,7 @@ const PicQuizQuestions = () => {
             <div className="mt-4 animate-bounce text-4xl text-yellow-400">
               🌞
             </div>
-            <BackButton path={"/picquiz"}/>
+            <BackButton path="/picquiz"/>
           </div>
         ) : (
           <div className="bg-white/40 sm:rounded-lg shadow-2xl w-fit">

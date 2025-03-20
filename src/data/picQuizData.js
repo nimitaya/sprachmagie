@@ -4189,7 +4189,7 @@ export const picQuizData = [
       },
       {
         "id": 1002,
-        "img": "/images/seasons/spring.jpg",
+        "img": "/images/seasons/spring.png",
         "options": [
           {
             "word": {
@@ -4281,7 +4281,7 @@ export const picQuizData = [
       },
       {
         "id": 1004,
-        "img": "/images/seasons/summer.jpg",
+        "img": "/images/seasons/summer.webp",
         "options": [
           {
             "word": {
