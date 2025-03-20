@@ -1,14 +1,27 @@
 import React from "react";
-import { useContext, useState } from "react";
+import { useContext, useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { UserContext } from "../contexts/UserContext";
 
 const HomePage = () => {
-  const { users, setAppState } = useContext(UserContext);
+  const { users, setUsers, setAppState } = useContext(UserContext);
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [information, setInformation] = useState("");
   const navigate = useNavigate();
+
+  useEffect(
+    () =>
+      setUsers((prevUsers) => [
+        ...prevUsers,
+        {
+          username: "alice",
+          age: "27",
+          password: "123456",
+        },
+      ]),
+    []
+  );
 
   const handleLogin = (e) => {
     e.preventDefault();
@@ -24,7 +37,11 @@ const HomePage = () => {
         setInformation("Das Passwort ist falsch. Bitte versuche es erneut.");
       } else {
         setInformation("");
-        setAppState((prevState) => ({ ...prevState, isLoggedIn: true }));
+        setAppState((prevState) => ({
+          ...prevState,
+          currentUser: currentLoginUser[0],
+          isLoggedIn: true,
+        }));
         navigate("/profile");
       }
     }
@@ -69,7 +86,7 @@ const HomePage = () => {
                 id="username"
                 required
                 value={username}
-                onChange={(e) => setUsername(e.target.value.toLowerCase())}
+                onChange={(e) => setUsername(e.target.value.toLowerCase().trim())}
                 className="p-2 border-3 rounded mb-2 focus:outline-none focus:ring-2 border-pink-400 focus:ring-amber-300 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via bg-purple-300 to-purple-400 text-2xl "
                 placeholder="Gib deinen Namen an"
               />
@@ -81,7 +98,7 @@ const HomePage = () => {
                 id="password"
                 required
                 value={password}
-                onChange={(e) => setPassword(e.target.value)}
+                onChange={(e) => setPassword(e.target.value.trim())}
                 className="p-2  border-3 rounded mb-4 focus:outline-none focus:ring-2 border-pink-400 focus:ring-amber-300 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via bg-purple-300 to-purple-400 text-2xl  "
                 placeholder="Gib dein Passwort ein"
               />

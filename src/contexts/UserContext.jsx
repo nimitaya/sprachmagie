@@ -45,6 +45,7 @@ const UserContextProvider = ({ children }) => {
     userObj,
     setUserObj,
     users,
+    setUsers,
     appState,
     setAppState,
     registerUser,
