@@ -1,5 +1,5 @@
 const quizData = {
-  numbers: [
+  Zahlen: [
     { question: "Wie heißt „Drei“ auf Englisch?", options: ["Eight", "Nine", "Ten", "Three"], answer: "Three" },
     { question: "Wie heißt „Zehn“ auf Englisch?", options: ["Nine", "Ten", "Eleven", "Twelve"], answer: "Ten" },
     { question: "Wie heißt „Dreizehn“ auf Englisch?", options: ["Twelve", "Thirteen", "Fourteen", "Fifteen"], answer: "Thirteen" },
@@ -12,7 +12,7 @@ const quizData = {
     { question: "Wie heißt „Sieben“ auf Englisch?", options: ["Seven", "Eight", "Nine", "Ten"], answer: "Seven" } */
 ],
 
-weekdays: [
+Wochentage: [
   { question: "Wie nennt man „Freitag“ auf Englisch?", options: ["Friday", "Saturday", "Sunday", "Monday"], answer: "Friday" },
   { question: "Wie nennt man „Dienstag“ auf Englisch?", options: ["Monday", "Tuesday", "Wednesday", "Thursday"], answer: "Tuesday" },
   { question: "Welcher Tag kommt nach Montag?", options: ["Sunday", "Tuesday", "Wednesday", "Thursday"], answer: "Tuesday" },
@@ -25,7 +25,7 @@ weekdays: [
   { question: "Wie nennt man „Donnerstag“ auf Englisch?", options: ["Monday", "Tuesday", "Thursday", "Sunday"], answer: "Thursday" }
 ],
 
-months: [
+Monate: [
   { question: "Wie nennt man „September“ auf Englisch?", options: ["August", "September", "October", "November"], answer: "September" },
   { question: "Wie nennt man „Mai“ auf Englisch?", options: ["April", "May", "June", "July"], answer: "May" },
   { question: "Wie nennt man „Januar“ auf Englisch?", options: ["January", "February", "March", "April"], answer: "January" },
@@ -37,8 +37,44 @@ months: [
   { question: "Wie nennt man „März“ auf Englisch?", options: ["January", "March", "April", "May"], answer: "March" },
   { question: "Wie nennt man „Juni“ auf Englisch?", options: ["April", "May", "June", "July"], answer: "June" }
 ],
+Früchte: [
+  { "question": "Wie nennt man „Apfel“ auf Englisch?", "options": ["Apple", "Banana", "Cherry", "Grape"], "answer": "Apple" },
+  { "question": "Wie nennt man „Banane“ auf Englisch?", "options": ["Apple", "Banana", "Pear", "Orange"], "answer": "Banana" },
+  { "question": "Wie nennt man „Erdbeere“ auf Englisch?", "options": ["Blueberry", "Strawberry", "Raspberry", "Blackberry"], "answer": "Strawberry" },
+  { "question": "Wie nennt man „Orange“ auf Englisch?", "options": ["Apple", "Peach", "Orange", "Lemon"], "answer": "Orange" },
+  { "question": "Wie nennt man „Zitrone“ auf Englisch?", "options": ["Lime", "Orange", "Lemon", "Grape"], "answer": "Lemon" },
+  { "question": "Wie nennt man „Traube“ auf Englisch?", "options": ["Cherry", "Berry", "Grape", "Plum"], "answer": "Grape" },
+  { "question": "Wie nennt man „Kirsche“ auf Englisch?", "options": ["Grape", "Cherry", "Plum", "Peach"], "answer": "Cherry" },
+  { "question": "Wie nennt man „Pfirsich“ auf Englisch?", "options": ["Pear", "Peach", "Plum", "Apple"], "answer": "Peach" },
+  { "question": "Wie nennt man „Birne“ auf Englisch?", "options": ["Apple", "Pear", "Lemon", "Orange"], "answer": "Pear" },
+  { "question": "Wie nennt man „Wassermelone“ auf Englisch?", "options": ["Melon", "Cantaloupe", "Watermelon", "Pineapple"], "answer": "Watermelon" }
+],
+Tiere: [
+  { "question": "Wie nennt man „Hund“ auf Englisch?", "options": ["Dog", "Cat", "Horse", "Cow"], "answer": "Dog" },
+  { "question": "Wie nennt man „Katze“ auf Englisch?", "options": ["Dog", "Mouse", "Cat", "Rabbit"], "answer": "Cat" },
+  { "question": "Wie nennt man „Pferd“ auf Englisch?", "options": ["Cow", "Sheep", "Horse", "Goat"], "answer": "Horse" },
+  { "question": "Wie nennt man „Kuh“ auf Englisch?", "options": ["Cow", "Pig", "Sheep", "Goat"], "answer": "Cow" },
+  { "question": "Wie nennt man „Schwein“ auf Englisch?", "options": ["Sheep", "Cow", "Pig", "Horse"], "answer": "Pig" },
+  { "question": "Wie nennt man „Schaf“ auf Englisch?", "options": ["Goat", "Sheep", "Rabbit", "Deer"], "answer": "Sheep" },
+  { "question": "Wie nennt man „Kaninchen“ auf Englisch?", "options": ["Mouse", "Rabbit", "Rat", "Hamster"], "answer": "Rabbit" },
+  { "question": "Wie nennt man „Maus“ auf Englisch?", "options": ["Rat", "Mouse", "Hamster", "Squirrel"], "answer": "Mouse" },
+  { "question": "Wie nennt man „Fuchs“ auf Englisch?", "options": ["Wolf", "Fox", "Bear", "Lion"], "answer": "Fox" },
+  { "question": "Wie nennt man „Löwe“ auf Englisch?", "options": ["Tiger", "Lion", "Leopard", "Cheetah"], "answer": "Lion" }
+],
+Farben: [
+  { "question": "Wie nennt man „Rot“ auf Englisch?", "options": ["Blue", "Green", "Red", "Yellow"], "answer": "Red" },
+  { "question": "Wie nennt man „Blau“ auf Englisch?", "options": ["Green", "Blue", "Purple", "Orange"], "answer": "Blue" },
+  { "question": "Wie nennt man „Grün“ auf Englisch?", "options": ["Green", "Yellow", "Blue", "Brown"], "answer": "Green" },
+  { "question": "Wie nennt man „Gelb“ auf Englisch?", "options": ["Red", "Blue", "Yellow", "Black"], "answer": "Yellow" },
+  { "question": "Wie nennt man „Schwarz“ auf Englisch?", "options": ["Black", "White", "Grey", "Brown"], "answer": "Black" },
+  { "question": "Wie nennt man „Weiß“ auf Englisch?", "options": ["Black", "White", "Pink", "Violet"], "answer": "White" },
+  { "question": "Wie nennt man „Braun“ auf Englisch?", "options": ["Blue", "Brown", "Grey", "Green"], "answer": "Brown" },
+  { "question": "Wie nennt man „Grau“ auf Englisch?", "options": ["Purple", "Grey", "Orange", "Red"], "answer": "Grey" },
+  { "question": "Wie nennt man „Pink“ auf Englisch?", "options": ["Red", "Pink", "Blue", "Green"], "answer": "Pink" },
+  { "question": "Wie nennt man „Lila“ auf Englisch?", "options": ["Purple", "Pink", "Blue", "Green"], "answer": "Purple" }
+],
 
-seasons: [
+Jahreszeiten: [
   { question: "Wie nennt man „Herbst“ auf Englisch?", options: ["Winter", "Spring", "Autumn", "Summer"], answer: "Autumn" },
   { question: "Wie nennt man „Sommer“ auf Englisch?", options: ["Spring", "Summer", "Autumn", "Winter"], answer: "Summer" },
   { question: "Welche Jahreszeit kommt nach dem Sommer?", options: ["Winter", "Spring", "Autumn", "Summer"], answer: "Autumn" },
@@ -51,7 +87,7 @@ seasons: [
   { question: "In welcher Jahreszeit blühen die Blumen?", options: ["Winter", "Spring", "Autumn", "Summer"], answer: "Spring" }
 ],
 
-transport: [
+Transport: [
   { question: "Wie sagt man „Auto“ auf Englisch?", options: ["Bus", "Car", "Bike", "Train"], answer: "Car" },
   { question: "Wie nennt man „Zug“ auf Englisch?", options: ["Plane", "Car", "Train", "Boat"], answer: "Train" },
   { question: "Wie nennt man „Fahrrad“ auf Englisch?", options: ["Bus", "Car", "Bike", "Train"], answer: "Bike" },
@@ -65,7 +101,7 @@ transport: [
 ],
 
 
-furniture: [
+Möbel: [
   { question: "Wie nennt man „Tisch“ auf Englisch?", options: ["Chair", "Sofa", "Table", "Lamp"], answer: "Table" },
   { question: "Wie nennt man „Stuhl“ auf Englisch?", options: ["Chair", "Table", "Lamp", "Bed"], answer: "Chair" },
   { question: "Wie nennt man „Sofa“ auf Englisch?", options: ["Couch", "Bed", "Sofa", "Chair"], answer: "Sofa" },
@@ -77,7 +113,7 @@ furniture: [
   { question: "Wie nennt man „Teppich“ auf Englisch?", options: ["Carpet", "Curtain", "Sofa", "Desk"], answer: "Carpet" },
   { question: "Wie nennt man „Stuhl“ auf Englisch?", options: ["Couch", "Chair", "Table", "Desk"], answer: "Chair" }
 ],
-vegetables: [
+Gemüse: [
   { question: "Wie nennt man „Karotte“ auf Englisch?", options: ["Carrot", "Potato", "Cucumber", "Onion"], answer: "Carrot" },
   { question: "Wie nennt man „Kartoffel“ auf Englisch?", options: ["Potato", "Tomato", "Onion", "Carrot"], answer: "Potato" },
   { question: "Wie nennt man „Zwiebel“ auf Englisch?", options: ["Onion", "Cucumber", "Tomato", "Carrot"], answer: "Onion" },
@@ -89,7 +125,7 @@ vegetables: [
   { question: "Wie nennt man „Paprika“ auf Englisch?", options: ["Pepper", "Tomato", "Cucumber", "Carrot"], answer: "Pepper" },
   { question: "Wie nennt man „Spinat“ auf Englisch?", options: ["Spinach", "Lettuce", "Tomato", "Broccoli"], answer: "Spinach" }
 ],
-body: [
+Körper: [
   { question: "Wie nennt man „Kopf“ auf Englisch?", options: ["Head", "Arm", "Leg", "Hand"], answer: "Head" },
   { question: "Wie nennt man „Hand“ auf Englisch?", options: ["Hand", "Leg", "Arm", "Head"], answer: "Hand" },
   { question: "Wie nennt man „Arm“ auf Englisch?", options: ["Arm", "Leg", "Head", "Foot"], answer: "Arm" },
@@ -101,7 +137,7 @@ body: [
   { question: "Wie nennt man „Mund“ auf Englisch?", options: ["Mouth", "Nose", "Ear", "Eye"], answer: "Mouth" },
   { question: "Wie nennt man „Hals“ auf Englisch?", options: ["Neck", "Head", "Arm", "Leg"], answer: "Neck" }
 ],
-clothes: [
+Kleidung: [
   { question: "Wie nennt man „Hemd“ auf Englisch?", options: ["Shirt", "Pants", "Jacket", "Sweater"], answer: "Shirt" },
   { question: "Wie nennt man „Hose“ auf Englisch?", options: ["Pants", "Shirt", "Skirt", "Sweater"], answer: "Pants" },
   { question: "Wie nennt man „Jacke“ auf Englisch?", options: ["Jacket", "Sweater", "Shirt", "T-shirt"], answer: "Jacket" },
