@@ -1,11 +1,13 @@
 import { useEffect, useState, useContext } from "react";
 import { useParams } from "react-router-dom";
 import { ProgressContext } from "../contexts/ProgressContext";
+import { LanguageContext } from "../contexts/LanguageContext";
 import { picQuizData } from "../data/picQuizData";
 
 const PicQuizQuestions = () => {
   const { categoryPath } = useParams();
   const { setEarnedPoints, setEarnedProgress } = useContext(ProgressContext);
+  const { currentLanguage } = useContext(LanguageContext);
   const [currCategory, setCurrCategory] = useState(null);
   const [currQuestion, setCurrQuestion] = useState(null);
   const [currQuestionIndex, setCurrQuestionIndex] = useState(0);
@@ -13,6 +15,7 @@ const PicQuizQuestions = () => {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [correctAnswer, setCorrectAnswer] = useState(null);
   const [showResult, setShowResult] = useState(false);
+  const language = currentLanguage.short
 
   useEffect(() => {
     const categoryData = picQuizData.find(
@@ -45,7 +48,7 @@ const PicQuizQuestions = () => {
     // only do that, if there is an selected answer
     if (selectedAnswer) {
       const isCorrect = currQuestion.options.find(
-        (option) => option.word.en === selectedAnswer && option.correct
+        (option) => option.word[language] === selectedAnswer && option.correct
       );
       // check, if selected answer is correct
       if (isCorrect) {
@@ -56,7 +59,7 @@ const PicQuizQuestions = () => {
       const correctOption = currQuestion.options.find(
         (option) => option.correct
       );
-      setCorrectAnswer(correctOption.word.en);
+      setCorrectAnswer(correctOption.word[language]);
 
       // Delay moving to the next question to allow the user to see the correct answer
       setTimeout(() => {
@@ -98,23 +101,23 @@ const PicQuizQuestions = () => {
                     <input
                       type="radio"
                       name={currCategory}
-                      id={option.word.en}
-                      value={option.word.en}
+                      id={option.word[language]}
+                      value={option.word[language]}
                       onChange={handleAnswerChange}
-                      checked={selectedAnswer === option.word.en}
+                      checked={selectedAnswer === option.word[language]}
                       className="appearance-none"
                     />
                     <label
-                      htmlFor={option.word.en}
+                      htmlFor={option.word[language]}
                       className={`cursor-pointer min-w-36 py-4 px-6 rounded-xl text-xl text-center transition-all duration-300 relative z-10 ${
-                        correctAnswer === option.word.en
+                        correctAnswer === option.word[language]
                           ? "bg-green-300"
-                          : selectedAnswer === option.word.en
+                          : selectedAnswer === option.word[language]
                           ? "bg-purple-300"
                           : "bg-orange-300 hover:bg-orange-400"
                       } transform hover:scale-105`}
                     >
-                      {option.word.en}
+                      {option.word[language]}
                     </label>
                   </div>
                 ))}

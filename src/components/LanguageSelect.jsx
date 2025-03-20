@@ -73,7 +73,7 @@ const LanguageSelect = () => {
           </svg>
         </button>
         <ul
-          className={`dropdown-menu absolute min-w-44 ${
+          className={`dropdown-menu absolute min-w-50 ${
             isOpen ? "" : "hidden"
           } text-purple-700 text-2xl font-semibold pt-1 z-50`}
         >
@@ -82,7 +82,7 @@ const LanguageSelect = () => {
               className="rounded-t bg-pink-200 hover:bg-purple-200 py-2 px-4 block whitespace-no-wrap"
               href="#"
             >
-              Englisch
+              Englisch 🇬🇧
             </a>
           </li>
           <li onClick={() => handleLanguageSelect("fr")} className="">
@@ -90,7 +90,7 @@ const LanguageSelect = () => {
               className="bg-pink-200 hover:bg-purple-200 py-2 px-4 block whitespace-no-wrap"
               href="#"
             >
-              Französisch
+              Französisch 🇫🇷
             </a>
           </li>
           <li onClick={() => handleLanguageSelect("es")} className="">
@@ -98,7 +98,7 @@ const LanguageSelect = () => {
               className="rounded-b bg-pink-200 hover:bg-purple-200 py-2 px-4 block whitespace-no-wrap"
               href="#"
             >
-              Spanisch
+              Spanisch 🇪🇸
             </a>
           </li>
           <li onClick={() => handleLanguageSelect("uk")} className="">
@@ -106,7 +106,7 @@ const LanguageSelect = () => {
               className="rounded-b bg-pink-200 hover:bg-purple-200 py-2 px-4 block whitespace-no-wrap"
               href="#"
             >
-              Ukrainisch
+              Ukrainisch 🇺🇦
             </a>
           </li>
         </ul>
