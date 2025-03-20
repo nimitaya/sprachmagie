@@ -40,7 +40,7 @@ const CardsCategoriesPage = () => {
         {categories.map((category) => (
           <div
             key={category.id}
-            className="relative cursor-pointer rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105"
+            className="relative cursor-pointer rounded-lg overflow-hidden shadow-2xl transition-transform transform hover:scale-105 border-2 border-amber-300"
           >
             <Link to={`/cards/${category.id}`}>
               <img
@@ -49,8 +49,8 @@ const CardsCategoriesPage = () => {
                 className="w-full h-48 sm:h-56 md:h-64 lg:h-72 object-cover"
               />
               <div className="absolute inset-0 flex items-center justify-center">
-                <p className=" text-black text-lg font-semibold px-4 py-2 rounded-lg">
-                  {category.name}
+                <p className=" text-purple-700 text-4xl font-semibold px-4 py-2 rounded-lg bg-amber-300 shadow-2xl w-fit">
+                  {category.name.toUpperCase()}
                 </p>
               </div>
             </Link>
