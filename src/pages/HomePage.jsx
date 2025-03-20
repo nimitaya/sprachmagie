@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const HomePage = () => {
   return (
     <div
-      className="flex flex-col items-center min-h-screen bg-amber-100 p-4 md:p-8 bg-cover bg-center relative"
+      className="flex flex-col items-center min-h-screen bg-amber-100 px-4 py-8 md:p-8 bg-cover bg-center relative"
       style={{
         backgroundImage: `url('https://64.media.tumblr.com/1ada14b60cf5b70a887b045d6e83fbd4/tumblr_ol6o615mfP1qa9gmgo2_1280.jpg')`,
       }}
@@ -31,7 +31,7 @@ const HomePage = () => {
 
         <div className="w-full max-w-xs md:max-w-md lg:max-w-lg bg-pink-200 p-6 rounded-lg shadow-xl mt-11">
           <div className="mt-4">
-            <h2 className="text-lg font-semibold text-center mb-5">Login:</h2>
+            <h2 className="text-lg text-purple-700 font-semibold text-center mb-5">Login:</h2>
             <form className="mt-2 flex flex-col">
               <label className="mb-1 font-medium"></label>
               <input

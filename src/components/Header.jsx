@@ -2,7 +2,7 @@ import { NavLink, Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className=" h-27 sm:h-20 p-2 flex justify-between items-center bg-yellow-400 sm:p-3">
+    <header className=" min-h-27 sm:min-h-20 p-2 flex justify-between items-center bg-yellow-400 sm:p-3">
       {/* Logo + Sprachmagie */}
       <div className="flex items-center gap-x-2">
         <Link to="/" className="flex items-center">

@@ -10,7 +10,7 @@ const Profile = () => {
   const { appState } = useContext(UserContext);
 
   return (
-    <div className="relative w-full h-screen">
+    <div className="relative w-full min-h-screen py-20">
       {/* Фон на всю страницу */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -22,7 +22,7 @@ const Profile = () => {
 
       {/* Контейнер контента, который не растягивается */}
       <main className="relative max-w-sm mx-auto flex flex-col items-center flex-1">
-        <h2 className="text-4xl m-5 text-indigo-400">
+        <h2 className="text-4xl m-5 text-purple-700">
           {appState.currentUser
             ? appState.currentUser.username.toUpperCase()
             : "ANONYM"}
