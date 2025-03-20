@@ -7,14 +7,18 @@ h1 {
 }
 
 
-/* index.css */
 .page-container {
-  font-family: Arial, sans-serif;
-  background-color: #f0f8ff;
+  background-image: url("https://pbs.twimg.com/media/FOtUhw6XEAYt1sP.jpg:large");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Indie Flower", cursive;
+  background-color: #aed3f3;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   padding: 10px;
 }
 
@@ -22,9 +26,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
-  width: 60%;
-  height: 80%;
+
 }
 
 .topic-card {
@@ -32,20 +34,22 @@ h1 {
   justify-content: center;
   align-items: center;
   padding: 20px;
-  border: 2px solid #d7ebff;
+  border: 1px solid #eaedf0;
   border-radius: 12px;
   cursor: pointer;
-  background: #909bed;
+  background: rgba(144, 155, 237, 0.7); /* Полупрозрачный фон */
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  font-size: 20px;
+  /*   font-size: 30px;
+ */
   font-weight: bold;
-  color: #ededed;
+  color: #363636;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: calc(33.333% - 20px);
+/*   width: calc(33.333% - 20px); */
   box-sizing: border-box;
 }
 
 .topic-card:hover {
   transform: scale(1.05);
+  background-color: #7715e0;
   box-shadow: 0 6px 15px rgba(184, 44, 44, 0.2);
 }

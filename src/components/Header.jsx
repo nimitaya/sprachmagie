@@ -2,22 +2,31 @@ import { NavLink, Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className="p-3 flex justify-around items-center bg-amber-500 sm:p-5">
-      <Link to="/" className="md:min-w-3xs">
-        <img src="./logo.png" alt="Logo Placeholder" className="max-w-30" />
-      </Link>
-      <h3 className="text-center text-xl font-extrabold sm:text-3xl sm:min-w-3xs">Sprachmagie</h3>
+    <header className=" min-h-27 sm:min-h-20 p-2 flex justify-between items-center bg-yellow-400 sm:p-3">
+      {/* Logo + Sprachmagie */}
+      <div className="flex items-center gap-x-2">
+        <Link to="/" className="flex items-center">
+          <img
+            src="./logo.png"
+            alt="Logo Placeholder"
+            className="w-16 sm:w-20 md:w-24 lg:w-22"
+          />
+        </Link>
+        <h3 className="text-xl font-extrabold sm:text-xl">Sprachmagie</h3>
+      </div>
+
+      {/* (Lernen + Profil) */}
       <nav className="flex flex-col sm:flex-row sm:min-w-3xs">
         {/* TODO nicht nur Schrift, sondern auch Bilder einfügen??*/}
         <NavLink
           to="/learning"
-          className="m-2 p-2 text-center border-2 rounded-lg sm:min-w-24 sm:m-4 sm:p-4"
+          className=" text-white bg-purple-700 m-2 p-2 text-center border-1 border-purple-500  hover:bg-purple-600 transition rounded-lg lg:min-w-35 lg:w-40 lg:p-5 sm:min-w-24 sm:m-4 sm:p-4"
         >
           Lernen
         </NavLink>
         <NavLink
           to="/profile"
-          className="m-2 p-2 text-center border-2 rounded-lg sm:min-w-24 sm:m-4 sm:p-4"
+          className=" text-white bg-purple-700 m-2 p-2 text-center border-1 border-purple-500   hover:bg-purple-600 transition rounded-lg  lg:min-w-35 lg:w-40 lg:p-5  sm:min-w-24 sm:m-4 sm:p-4"
         >
           Profil
         </NavLink>
@@ -25,4 +34,5 @@ const Header = () => {
     </header>
   );
 };
+
 export default Header;

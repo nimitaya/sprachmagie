@@ -5,8 +5,8 @@ const Footer = () => {
     <footer className="flex w-full items-center justify-between py-1 px-10 bg-yellow-400 mt-auto">
       {/* logo-name */}
       <div className="flex items-center space-x-0.5">
-        <img src="/logo.png" alt="Logo" width={100} height={100} />
-        <h1 className="">Sprachmagie</h1>
+       {/*  <img src="/logo.png" alt="Logo" width={100} height={100} /> */}
+        <h3 className="">Sprachmagie</h3>
       </div>
 
       {/* copyrite */}
@@ -20,7 +20,7 @@ const Footer = () => {
 
       {/* youtube */}
       <div>
-        <a href="https://www.youtube.com/ " className="text-red-600">
+        <a href="https://www.youtube.com/intl/ALL_de/kids/ " className="text-red-600">
           <BsYoutube size={30} />
         </a>
       </div>
