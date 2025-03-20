@@ -18,7 +18,15 @@ const categories = [
 
 const CardsCategoriesPage = () => {
   return (
-    <div className="container mx-auto p-6">
+    <div
+      className="flex flex-col items-center justify-center p-7"
+      style={{
+        backgroundImage: "url('https://pbs.twimg.com/media/FOtUhw6XEAYt1sP.jpg:large')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       <div className="flex justify-center">
         <LanguageSelect />
       </div>
@@ -30,12 +38,12 @@ const CardsCategoriesPage = () => {
           >
             <Link to={`/cards/${category.id}`}>
               <img
-                src=""
-                alt="category.name"
-                className="w-full h-48 sm:h-56 md:h-64 lg:h-72 object-cover"
+                src={`./images/categories/${category.id}.png`}
+                alt={category.name}
+                className="w-96 h-64 sm:h-72 md:h-80 lg:h-96 object-cover"
               />
-              <div className="absolute inset-0 flex items-center justify-center">
-                <p className=" text-black text-lg font-semibold px-4 py-2 rounded-lg">
+              <div className="absolute inset-0 flex items-center justify-center bg-amber-500 bg-opacity-30">
+                <p className="text-white text-xl md:text-2xl font-semibold px-4 py-2 rounded-lg">
                   {category.name}
                 </p>
               </div>
