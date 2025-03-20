@@ -3,7 +3,7 @@ import LanguageSelect from "../components/LanguageSelect";
 
 const Lernseite = () => {
   return (
-    <div className=" relative min-h-screen flex flex-col justify-center items-center">
+    <div className=" relative  flex-1 flex-col justify-center items-center">
       <div
         className=" absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
@@ -22,11 +22,11 @@ const Lernseite = () => {
         <div className="w-48 sm:w-56 md:w-64 lg:w-72 relative cursor-pointer rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105">
           <Link to={"/cards-categories"}>
             <img
-              src=""
+              src="https://www.themarysue.com/wp-content/uploads/2011/04/myneighbourtotoro12.jpeg?w=448"
               alt="Karten"
               className="w-full h-32 sm:h-40 md:h-48 object-cover"
             />
-            <div className="absolute inset-0 flex items-center justify-center bg-white bg-opacity-50">
+            <div className="absolute inset-0 flex items-center justify-center  bg-opacity-50">
               <p className="text-black text-lg font-semibold px-4 py-2 rounded-lg">
                 Karten
               </p>
@@ -35,14 +35,14 @@ const Lernseite = () => {
         </div>
 
         {/* Bilder Quiz */}
-        <div className="w-48 sm:w-56 md:w-64 lg:w-72 relative cursor-pointer rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105">
+        <div className="w-48 sm:w-56 md:w-64 lg:w-72 relative cursor-pointer rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105 ">
           <Link to={"/picquiz"}>
             <img
-              src=""
+              src="https://i.pinimg.com/736x/46/33/c1/4633c1b365b4421a14d7f57fc3ca9b7f.jpg"
               alt="Bilder Quiz"
               className="w-full h-32 sm:h-40 md:h-48 object-cover"
             />
-            <div className="absolute inset-0 flex items-center justify-center bg-white bg-opacity-50">
+            <div className="absolute inset-0 flex items-center justify-center  bg-opacity-50 ">
               <p className="text-black text-lg font-semibold px-4 py-2 rounded-lg">
                 Bilder Quiz
               </p>
@@ -54,11 +54,11 @@ const Lernseite = () => {
         <div className="w-48 sm:w-56 md:w-64 lg:w-72 relative cursor-pointer rounded-lg overflow-hidden shadow-lg transition-transform transform hover:scale-105">
           <Link to={"/quiz"}>
             <img
-              src=""
+              src="https://www.tasteofcinema.com/wp-content/uploads/2014/06/Howls-Moving-Castle-2004.jpg"
               alt="Wort Quiz"
               className="w-full h-32 sm:h-40 md:h-48 object-cover"
             />
-            <div className="absolute inset-0 flex items-center justify-center bg-white bg-opacity-50">
+            <div className="absolute inset-0 flex items-center justify-center bg-opacity-50">
               <p className="text-black text-lg font-semibold px-4 py-2 rounded-lg">
                 Wort Quiz
               </p>

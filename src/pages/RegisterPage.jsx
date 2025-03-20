@@ -27,7 +27,6 @@ const RegisterPage = () => {
         backgroundImage: `url('https://64.media.tumblr.com/1ada14b60cf5b70a887b045d6e83fbd4/tumblr_ol6o615mfP1qa9gmgo2_1280.jpg')`,
       }}
     >
-      
       <div className="absolute inset-0 backdrop-blur-sm"></div>
 
       <div className="relative z-10 flex flex-col items-center">
@@ -49,9 +48,7 @@ const RegisterPage = () => {
             <label
               htmlFor="username"
               className="mb-1 font-medium text-purple-700"
-            >
-              
-            </label>
+            ></label>
             <input
               type="text"
               name="username"
@@ -70,9 +67,10 @@ const RegisterPage = () => {
               <p className="text-red-500 text-sm mt-2">{appState.warning}</p>
             )}
 
-            <label htmlFor="age" className="mb-1 font-medium text-purple-700">
-              
-            </label>
+            <label
+              htmlFor="age"
+              className="mb-1 font-medium text-purple-700"
+            ></label>
             <input
               type="number"
               name="age"
@@ -86,9 +84,7 @@ const RegisterPage = () => {
             <label
               htmlFor="password"
               className="mb-1 font-medium text-purple-700"
-            >
-              
-            </label>
+            ></label>
             <input
               type="password"
               name="password"
@@ -118,7 +114,7 @@ const RegisterPage = () => {
             onClick={handleNavigation}
             className="mt-4 text-xl bg-amber-400 text-white py-3 rounded hover:bg-amber-300 transition w-full"
           >
-            Zurück zur Startseite
+            {appState.isLoggedIn ? "Zu deinem Profil" : "Zurück zur Startseite"}
           </button>
         </div>
       </div>
