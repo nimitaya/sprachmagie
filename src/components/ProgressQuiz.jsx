@@ -18,7 +18,7 @@ const ProgressQuiz = () => {
         </div>
         {/* Prograss Bar */}
         <div className="flex mb-2 rounded-full h-6 bg-gray-200">
-          <div style={progressValue} className="rounded-full bg-indigo-600"></div>
+          <div style={progressValue} className="rounded-full bg-amber-400"></div>
         </div>
         {/* Percentage */}
         <div className="w-28 aspect-square bg-pink-200 rounded-full flex justify-center items-center self-center">
