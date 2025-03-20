@@ -18,7 +18,21 @@ const categories = [
 
 const CardsCategoriesPage = () => {
   return (
-    <div className="container mx-auto p-6">
+    // <div className="container mx-auto p-6">
+    <div
+    className="flex-1 flex flex-col justify-center items-center bg-cover bg-center"
+    style={{
+      backgroundImage:
+        "url('https://pbs.twimg.com/media/FOtUhw6XEAYt1sP.jpg:large')",
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat",
+      height: "100vh",
+
+      fontFamily: '"Indie Flower", cursive',
+      fontSize: "24px",
+    }}
+  > 
       <div className="flex justify-center">
         <LanguageSelect />
       </div>
