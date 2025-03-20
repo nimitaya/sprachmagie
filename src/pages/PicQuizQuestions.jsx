@@ -1,11 +1,13 @@
 import { useEffect, useState, useContext } from "react";
 import { useParams } from "react-router-dom";
 import { ProgressContext } from "../contexts/ProgressContext";
+import { LanguageContext } from "../contexts/LanguageContext";
 import { picQuizData } from "../data/picQuizData";
 
 const PicQuizQuestions = () => {
   const { categoryPath } = useParams();
   const { setEarnedPoints, setEarnedProgress } = useContext(ProgressContext);
+  const { currentLanguage } = useContext(LanguageContext);
   const [currCategory, setCurrCategory] = useState(null);
   const [currQuestion, setCurrQuestion] = useState(null);
   const [currQuestionIndex, setCurrQuestionIndex] = useState(0);
@@ -13,6 +15,9 @@ const PicQuizQuestions = () => {
   const [selectedAnswer, setSelectedAnswer] = useState(null);
   const [correctAnswer, setCorrectAnswer] = useState(null);
   const [showResult, setShowResult] = useState(false);
+  const language = currentLanguage.short
+
+  // make language dynamic TODO
 
   useEffect(() => {
     const categoryData = picQuizData.find(
