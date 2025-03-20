@@ -1,6 +1,6 @@
 export const picQuizData = [
   {
-    "category": "fruits",
+    "category": "obst",
     "questions": [
       {
         "id": 101,
@@ -465,7 +465,7 @@ export const picQuizData = [
     ]
   },
   {
-    "category": "vegetables",
+    "category": "gemüse",
     "questions": [
       {
         "id": 201,
@@ -930,7 +930,7 @@ export const picQuizData = [
     ]
   },
   {
-    "category": "animals",
+    "category": "tiere",
     "questions": [
       {
         "id": 301,
@@ -1395,7 +1395,7 @@ export const picQuizData = [
     ]
   },
   {
-    "category": "colors",
+    "category": "farben",
     "questions": [
       {
         "id": 401,
@@ -1860,7 +1860,7 @@ export const picQuizData = [
     ]
   },
   {
-    "category": "numbers",
+    "category": "zahlen",
     "questions": [
       {
         "id": 501,
@@ -2325,7 +2325,7 @@ export const picQuizData = [
     ]
   },
   {
-    "category": "body",
+    "category": "körper",
     "questions": [
       {
         "id": 601,
@@ -2790,7 +2790,7 @@ export const picQuizData = [
     ]
   },
   {
-    "category": "clothes",
+    "category": "kleidung",
     "questions": [
       {
         "id": 701,
@@ -3255,7 +3255,7 @@ export const picQuizData = [
     ]
   },
   {
-    "category": "weekdays",
+    "category": "wochentage",
     "questions": [
       {
         "id": 801,
@@ -3582,7 +3582,7 @@ export const picQuizData = [
     ]
   },
   {
-    "category": "months",
+    "category": "monate",
     "questions": [
       {
         "id": 901,
@@ -4139,7 +4139,7 @@ export const picQuizData = [
     ]
   },
   {
-    "category": "seasons",
+    "category": "jahreszeiten",
     "questions": [
       {
         "id": 1001,
@@ -4328,7 +4328,7 @@ export const picQuizData = [
     ]
   },
   {
-    "category": "transport",
+    "category": "verkehr",
     "questions": [
       {
         "id": 1101,
@@ -4793,7 +4793,7 @@ export const picQuizData = [
     ]
   },
   {
-    "category": "furniture",
+    "category": "möbel",
     "questions": [
       {
         "id": 1201,
