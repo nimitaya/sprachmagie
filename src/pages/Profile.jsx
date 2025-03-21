@@ -11,7 +11,7 @@ const Profile = () => {
   const { appState } = useContext(UserContext);
 
   return (
-    <div className="relative w-full flex-1 py-20">
+    <div className="relative w-full flex-1 py-20 overflow-x-hidden">
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
@@ -35,7 +35,12 @@ const Profile = () => {
             onClick={changeProfilePic}
           />
         </div>
-        <Link to="/learning" className="my-6 bg-purple-700 text-xl text-white px-9 py-3 rounded hover:bg-purple-600 transition cursor-pointer">Jetzt Lernen</Link>
+        <Link
+          to="/learning"
+          className="my-6 bg-purple-700 text-xl text-white px-9 py-3 rounded hover:bg-purple-600 transition cursor-pointer"
+        >
+          Jetzt Lernen
+        </Link>
         <ProgressPoints />
         <ProgressQuiz />
         <LanguageSelect />

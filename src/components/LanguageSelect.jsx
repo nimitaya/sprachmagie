@@ -4,7 +4,7 @@ import { LanguageContext } from "../contexts/LanguageContext";
 const LanguageSelect = () => {
   const { currentLanguage, setCurrentLanguage } = useContext(LanguageContext);
   const [isOpen, setIsOpen] = useState(false);
-  const dropdownRef = useRef(null); 
+  const dropdownRef = useRef(null);
 
   const handleLanguageSelect = (language) => {
     switch (language) {
@@ -42,7 +42,7 @@ const LanguageSelect = () => {
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
-        setIsOpen(false); 
+        setIsOpen(false);
         // Close the dropdown if clicked outside
       }
     };
@@ -73,7 +73,7 @@ const LanguageSelect = () => {
           </svg>
         </button>
         <ul
-          className={`dropdown-menu absolute min-w-50 ${
+          className={`dropdown-menu absolute  min-w-50 right-0  overflow-hidden ${
             isOpen ? "" : "hidden"
           } text-purple-700 text-2xl font-semibold pt-1 z-50`}
         >
