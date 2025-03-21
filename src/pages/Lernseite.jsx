@@ -3,7 +3,7 @@ import LanguageSelect from "../components/LanguageSelect";
 
 const Lernseite = () => {
   return (
-    <div className=" relative  flex-1 flex-col justify-center items-center">
+    <div className=" relative  flex-1 flex-col justify-center items-center pb-6">
       <div
         className=" absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
@@ -13,7 +13,7 @@ const Lernseite = () => {
         }}
       ></div>
 
-      <div className="flex justify-center w-full mt-41">
+      <div className="flex justify-center w-full mt-4">
         <LanguageSelect />
       </div>
 
