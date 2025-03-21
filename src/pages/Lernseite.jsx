@@ -13,7 +13,7 @@ const Lernseite = () => {
         }}
       ></div>
 
-      <div className="flex justify-center w-full mt-4">
+      <div className="flex justify-center w-full lg:mt-40 sm:mt-4">
         <LanguageSelect />
       </div>
 
