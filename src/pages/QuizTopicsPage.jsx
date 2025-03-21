@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import LanguageSelect from "../components/LanguageSelect";
+import BackButton from "../components/BackButton";
 import "../index.css";
 
 const topics = [
@@ -23,8 +24,8 @@ const QuizTopicsPage = () => {
 
   return (
     <div className="page-container   flex-1">
-             <LanguageSelect />
-
+      <LanguageSelect />
+      <h2 className="text-gray-700 text-6xl sm:text-8xl my-6 py-2 px-4 bg-indigo-400/70 border border-blue-100 rounded-lg shadow-2xl w-fit">Kategorien</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full max-w-5xl mx-auto p-4">
         {topics.map((topic) => (
           <div
@@ -36,6 +37,7 @@ const QuizTopicsPage = () => {
           </div>
         ))}
       </div>
+      <BackButton path={"/learning"}/>
     </div>
   );
 };

@@ -11,7 +11,7 @@ const {appState} = useContext(UserContext)
       <div className="flex items-center gap-x-2">
         <Link to="/" className="flex items-center">
           <img
-            src="./logo.png"
+            src="/logo.png"
             alt="Logo Placeholder"
             className="w-16 sm:w-20 md:w-24 lg:w-22"
           />
@@ -24,13 +24,13 @@ const {appState} = useContext(UserContext)
         {/* TODO nicht nur Schrift, sondern auch Bilder einfügen??*/}
         <NavLink
           to="/learning"
-          className={`text-white bg-purple-700 m-2 p-2 text-center border-1 border-purple-500  hover:bg-purple-600 transition rounded-lg lg:min-w-35 lg:w-40 lg:p-5 sm:min-w-24 sm:m-4 sm:p-4 ${appState.isLoggedIn ? "block" : "hidden"}`}
+          className={`text-white text-xl bg-purple-700 m-2 p-2 text-center border-1 border-purple-500  hover:bg-purple-600 transition rounded-lg lg:min-w-35 lg:w-40 lg:p-5 sm:min-w-24 sm:m-4 sm:p-4 ${appState.isLoggedIn ? "block" : "hidden"}`}
         >
           Lernen
         </NavLink>
         <NavLink
           to="/profile"
-          className={`text-white bg-purple-700 m-2 p-2 text-center border-1 border-purple-500   hover:bg-purple-600 transition rounded-lg  lg:min-w-35 lg:w-40 lg:p-5  sm:min-w-24 sm:m-4 sm:p-4 ${appState.isLoggedIn ? "block" : "hidden"}`}
+          className={`text-white text-xl bg-purple-700 m-2 p-2 text-center border-1 border-purple-500   hover:bg-purple-600 transition rounded-lg  lg:min-w-35 lg:w-40 lg:p-5  sm:min-w-24 sm:m-4 sm:p-4 ${appState.isLoggedIn ? "block" : "hidden"}`}
         >
           Profil
         </NavLink>

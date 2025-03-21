@@ -1,42 +1,57 @@
 import { Link } from "react-router-dom";
 import LanguageSelect from "../components/LanguageSelect";
+import BackButton from "../components/BackButton";
 
 const categories = [
-  { id: "fruits", name: "Obst", img:"./public/images/categories/obst.png"},
-  { id: "vegetables", name: "Gemüse", img:"./public/images/categories/gemüse.png" },
-  { id: "animals", name: "Tiere", img:"./public/images/categories/tiere.png" },
-  { id: "clothes", name: "Kleidung", img:"./public/images/categories/kleidung.png" },
-  { id: "body", name: "Körperteile", img:"./public/images/categories/körper.png" },
-  { id: "colors", name: "Farben", img:"./public/images/categories/farben.png" },
-  { id: "weekdays", name: "Wochentage", img:"./public/images/categories/wochentage.png" },
-  { id: "months", name: "Monate", img:"./public/images/categories/monate.png"  },
-  { id: "seasons", name: "Jahreszeiten", img:"./public/images/categories/jahreszeiten.png" },
-  { id: "numbers", name: "Zahlen", img:"./public/images/categories/zahlen.png" },
-  { id: "transport", name: "Transportmittel", img:"./public/images/categories/verkehr.png" },
-  { id: "furniture", name: "Möbel", img:"./public/images/categories/möbel.png" },
+  { id: "fruits", name: "Obst", img: "/images/categories/obst.png" },
+  { id: "vegetables", name: "Gemüse", img: "/images/categories/gemüse.png" },
+  { id: "animals", name: "Tiere", img: "/images/categories/tiere.png" },
+  { id: "clothes", name: "Kleidung", img: "/images/categories/kleidung.png" },
+  { id: "body", name: "Körperteile", img: "/images/categories/körper.png" },
+  { id: "colors", name: "Farben", img: "/images/categories/farben.png" },
+  {
+    id: "weekdays",
+    name: "Wochentage",
+    img: "/images/categories/wochentage.png",
+  },
+  { id: "months", name: "Monate", img: "/images/categories/monate.png" },
+  {
+    id: "seasons",
+    name: "Jahreszeiten",
+    img: "/images/categories/jahreszeiten.png",
+  },
+  { id: "numbers", name: "Zahlen", img: "/images/categories/zahlen.png" },
+  {
+    id: "transport",
+    name: "Transportmittel",
+    img: "/images/categories/verkehr.png",
+  },
+  { id: "furniture", name: "Möbel", img: "/images/categories/möbel.png" },
 ];
 
 const CardsCategoriesPage = () => {
   return (
     // <div className="container mx-auto p-6">
     <div
-    className="flex-1 flex flex-col justify-center items-center bg-cover bg-center"
-    style={{
-      backgroundImage:
-        "url('https://pbs.twimg.com/media/FOtUhw6XEAYt1sP.jpg:large')",
-      backgroundSize: "cover",
-      backgroundPosition: "center",
-      backgroundRepeat: "no-repeat",
-      height: "100vh",
-
-      fontFamily: '"Indie Flower", cursive',
-      fontSize: "24px",
-    }}
-  >
-    <div className="flex justify-center">
+      className="flex-1 flex flex-col justify-center items-center bg-cover bg-center py-4"
+      style={{
+        backgroundImage:
+          "url('https://pbs.twimg.com/media/FOtUhw6XEAYt1sP.jpg:large')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        height: "100vh",
+        fontFamily: '"Indie Flower", cursive',
+        fontSize: "24px",
+      }}
+    >
+      <div className="flex justify-center">
         <LanguageSelect />
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <h1 className="text-purple-700 text-6xl sm:text-8xl my-6 p-2 bg-white/30 rounded-lg shadow-2xl w-fit">
+        Kategorien
+      </h1>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
         {categories.map((category) => (
           <div
             key={category.id}
@@ -57,6 +72,7 @@ const CardsCategoriesPage = () => {
           </div>
         ))}
       </div>
+      <BackButton path={"/learning"} />
     </div>
   );
 };

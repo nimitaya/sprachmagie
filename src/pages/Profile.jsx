@@ -1,4 +1,5 @@
 import { useContext } from "react";
+import { Link } from "react-router-dom";
 import ProgressPoints from "../components/ProgressPoints";
 import ProgressQuiz from "../components/ProgressQuiz";
 import LanguageSelect from "../components/LanguageSelect";
@@ -11,16 +12,14 @@ const Profile = () => {
 
   return (
     <div className="relative w-full flex-1 py-20">
-      
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: `url('https://64.media.tumblr.com/35b0676ce21fc9a9471ab45b1e241444/tumblr_ol6o615mfP1qa9gmgo5_1280.jpg')`,
-          filter: "blur(3px)"
+          filter: "blur(3px)",
         }}
       ></div>
 
-    
       <main className="relative max-w-sm mx-auto flex flex-col items-center flex-1">
         <h2 className="text-4xl m-5 text-purple-700">
           {appState.currentUser
@@ -36,6 +35,7 @@ const Profile = () => {
             onClick={changeProfilePic}
           />
         </div>
+        <Link to="/learning" className="my-6 bg-purple-700 text-xl text-white px-9 py-3 rounded hover:bg-purple-600 transition cursor-pointer">Jetzt Lernen</Link>
         <ProgressPoints />
         <ProgressQuiz />
         <LanguageSelect />
