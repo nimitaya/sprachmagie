@@ -121,7 +121,7 @@ export const cardsData = {
         fr: "Carotte",
         en: "carrots",
       },
-      img: "",
+      img: "/images/vegetables/carrot.png",
     },
     {
       id: 12,
@@ -132,7 +132,7 @@ export const cardsData = {
         en: "Potato",
         fr: "Pomme de terre",
       },
-      img: "",
+      img: "/images/vegetables/potato.png",
     },
     {
       id: 13,
@@ -143,7 +143,7 @@ export const cardsData = {
         fr: "Tomate",
         es: "Tomate",
       },
-      img: "",
+      img: "/images/vegetables/tomato.png",
     },
     {
       id: 14,
@@ -154,7 +154,7 @@ export const cardsData = {
         es: "Pepino",
         en: "Cucumber ",
       },
-      img: "",
+      img: "/images/vegetables/cucumber.png",
     },
     {
       id: 15,
@@ -165,7 +165,7 @@ export const cardsData = {
         fr: "Oignon",
         en: "Onion",
       },
-      img: "",
+      img: "/images/vegetables/onion.png",
     },
     {
       id: 16,
@@ -176,7 +176,7 @@ export const cardsData = {
         en: "Garlic",
         fr: "Ail",
       },
-      img: "",
+      img: "/images/vegetables/garlic.png",
     },
     {
       id: 17,
@@ -187,7 +187,7 @@ export const cardsData = {
         uk: "Перець",
         en: "Peppers",
       },
-      img: "",
+      img: "/images/vegetables/pepper.png",
     },
     {
       id: 18,
@@ -198,7 +198,7 @@ export const cardsData = {
         en: "Pumpkin",
         fr: "Courge",
       },
-      img: "",
+      img: "/images/vegetables/pumpkin.png",
     },
     {
       id: 19,
@@ -209,7 +209,7 @@ export const cardsData = {
         es: "Coliflor",
         en: "Cauliflower",
       },
-      img: "",
+      img: "/images/vegetables/cauliflower.png",
     },
     {
       id: 20,
@@ -220,7 +220,7 @@ export const cardsData = {
         es: "Guisantes",
         fr: "Petits pois",
       },
-      img: "",
+      img: "/images/vegetables/pea.png",
     },
   ],
   animals: [
@@ -1006,7 +1006,7 @@ export const cardsData = {
         es: "primavera",
         fr: "Printemps",
       },
-      img: "",
+      img: "/images/seasons/spring.png",
     },
     {
       id: 91,
@@ -1017,7 +1017,7 @@ export const cardsData = {
         fr: "Été",
         uk: "Літо",
       },
-      img: "",
+      img: "/images/seasons/summer.webp",
     },
     {
       id: 92,
@@ -1028,7 +1028,7 @@ export const cardsData = {
         es: "Otoño",
         uk: "Осінь",
       },
-      img: "",
+      img: "/images/seasons/autumn.jpg",
     },
     {
       id: 93,
@@ -1039,7 +1039,7 @@ export const cardsData = {
         es: "Invierno",
         uk: "Зима",
       },
-      img: "",
+      img: "/images/seasons/winter.jpg",
     },
   ],
   transport: [

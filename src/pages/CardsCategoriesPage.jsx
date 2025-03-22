@@ -6,9 +6,11 @@ const categories = [
   { id: "fruits", name: "Obst", img: "/images/categories/obst.png" },
   { id: "vegetables", name: "Gemüse", img: "/images/categories/gemüse.png" },
   { id: "animals", name: "Tiere", img: "/images/categories/tiere.png" },
-  { id: "clothes", name: "Kleidung", img: "/images/categories/kleidung.png" },
-  { id: "body", name: "Körperteile", img: "/images/categories/körper.png" },
   { id: "colors", name: "Farben", img: "/images/categories/farben.png" },
+  { id: "numbers", name: "Zahlen", img: "/images/categories/zahlen.png" },
+  { id: "body", name: "Körper", img: "/images/categories/körper.png" },
+  { id: "clothes", name: "Kleidung", img: "/images/categories/kleidung.png" },
+
   {
     id: "weekdays",
     name: "Wochentage",
@@ -20,10 +22,10 @@ const categories = [
     name: "Jahreszeiten",
     img: "/images/categories/jahreszeiten.png",
   },
-  { id: "numbers", name: "Zahlen", img: "/images/categories/zahlen.png" },
+
   {
     id: "transport",
-    name: "Transportmittel",
+    name: "Verkehr",
     img: "/images/categories/verkehr.png",
   },
   { id: "furniture", name: "Möbel", img: "/images/categories/möbel.png" },

@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { ProgressContext } from "../contexts/ProgressContext";
 import { LanguageContext } from "../contexts/LanguageContext";
 import { picQuizData } from "../data/picQuizData";
-import BackButton from "../components/BackButton"
+import BackButton from "../components/BackButton";
 
 const PicQuizQuestions = () => {
   const { categoryPath } = useParams();
@@ -96,7 +96,7 @@ const PicQuizQuestions = () => {
             <div className="mt-4 animate-bounce text-4xl text-yellow-400">
               🌞
             </div>
-            <BackButton path="/picquiz"/>
+            <BackButton path="/picquiz" />
           </div>
         ) : (
           <div className="bg-white/40 sm:rounded-lg shadow-2xl w-fit">
@@ -105,7 +105,11 @@ const PicQuizQuestions = () => {
             </h2>
             <section className="container mx-auto p-6 sm:py-10 flex flex-col justify-center items-center w-fit gap-5">
               <div className="flex justify-center max-w-80 rounded-2xl overflow-hidden mb-6 sm:max-w-xl">
-                <img src={currQuestion.img} alt={currCategory} />
+                <img
+                  src={currQuestion.img}
+                  alt={currCategory}
+                  style={{ width: "350px", height: "250px" }}
+                />
               </div>
               <form className="mx-auto flex justify-between flex-col gap-2 sm:flex-row">
                 {/* dynamically creates options to answer */}
