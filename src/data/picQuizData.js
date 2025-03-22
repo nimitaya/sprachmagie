@@ -469,7 +469,7 @@ export const picQuizData = [
     "questions": [
       {
         "id": 201,
-        "img": "/images/fruits/apple.svg",
+        "img": "/images/vegetables/potato.png",
         "options": [
           {
             "word": {
@@ -515,7 +515,7 @@ export const picQuizData = [
       },
       {
         "id": 202,
-        "img": "/images/vegetables/garlic.svg",
+        "img": "/images/vegetables/garlic.png",
         "options": [
           {
             "word": {
@@ -561,7 +561,7 @@ export const picQuizData = [
       },
       {
         "id": 203,
-        "img": "/images/vegetables/cauliflower.svg",
+        "img": "/images/vegetables/cauliflower.png",
         "options": [
           {
             "word": {
@@ -607,7 +607,7 @@ export const picQuizData = [
       },
       {
         "id": 204,
-        "img": "/images/vegetables/carrot.svg",
+        "img": "/images/vegetables/carrot.png",
         "options": [
           {
             "word": {
@@ -653,7 +653,7 @@ export const picQuizData = [
       },
       {
         "id": 205,
-        "img": "/images/vegetables/cucumber.svg",
+        "img": "/images/vegetables/cucumber.png",
         "options": [
           {
             "word": {
@@ -699,7 +699,7 @@ export const picQuizData = [
       },
       {
         "id": 206,
-        "img": "/images/vegetables/pumpkin.svg",
+        "img": "/images/vegetables/pumpkin.png",
         "options": [
           {
             "word": {
@@ -745,7 +745,7 @@ export const picQuizData = [
       },
       {
         "id": 207,
-        "img": "/images/vegetables/peas.svg",
+        "img": "/images/vegetables/pea.png",
         "options": [
           {
             "word": {
@@ -791,7 +791,7 @@ export const picQuizData = [
       },
       {
         "id": 208,
-        "img": "/images/vegetables/potato.svg",
+        "img": "/images/vegetables/potato.png",
         "options": [
           {
             "word": {
@@ -837,7 +837,7 @@ export const picQuizData = [
       },
       {
         "id": 209,
-        "img": "/images/vegetables/bellpepper.svg",
+        "img": "/images/vegetables/pepper.png",
         "options": [
           {
             "word": {
@@ -852,10 +852,10 @@ export const picQuizData = [
           {
             "word": {
               "de": "Paprika",
-              "en": "Green/Red peppers",
+              "en": "Peppers",
               "fr": "Paprika",
               "es": "Pimentón",
-              "uk": "Перець болгарський"
+              "uk": "Перець"
             },
             "correct": true
           },
@@ -873,7 +873,7 @@ export const picQuizData = [
             "word": {
               "de": "Gurke",
               "en": "cucumber ",
-              "uk": "Огірок звичайний",
+              "uk": "Огірок ",
               "es": "Pepino",
               "fr": "Concombre"
             },
@@ -883,7 +883,7 @@ export const picQuizData = [
       },
       {
         "id": 210,
-        "img": "/images/vegetables/onion.svg",
+        "img": "/images/vegetables/onion.png",
         "options": [
           {
             "word": {

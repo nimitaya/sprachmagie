@@ -12,9 +12,14 @@ const Card = ({ words, img, language }) => {
   };
 
   return (
-    
     <div className="p-10 w-full sm:w-80 md:w-96 lg:w-1/3 flex flex-col items-center  bg-white/40 rounded-lg shadow-2xl relative z-10  mx-6">
-      <img src={img} alt={words.de} style={{ width: "150px", height: "150px" }} />
+      <div className="flex justify-center max-w-80 rounded-2xl overflow-hidden mb-6 sm:max-w-xl">
+        <img
+          src={img}
+          alt={words.de}
+          style={{ width: "250px", height: "150px" }}
+        />
+      </div>
       <p className="text-4xl font-bold mt-5">{words.de}</p>
       <p className="text-4xl font-bold mt-3">{words[language]}</p>
 
@@ -24,11 +29,10 @@ const Card = ({ words, img, language }) => {
           onClick={() => speakWord(words[language], language)}
           className="bg-orange-400 hover:bg-orange-300 p-3  text-purple-800 rounded"
         >
-         <FaVolumeUp className="h-6 w-6" />
+          <FaVolumeUp className="h-6 w-6" />
         </button>
       </div>
     </div>
-   
   );
 };
 
