@@ -33,7 +33,7 @@ const RegisterPage = () => {
         <h1 className="font-barriecito text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-center text-pink-200 mt-15">
           Registrierung
         </h1>
-        <p className="text-center text-3xl text-pink-400 bg-pink-200 mt-4">
+        <p className="text-center text-3xl text-purple-600  bg-pink-200 mt-4">
           Erstelle dein Konto
         </p>
 
