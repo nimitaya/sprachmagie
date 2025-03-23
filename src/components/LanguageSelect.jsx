@@ -61,7 +61,7 @@ const LanguageSelect = () => {
       <div ref={dropdownRef} className="dropdown inline-block relative">
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="bg-purple-700 text-pink-200 text-2xl font-semibold min-w-44 py-2 px-4 rounded inline-flex justify-between items-center cursor-pointer hover:bg-purple-600 transition"
+          className="bg-purple-700 text-pink-200 text-2xl  min-w-44 py-2 px-4 rounded inline-flex justify-between items-center cursor-pointer hover:bg-purple-600 transition"
         >
           <span className="mr-1">{currentLanguage.full}</span>
           <svg

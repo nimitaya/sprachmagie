@@ -66,7 +66,7 @@ const CardsCategoriesPage = () => {
                 className="w-full h-48 sm:h-40 md:h-40 lg:h-45 object-cover"
               />
               <div className="absolute inset-0 flex items-center justify-center">
-                <p className=" text-purple-700 text-4xl font-semibold px-4 py-2 rounded-lg bg-amber-300 shadow-2xl w-fit">
+                <p className=" text-purple-700 text-4xl  px-4 py-2 rounded-lg bg-amber-300 shadow-2xl w-fit">
                   {category.name.toUpperCase()}
                 </p>
               </div>

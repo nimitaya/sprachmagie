@@ -22,7 +22,7 @@ const ProgressQuiz = () => {
         </div>
         {/* Percentage */}
         <div className="w-28 aspect-square bg-pink-200 rounded-full flex justify-center items-center self-center">
-          <span className="text-3xl font-semibold inline-block text-purple-700">
+          <span className="text-3xl  inline-block text-purple-700">
             {/* percentage taken from context */}
             {earnedProgress<100 ? earnedProgress : "100"}%
           </span>
