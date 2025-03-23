@@ -233,7 +233,7 @@ export const cardsData = {
         en: "Dog",
         uk: "Пес",
       },
-      img: "",
+      img: "/images/animals/dog.png",
     },
     {
       id: 22,
@@ -244,7 +244,7 @@ export const cardsData = {
         fr: "Chat",
         uk: "Кіт",
       },
-      img: "",
+      img: "/images/animals/cat.png",
     },
     {
       id: 23,
@@ -255,7 +255,7 @@ export const cardsData = {
         en: "Horse",
         uk: "Кінь",
       },
-      img: "",
+      img: "/images/animals/horse.png",
     },
     {
       id: 24,
@@ -266,7 +266,7 @@ export const cardsData = {
         fr: "vache",
         es: "vaca",
       },
-      img: "",
+      img: "/images/animals/cow.png",
     },
     {
       id: 25,
@@ -277,7 +277,7 @@ export const cardsData = {
         es: "Cerdo",
         en: "Pork",
       },
-      img: "",
+      img: "/images/animals/pig.png",
     },
     {
       id: 26,
@@ -288,7 +288,7 @@ export const cardsData = {
         en: "Sheep",
         uk: "Вівця",
       },
-      img: "",
+      img: "/images/animals/sheep.png",
     },
     {
       id: 27,
@@ -299,7 +299,7 @@ export const cardsData = {
         en: "Rabbit",
         es: "Ronejo",
       },
-      img: "",
+      img: "/images/animals/rabbit.png",
     },
     {
       id: 28,
@@ -310,7 +310,7 @@ export const cardsData = {
         es: "León",
         en: "Lion ",
       },
-      img: "",
+      img: "/images/animals/lion.png",
     },
     {
       id: 29,
@@ -321,7 +321,7 @@ export const cardsData = {
         es: "Elefante",
         en: "Elephant",
       },
-      img: "",
+      img: "/images/animals/elephant.png",
     },
     {
       id: 30,
@@ -332,7 +332,7 @@ export const cardsData = {
         fr: "Ours",
         uk: "Ведмідь",
       },
-      img: "",
+      img: "/images/animals/bear.png",
     },
   ],
   colors: [
