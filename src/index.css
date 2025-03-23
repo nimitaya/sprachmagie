@@ -5,6 +5,16 @@
 h1 {
   font-family: "Barriecito", cursive;
 }
+/* h2,h3,p,button,a,span, input,li{
+  font-family: "Cormorant Infant", serif;
+
+} */
+h2,h3,p,button,a,span, input,li,label{
+font-family: "Jost", serif;}
+
+
+
+
 
 body {
   overflow-x: hidden;

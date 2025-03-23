@@ -12,7 +12,7 @@ const ProgressQuiz = () => {
     <div className="p-4 flex flex-col">
         {/* Badge above Progress Bar */}
         <div className="flex mb-2 items-center">
-          <span className="text-xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-purple-700 bg-pink-200">
+          <span className="text-xl inline-block py-1 px-2 uppercase rounded-full text-purple-700 bg-pink-200">
             Abgeschlossene Quizzes
           </span>
         </div>

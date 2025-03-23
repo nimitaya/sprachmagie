@@ -69,7 +69,7 @@ const HomePage = () => {
         <h1 className="font-barriecito text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-6xl font-bold text-center text-pink-200">
           Sprachmagie
         </h1>
-        <h2 className="text-center text-xl sm:text-3xl md:text-2xl lg:text-3xl xl:text-2xl text-emerald-200 mt-7">
+        <h2 className="text-center text-xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-3xl text-pink-400 mt-7 bg-pink-200">
           Jede Sprache ist ein Abenteuer
         </h2>
 

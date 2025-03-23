@@ -26,7 +26,7 @@ const Profile = () => {
             ? appState.currentUser.username.toUpperCase()
             : "ANONYM"}
         </h2>
-        <div className="w-40 aspect-square bg-indigo-100 rounded-full border-10 border-purple-700 flex justify-center items-center self-center shadow-lg cursor-pointer transition-transform transform hover:scale-105">
+        <div className="w-40 aspect-square bg-indigo-100 rounded-full border-10 border-purple-700 flex justify-center items-center self-center shadow-lg cursor-pointer transition-transform transform hover:scale-105 ">
           {/* shows random profile picture when you click on it */}
           <img
             className="rounded-full h-full w-auto object-cover"
@@ -41,9 +41,11 @@ const Profile = () => {
         >
           Jetzt Lernen
         </Link>
+        <LanguageSelect  />
         <ProgressPoints />
         <ProgressQuiz />
-        <LanguageSelect />
+  
+      
       </main>
     </div>
   );
