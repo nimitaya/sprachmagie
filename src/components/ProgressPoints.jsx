@@ -14,7 +14,7 @@ const {earnedPoints} = useContext(ProgressContext)
       </div>
       {/* Number */}
       <div className="w-28 aspect-square bg-pink-200 rounded-full flex justify-center items-center self-center">
-        <span className="text-3xl  inline-block text-purple-100">
+        <span className="text-3xl  inline-block text-purple-700">
           {/* shows earned points from context */}
           {earnedPoints}
         </span>
