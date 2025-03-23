@@ -16,7 +16,7 @@ const {appState} = useContext(UserContext)
             className="w-16 sm:w-20 md:w-24 lg:w-22"
           />
         </Link>
-        <h3 className="text-xl font-extrabold sm:text-xl">Sprachmagie</h3>
+        <h1 className="text-xl  sm:text-xl">Sprachmagie</h1>
       </div>
 
       {/* (Lernen + Profil) */}
