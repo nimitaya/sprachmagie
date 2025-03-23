@@ -63,3 +63,24 @@ body {
   background-color: #7715e0;
   box-shadow: 0 6px 15px rgba(184, 44, 44, 0.2);
 }
+
+
+
+::-webkit-scrollbar {
+  width: 15px; /* Ширина вертикальной полосы прокрутки */
+  /* height: 10px;  *//* Высота горизонтальной полосы прокрутки */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #fccee8; /* Цвет самой полосы прокрутки */
+ /*  border-radius: 10px; */ /* Скругление углов полосы прокрутки */
+}
+
+/* ::-webkit-scrollbar-thumb:hover {
+  background-color: #555; 
+}
+ */
+::-webkit-scrollbar-track {
+  background-color: #ffffff; /* Цвет фона полосы прокрутки */
+ /*  border-radius: 10px; */ /* Скругление углов фона */
+}
