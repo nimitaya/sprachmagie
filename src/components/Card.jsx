@@ -17,7 +17,7 @@ const Card = ({ words, img, language }) => {
         <img
           src={img}
           alt={words.de}
-          style={{ width: "250px", height: "150px" }}
+          style={{ width: "150px", height: "150px" }}
         />
       </div>
       <p className="text-4xl font-bold mt-5">{words.de}</p>

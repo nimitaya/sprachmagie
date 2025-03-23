@@ -88,7 +88,7 @@ export const picQuizData = [
               "en": "Grape",
               "uk": "Китиця",
               "es": "Uva",
-              "fr": "grappe"
+              "fr": "Grappe"
             },
             "correct": false
           }
@@ -114,7 +114,7 @@ export const picQuizData = [
               "en": "Pear",
               "uk": "Груша",
               "es": "Bombilla",
-              "fr": "poire"
+              "fr": "Poire"
             },
             "correct": true
           },
@@ -132,9 +132,9 @@ export const picQuizData = [
             "word": {
               "de": "Traube",
               "en": "Grape",
-              "uk": "Китиця",
+              "uk": "Виноград",
               "es": "Uva",
-              "fr": "grappe"
+              "fr": "Grappe"
             },
             "correct": false
           }
@@ -148,7 +148,7 @@ export const picQuizData = [
             "word": {
               "de": "Himbeere",
               "en": "Raspberry",
-              "uk": "Малина звичайна",
+              "uk": "Малина",
               "es": "Frambuesa",
               "fr": "Framboise"
             },
@@ -177,9 +177,9 @@ export const picQuizData = [
           {
             "word": {
               "de": "Johannisbeere",
-              "en": "puree",
+              "en": "Puree",
               "uk": "Смородина",
-              "fr": "groseille",
+              "fr": "Groseille",
               "es": "Grosella"
             },
             "correct": false
@@ -204,9 +204,9 @@ export const picQuizData = [
             "word": {
               "de": "Orange",
               "en": "Orange",
-              "es": "naranja",
+              "es": "Naranja",
               "fr": "Orange",
-              "uk": "Оранж"
+              "uk": "Апельсин"
             },
             "correct": true
           },
@@ -214,9 +214,9 @@ export const picQuizData = [
             "word": {
               "de": "Kokosnuss",
               "en": "Coconut",
-              "uk": "Кокосова пальма",
+              "uk": "Кокос",
               "es": "Coco",
-              "fr": "noix de coco"
+              "fr": "Noix de coco"
             },
             "correct": false
           },
@@ -260,7 +260,7 @@ export const picQuizData = [
             "word": {
               "de": "Himbeere",
               "en": "Raspberry",
-              "uk": "Малина звичайна",
+              "uk": "Малина",
               "es": "Frambuesa",
               "fr": "Framboise"
             },
@@ -316,7 +316,7 @@ export const picQuizData = [
             "word": {
               "de": "Banane",
               "en": "Banana",
-              "es": "manzana",
+              "es": "Manzana",
               "fr": "Banane",
               "uk": "Банан"
             },
@@ -343,7 +343,7 @@ export const picQuizData = [
               "de": "Traube",
               "en": "Grape",
               "uk": "Китиця",
-              "fr": "grappe",
+              "fr": "Grappe",
               "es": "Uva"
             },
             "correct": true
@@ -361,9 +361,9 @@ export const picQuizData = [
           {
             "word": {
               "de": "Johannisbeere",
-              "en": "puree",
+              "en": "Puree",
               "uk": "Смородина",
-              "fr": "groseille",
+              "fr": "Groseille",
               "es": "Grosella"
             },
             "correct": false
@@ -399,7 +399,7 @@ export const picQuizData = [
               "de": "Aprikose",
               "en": "Apricot",
               "uk": "Абрикос",
-              "fr": "abricot",
+              "fr": "Abricot",
               "es": "Albaricoque"
             },
             "correct": false
@@ -410,7 +410,7 @@ export const picQuizData = [
               "en": "Nectarine",
               "es": "Nectarina",
               "uk": "Нектарин",
-              "fr": "nectarine"
+              "fr": "Nectarine"
             },
             "correct": false
           }
@@ -425,7 +425,7 @@ export const picQuizData = [
               "de": "Honigmelone",
               "en": "Honeydew melon",
               "es": "Melón canario",
-              "uk": "Диня медоносна",
+              "uk": "Диня медова",
               "fr": "Melon miel"
             },
             "correct": false
@@ -444,9 +444,9 @@ export const picQuizData = [
             "word": {
               "de": "Zuckermelone",
               "en": "Muskmelon",
-              "fr": "melon",
-              "es": "melón",
-              "uk": "Цукрова диня"
+              "fr": "Melon",
+              "es": "Melón",
+              "uk": "Диня"
             },
             "correct": false
           },
@@ -474,8 +474,8 @@ export const picQuizData = [
           {
             "word": {
               "de": "Tomate",
-              "en": "tomatoes",
-              "fr": "tomate",
+              "en": "Tomatoes",
+              "fr": "Tomate",
               "es": "Tomate",
               "uk": "Помідор"
             },
@@ -484,8 +484,8 @@ export const picQuizData = [
           {
             "word": {
               "de": "Gurke",
-              "en": "cucumber ",
-              "uk": "Огірок звичайний",
+              "en": "Cucumber ",
+              "uk": "Огірок",
               "fr": "Concombre",
               "es": "Pepino"
             },
@@ -496,8 +496,8 @@ export const picQuizData = [
               "de": "Kartoffel",
               "en": "Potato",
               "es": "Patata",
-              "uk": "картоплина",
-              "fr": "pomme de terre"
+              "uk": "Kартоплина",
+              "fr": "Pomme de terre"
             },
             "correct": true
           },
@@ -520,9 +520,9 @@ export const picQuizData = [
           {
             "word": {
               "de": "Zwiebel",
-              "en": "onion",
+              "en": "Onion",
               "fr": "Oignon",
-              "uk": "Цибуля ріпчаста",
+              "uk": "Цибуля",
               "es": "Cebolla"
             },
             "correct": false
@@ -542,15 +542,15 @@ export const picQuizData = [
               "de": "Kartoffel",
               "en": "Potato",
               "es": "Patata",
-              "fr": "pomme de terre",
-              "uk": "картоплина"
+              "fr": "Pomme de terre",
+              "uk": "Картопля"
             },
             "correct": false
           },
           {
             "word": {
               "de": "Lauch",
-              "en": "leeks",
+              "en": "Leeks",
               "uk": "Цибуля порей",
               "es": "Puerro",
               "fr": "Poireau"
@@ -566,7 +566,7 @@ export const picQuizData = [
           {
             "word": {
               "de": "Brokkoli",
-              "en": "broccoli",
+              "en": "Broccoli",
               "uk": "Броколі",
               "es": "Brócoli",
               "fr": "Brocoli"
@@ -576,7 +576,7 @@ export const picQuizData = [
           {
             "word": {
               "de": "Blumenkohl",
-              "en": "cauliflower",
+              "en": "Cauliflower",
               "es": "Coliflor",
               "uk": "Цвітна капуста",
               "fr": "Chou-fleur"
@@ -612,7 +612,7 @@ export const picQuizData = [
           {
             "word": {
               "de": "Gurke",
-              "en": "cucumber ",
+              "en": "Cucumber ",
               "uk": "Огірок звичайний",
               "fr": "Concombre",
               "es": "Pepino"
@@ -622,7 +622,7 @@ export const picQuizData = [
           {
             "word": {
               "de": "Karotte",
-              "en": "carrots",
+              "en": "Carrots",
               "uk": "Морква",
               "es": "Zanahoria",
               "fr": "Carotte"
@@ -668,7 +668,7 @@ export const picQuizData = [
           {
             "word": {
               "de": "Gurke",
-              "en": "cucumber ",
+              "en": "Cucumber ",
               "uk": "Огірок звичайний",
               "es": "Pepino",
               "fr": "Concombre"
@@ -678,7 +678,7 @@ export const picQuizData = [
           {
             "word": {
               "de": "Lauch",
-              "en": "leeks",
+              "en": "Leeks",
               "uk": "Цибуля порей",
               "es": "Puerro",
               "fr": "Poireau"
@@ -704,7 +704,7 @@ export const picQuizData = [
           {
             "word": {
               "de": "Aubergine",
-              "en": "aubergine",
+              "en": "Aubergine",
               "es": "Berenjena",
               "fr": "Aubergines",
               "uk": "Баклажан"
@@ -724,10 +724,10 @@ export const picQuizData = [
           {
             "word": {
               "de": "Tomate",
-              "en": "tomatoes",
+              "en": "Tomatoes",
               "es": "Tomate",
               "uk": "Помідор",
-              "fr": "tomate"
+              "fr": "Tomate"
             },
             "correct": false
           },
@@ -735,9 +735,9 @@ export const picQuizData = [
             "word": {
               "de": "Kartoffel",
               "en": "Potato",
-              "uk": "картоплина",
+              "uk": "Картопля",
               "es": "Patata",
-              "fr": "pomme de terre"
+              "fr": "Pomme de terre"
             },
             "correct": false
           }
@@ -807,8 +807,8 @@ export const picQuizData = [
             "word": {
               "de": "Kartoffel",
               "en": "Potato",
-              "fr": "pomme de terre",
-              "uk": "картоплина",
+              "fr": "Pomme de terre",
+              "uk": "Картопля",
               "es": "Patata"
             },
             "correct": true
@@ -827,7 +827,7 @@ export const picQuizData = [
             "word": {
               "de": "Radieschen",
               "en": "Radishes",
-              "uk": "Редька",
+              "uk": "Редиска",
               "fr": "Radis",
               "es": "Rábanos"
             },
@@ -862,17 +862,17 @@ export const picQuizData = [
           {
             "word": {
               "de": "Tomate",
-              "en": "tomatoes",
+              "en": "Tomatoes",
               "uk": "Помідор",
               "es": "Tomate",
-              "fr": "tomate"
+              "fr": "Tomate"
             },
             "correct": false
           },
           {
             "word": {
               "de": "Gurke",
-              "en": "cucumber ",
+              "en": "Cucumber ",
               "uk": "Огірок ",
               "es": "Pepino",
               "fr": "Concombre"
@@ -898,17 +898,17 @@ export const picQuizData = [
           {
             "word": {
               "de": "Zwiebel",
-              "en": "onion",
+              "en": "Onion",
               "es": "Cebolla",
               "fr": "Oignon",
-              "uk": "Цибуля ріпчаста"
+              "uk": "Цибуля"
             },
             "correct": true
           },
           {
             "word": {
               "de": "Lauch",
-              "en": "leeks",
+              "en": "Leeks",
               "uk": "Цибуля порей",
               "fr": "Poireau",
               "es": "Puerro"
@@ -918,7 +918,7 @@ export const picQuizData = [
           {
             "word": {
               "de": "Schalotte",
-              "en": "shallots",
+              "en": "Shallots",
               "fr": "Échalote",
               "uk": "Лук-шалот",
               "es": "Chalota"
@@ -934,15 +934,15 @@ export const picQuizData = [
     "questions": [
       {
         "id": 301,
-        "img": "/images/animals/elephant.svg",
+        "img": "/images/animals/elephant.png",
         "options": [
           {
             "word": {
               "de": "Nilpferd",
-              "en": "hippo",
+              "en": "Hippo",
               "uk": "Бегемот",
-              "fr": "hippopotame",
-              "es": "hipopótamo"
+              "fr": "Hippopotame",
+              "es": "Hipopótamo"
             },
             "correct": false
           },
@@ -950,9 +950,9 @@ export const picQuizData = [
             "word": {
               "de": "Elefant",
               "en": "Elephant",
-              "uk": "Слонові",
+              "uk": "Слон",
               "es": "Elefante",
-              "fr": "éléphant"
+              "fr": "Éléphant"
             },
             "correct": true
           },
@@ -961,7 +961,7 @@ export const picQuizData = [
               "de": "Nashorn",
               "en": "Rhino",
               "uk": "Носорогові",
-              "fr": "rhinocéros",
+              "fr": "Rhinocéros",
               "es": "Rinoceronte"
             },
             "correct": false
@@ -971,7 +971,7 @@ export const picQuizData = [
               "de": "Giraffe",
               "en": "Giraffe",
               "uk": "Жирафа",
-              "fr": "girafe",
+              "fr": "Girafe",
               "es": "Giraffa camelopardalis"
             },
             "correct": false
@@ -980,13 +980,13 @@ export const picQuizData = [
       },
       {
         "id": 302,
-        "img": "/images/animals/pig.svg",
+        "img": "/images/animals/pig.png",
         "options": [
           {
             "word": {
               "de": "Schaf",
-              "en": "sheep",
-              "fr": "mouton",
+              "en": "Sheep",
+              "fr": "Mouton",
               "es": "Oveja",
               "uk": "Вівці"
             },
@@ -998,7 +998,7 @@ export const picQuizData = [
               "en": "Pork",
               "fr": "Porcins",
               "es": "Cerdo",
-              "uk": "Свиня свійська"
+              "uk": "Свиня"
             },
             "correct": true
           },
@@ -1006,8 +1006,8 @@ export const picQuizData = [
             "word": {
               "de": "Kuh",
               "en": "Cow",
-              "fr": "vache",
-              "es": "vaca",
+              "fr": "Vache",
+              "es": "Vaca",
               "uk": "Корова"
             },
             "correct": false
@@ -1016,9 +1016,9 @@ export const picQuizData = [
             "word": {
               "de": "Hund",
               "en": "Dog",
-              "es": "perro",
-              "uk": "Пес свійський",
-              "fr": "chien"
+              "es": "Perro",
+              "uk": "Пес",
+              "fr": "Chien"
             },
             "correct": false
           }
@@ -1026,13 +1026,13 @@ export const picQuizData = [
       },
       {
         "id": 303,
-        "img": "/images/animals/horse.svg",
+        "img": "/images/animals/horse.png",
         "options": [
           {
             "word": {
               "de": "Esel",
               "en": "Donkey",
-              "fr": "âne",
+              "fr": "Âne",
               "es": "Asnos",
               "uk": "Віслюк"
             },
@@ -1043,7 +1043,7 @@ export const picQuizData = [
               "de": "Pferd",
               "en": "Horse",
               "uk": "Кінь",
-              "fr": "cheval",
+              "fr": "Cheval",
               "es": "Caballo"
             },
             "correct": true
@@ -1053,8 +1053,8 @@ export const picQuizData = [
               "de": "Zebra",
               "en": "Zebra",
               "uk": "Зебра",
-              "es": "cebra",
-              "fr": "zèbre"
+              "es": "Cebra",
+              "fr": "Zèbre"
             },
             "correct": false
           },
@@ -1063,7 +1063,7 @@ export const picQuizData = [
               "de": "Giraffe",
               "en": "Giraffe",
               "uk": "Жирафа",
-              "fr": "girafe",
+              "fr": "Girafe",
               "es": "Giraffa camelopardalis"
             },
             "correct": false
@@ -1072,7 +1072,7 @@ export const picQuizData = [
       },
       {
         "id": 304,
-        "img": "/images/animals/dog.svg",
+        "img": "/images/animals/dog.png",
         "options": [
           {
             "word": {
@@ -1080,7 +1080,7 @@ export const picQuizData = [
               "en": "Cat",
               "uk": "Кіт",
               "es": "Gato",
-              "fr": "chat"
+              "fr": "Chat"
             },
             "correct": false
           },
@@ -1088,9 +1088,9 @@ export const picQuizData = [
             "word": {
               "de": "Hund",
               "en": "Dog",
-              "es": "perro",
-              "fr": "chien",
-              "uk": "Пес свійський"
+              "es": "Perro",
+              "fr": "Chien",
+              "uk": "Пес"
             },
             "correct": true
           },
@@ -1118,13 +1118,13 @@ export const picQuizData = [
       },
       {
         "id": 305,
-        "img": "/images/animals/cow.svg",
+        "img": "/images/animals/cow.png",
         "options": [
           {
             "word": {
               "de": "Pferd",
               "en": "Horse",
-              "fr": "cheval",
+              "fr": "Cheval",
               "uk": "Кінь",
               "es": "Caballo"
             },
@@ -1135,16 +1135,16 @@ export const picQuizData = [
               "de": "Kuh",
               "en": "Cow",
               "uk": "Корова",
-              "es": "vaca",
-              "fr": "vache"
+              "es": "Vaca",
+              "fr": "Vache"
             },
             "correct": true
           },
           {
             "word": {
               "de": "Schaf",
-              "en": "sheep",
-              "fr": "mouton",
+              "en": "Sheep",
+              "fr": "Mouton",
               "es": "Oveja",
               "uk": "Вівці"
             },
@@ -1164,7 +1164,7 @@ export const picQuizData = [
       },
       {
         "id": 306,
-        "img": "/images/animals/bear.svg",
+        "img": "/images/animals/bear.png",
         "options": [
           {
             "word": {
@@ -1181,7 +1181,7 @@ export const picQuizData = [
               "de": "Bär",
               "en": "Bear",
               "es": "Oso",
-              "fr": "ours",
+              "fr": "Ours",
               "uk": "Ведмідь"
             },
             "correct": true
@@ -1191,7 +1191,7 @@ export const picQuizData = [
               "de": "Tiger",
               "en": "Tiger",
               "es": "Tigre",
-              "fr": "tigre",
+              "fr": "Tigre",
               "uk": "Тигр"
             },
             "correct": false
@@ -1210,15 +1210,15 @@ export const picQuizData = [
       },
       {
         "id": 307,
-        "img": "/images/animals/rabbit.svg",
+        "img": "/images/animals/rabbit.png",
         "options": [
           {
             "word": {
               "de": "Hamster",
               "en": "Hamster",
-              "uk": "Хом’яки",
-              "fr": "hamster",
-              "es": "rata de trigo"
+              "uk": "Хом’як",
+              "fr": "Hamster",
+              "es": "Rata de trigo"
             },
             "correct": false
           },
@@ -1227,7 +1227,7 @@ export const picQuizData = [
               "de": "Hase",
               "en": "Rabbit",
               "fr": "Lapin",
-              "es": "conejo",
+              "es": "Conejo",
               "uk": "Кролик"
             },
             "correct": true
@@ -1236,9 +1236,9 @@ export const picQuizData = [
             "word": {
               "de": "Meerschweinchen",
               "en": "Caviidae",
-              "uk": "Кавієві",
-              "es": "cobaya",
-              "fr": "cobaye, cochon d'Inde"
+              "uk": "Морська свинка",
+              "es": "Cobaya",
+              "fr": "Cobaye, cochon d'Inde"
             },
             "correct": false
           },
@@ -1256,15 +1256,15 @@ export const picQuizData = [
       },
       {
         "id": 308,
-        "img": "/images/animals/cat.svg",
+        "img": "/images/animals/cat.png",
         "options": [
           {
             "word": {
               "de": "Hund",
               "en": "Dog",
-              "es": "perro",
-              "fr": "chien",
-              "uk": "Пес свійський"
+              "es": "Perro",
+              "fr": "Chien",
+              "uk": "Пес"
             },
             "correct": false
           },
@@ -1302,7 +1302,7 @@ export const picQuizData = [
       },
       {
         "id": 309,
-        "img": "/images/animals/sheep.svg",
+        "img": "/images/animals/sheep.png",
         "options": [
           {
             "word": {
@@ -1317,8 +1317,8 @@ export const picQuizData = [
           {
             "word": {
               "de": "Schaf",
-              "en": "sheep",
-              "fr": "mouton",
+              "en": "Sheep",
+              "fr": "Mouton",
               "es": "Oveja",
               "uk": "Вівці"
             },
@@ -1327,10 +1327,10 @@ export const picQuizData = [
           {
             "word": {
               "de": "Lama",
-              "en": "lama",
+              "en": "Lama",
               "uk": "Лама",
               "es": "Llama",
-              "fr": "lama"
+              "fr": "Lama"
             },
             "correct": false
           },
@@ -1339,7 +1339,7 @@ export const picQuizData = [
               "de": "Rentier",
               "en": "Reindeer",
               "es": "Reno",
-              "fr": "renne",
+              "fr": "Renne",
               "uk": "Олені"
             },
             "correct": false
@@ -1348,7 +1348,7 @@ export const picQuizData = [
       },
       {
         "id": 310,
-        "img": "/images/animals/lion.svg",
+        "img": "/images/animals/lion.png",
         "options": [
           {
             "word": {
@@ -1356,7 +1356,7 @@ export const picQuizData = [
               "en": "Tiger",
               "es": "Tigre",
               "uk": "Тигр",
-              "fr": "tigre"
+              "fr": "Tigre"
             },
             "correct": false
           },
@@ -1374,7 +1374,7 @@ export const picQuizData = [
             "word": {
               "de": "Leopard",
               "en": "Leopard",
-              "uk": "Пантера плямиста",
+              "uk": "Пантера",
               "es": "Leopardo",
               "fr": "léopard"
             },
@@ -1405,7 +1405,7 @@ export const picQuizData = [
             "word": {
               "de": "Rot",
               "en": "Red",
-              "es": "rojo",
+              "es": "Rojo",
               "fr": "Rouge",
               "uk": "Червоний"
             },
@@ -1425,9 +1425,9 @@ export const picQuizData = [
             "word": {
               "de": "Lila",
               "en": "Purple",
-              "es": "morado",
+              "es": "Morado",
               "fr": "Violet",
-              "uk": "пурпуровий"
+              "uk": "Пурпуровий"
             },
             "correct": false
           },
@@ -1453,7 +1453,7 @@ export const picQuizData = [
               "en": "Yellow",
               "fr": "Jaune",
               "uk": "Жовтий",
-              "es": "amarillo"
+              "es": "Amarillo"
             },
             "correct": false
           },
@@ -1462,7 +1462,7 @@ export const picQuizData = [
               "de": "Grün",
               "en": "Green",
               "uk": "Зелений",
-              "es": "natural",
+              "es": "Natural",
               "fr": "Vert"
             },
             "correct": true
@@ -1472,7 +1472,7 @@ export const picQuizData = [
               "de": "Blau",
               "en": "Blue",
               "uk": "Синій",
-              "es": "azul",
+              "es": "Azul",
               "fr": "Bleu"
             },
             "correct": false
@@ -1481,7 +1481,7 @@ export const picQuizData = [
             "word": {
               "de": "Braun",
               "en": "Brown",
-              "es": "marrón",
+              "es": "Marrón",
               "fr": "Marron",
               "uk": "Коричневий"
             },
@@ -1497,7 +1497,7 @@ export const picQuizData = [
             "word": {
               "de": "Grau",
               "en": "Grey",
-              "uk": "Сірий колір",
+              "uk": "Сірий",
               "fr": "Gris",
               "es": "Gris"
             },
@@ -1528,8 +1528,8 @@ export const picQuizData = [
               "de": "Dunkelblau",
               "en": "Dark blue",
               "fr": "Bleu foncé",
-              "uk": "Темно- синій",
-              "es": "azul oscuro"
+              "uk": "Темно-синій",
+              "es": "Azul oscuro"
             },
             "correct": false
           }
@@ -1544,7 +1544,7 @@ export const picQuizData = [
               "de": "Pink",
               "en": "Pink",
               "fr": "Rose",
-              "uk": "рожевий",
+              "uk": "Pожевий",
               "es": "Rosado"
             },
             "correct": false
@@ -1553,7 +1553,7 @@ export const picQuizData = [
             "word": {
               "de": "Rot",
               "en": "Red",
-              "es": "rojo",
+              "es": "Rojo",
               "uk": "Червоний",
               "fr": "Rouge"
             },
@@ -1563,7 +1563,7 @@ export const picQuizData = [
             "word": {
               "de": "Orange",
               "en": "Orange",
-              "es": "naranja",
+              "es": "Naranja",
               "fr": "Orange",
               "uk": "Оранж"
             },
@@ -1574,8 +1574,8 @@ export const picQuizData = [
               "de": "Lila",
               "en": "Purple",
               "fr": "Violet",
-              "es": "morado",
-              "uk": "пурпуровий"
+              "es": "Morado",
+              "uk": "Пурпуровий"
             },
             "correct": false
           }
@@ -1589,7 +1589,7 @@ export const picQuizData = [
             "word": {
               "de": "Beige",
               "en": "Beige",
-              "es": "beige",
+              "es": "Beige",
               "uk": "Бежевий",
               "fr": "Beige"
             },
@@ -1599,7 +1599,7 @@ export const picQuizData = [
             "word": {
               "de": "Braun",
               "en": "Brown",
-              "es": "marrón",
+              "es": "Marrón",
               "fr": "Marron",
               "uk": "Коричневий"
             },
@@ -1645,7 +1645,7 @@ export const picQuizData = [
             "word": {
               "de": "Blau",
               "en": "Blue",
-              "es": "azul",
+              "es": "Azul",
               "fr": "Bleu",
               "uk": "Синій"
             },
@@ -1656,8 +1656,8 @@ export const picQuizData = [
               "de": "Lila",
               "en": "Purple",
               "fr": "Violet",
-              "es": "morado",
-              "uk": "пурпуровий"
+              "es": "Morado",
+              "uk": "Пурпуровий"
             },
             "correct": false
           },
@@ -1681,7 +1681,7 @@ export const picQuizData = [
             "word": {
               "de": "Grau",
               "en": "Grey",
-              "uk": "Сірий колір",
+              "uk": "Сірий",
               "fr": "Gris",
               "es": "Gris"
             },
@@ -1703,7 +1703,7 @@ export const picQuizData = [
               "en": "Silver",
               "uk": "Срібло",
               "fr": "Argent",
-              "es": "plateado"
+              "es": "Plateado"
             },
             "correct": false
           },
@@ -1713,7 +1713,7 @@ export const picQuizData = [
               "en": "Beige",
               "fr": "Beige",
               "uk": "Бежевий",
-              "es": "beige"
+              "es": "Beige"
             },
             "correct": false
           }
@@ -1728,8 +1728,8 @@ export const picQuizData = [
               "de": "Orange",
               "en": "Orange",
               "fr": "Orange",
-              "uk": "Оранж",
-              "es": "naranja"
+              "uk": "Помаранчевий",
+              "es": "Naranja"
             },
             "correct": false
           },
@@ -1738,7 +1738,7 @@ export const picQuizData = [
               "de": "Gelb",
               "en": "Yellow",
               "fr": "Jaune",
-              "es": "amarillo",
+              "es": "Amarillo",
               "uk": "Жовтий"
             },
             "correct": true
@@ -1749,7 +1749,7 @@ export const picQuizData = [
               "en": "Green",
               "uk": "Зелений",
               "fr": "Vert",
-              "es": "natural"
+              "es": "Natural"
             },
             "correct": false
           },
@@ -1758,8 +1758,8 @@ export const picQuizData = [
               "de": "Gold",
               "en": "Gold",
               "fr": "Or",
-              "uk": "ÐÐ¾Ð»ÑÑÐ°",
-              "es": "dorado"
+              "uk": "Золото",
+              "es": "Dorado"
             },
             "correct": false
           }
@@ -1784,8 +1784,8 @@ export const picQuizData = [
               "de": "Lila",
               "en": "Purple",
               "fr": "Violet",
-              "es": "morado",
-              "uk": "пурпуровий"
+              "es": "Morado",
+              "uk": "Пурпуровий"
             },
             "correct": true
           },
@@ -1795,7 +1795,7 @@ export const picQuizData = [
               "en": "Blue",
               "uk": "Синій",
               "fr": "Bleu",
-              "es": "azul"
+              "es": "Azul"
             },
             "correct": false
           },
@@ -1803,7 +1803,7 @@ export const picQuizData = [
             "word": {
               "de": "Rot",
               "en": "Red",
-              "es": "rojo",
+              "es": "Rojo",
               "uk": "Червоний",
               "fr": "Rouge"
             },
@@ -1820,7 +1820,7 @@ export const picQuizData = [
               "de": "Gelb",
               "en": "Yellow",
               "fr": "Jaune",
-              "es": "amarillo",
+              "es": "Amarillo",
               "uk": "Жовтий"
             },
             "correct": false
@@ -1830,8 +1830,8 @@ export const picQuizData = [
               "de": "Orange",
               "en": "Orange",
               "fr": "Orange",
-              "es": "naranja",
-              "uk": "Оранж"
+              "es": "Naranja",
+              "uk": "Помаранчевий"
             },
             "correct": true
           },
@@ -1839,7 +1839,7 @@ export const picQuizData = [
             "word": {
               "de": "Rot",
               "en": "Red",
-              "es": "rojo",
+              "es": "Rojo",
               "fr": "Rouge",
               "uk": "Червоний"
             },
@@ -1851,7 +1851,7 @@ export const picQuizData = [
               "en": "Brown",
               "uk": "Коричневий",
               "fr": "Marron",
-              "es": "marrón"
+              "es": "Marrón"
             },
             "correct": false
           }
@@ -1880,7 +1880,7 @@ export const picQuizData = [
             "word": {
               "de": "Acht",
               "en": "Eight",
-              "fr": " Huit",
+              "fr": "Huit",
               "es": "Ocho",
               "uk": "Вісім"
             },
@@ -1891,7 +1891,7 @@ export const picQuizData = [
               "de": "Zwei",
               "en": "Two",
               "fr": "Deux",
-              "uk": "два",
+              "uk": "Два",
               "es": "Dos"
             },
             "correct": false
@@ -1916,7 +1916,7 @@ export const picQuizData = [
             "word": {
               "de": "Drei",
               "en": "Three",
-              "fr": "3",
+              "fr": "Trois",
               "uk": "Три",
               "es": "Tercera"
             },
@@ -1926,7 +1926,7 @@ export const picQuizData = [
             "word": {
               "de": "Zwei",
               "en": "Two",
-              "uk": "два",
+              "uk": "Два",
               "es": "Dos",
               "fr": "Deux"
             },
@@ -1936,7 +1936,7 @@ export const picQuizData = [
             "word": {
               "de": "Eins",
               "en": "One",
-              "es": "uno",
+              "es": "Uno",
               "fr": "Une ",
               "uk": "Один"
             },
@@ -1973,7 +1973,7 @@ export const picQuizData = [
               "de": "Acht",
               "en": "Eight",
               "es": "Ocho",
-              "fr": " Huit",
+              "fr": "Huit",
               "uk": "Вісім"
             },
             "correct": false
@@ -1991,10 +1991,10 @@ export const picQuizData = [
           {
             "word": {
               "de": "Zehn",
-              "en": "ten",
+              "en": "Ten",
               "fr": "Dix",
-              "es": "diez",
-              "uk": "10"
+              "es": "Diez",
+              "uk": "Десять"
             },
             "correct": false
           }
@@ -2007,10 +2007,10 @@ export const picQuizData = [
           {
             "word": {
               "de": "Zehn",
-              "en": "ten",
+              "en": "Ten",
               "fr": "Dix",
-              "es": "diez",
-              "uk": "10"
+              "es": "Diez",
+              "uk": "Десять"
             },
             "correct": true
           },
@@ -2030,7 +2030,7 @@ export const picQuizData = [
               "en": "Three",
               "es": "Tercera",
               "uk": "Три",
-              "fr": "3"
+              "fr": "Trois"
             },
             "correct": false
           },
@@ -2038,7 +2038,7 @@ export const picQuizData = [
             "word": {
               "de": "Acht",
               "en": "Eight",
-              "fr": " Huit",
+              "fr": "Huit",
               "uk": "Вісім",
               "es": "Ocho"
             },
@@ -2055,7 +2055,7 @@ export const picQuizData = [
               "de": "Eins",
               "en": "One",
               "uk": "Один",
-              "es": "uno",
+              "es": "Uno",
               "fr": "Une "
             },
             "correct": true
@@ -2065,7 +2065,7 @@ export const picQuizData = [
               "de": "Zwei",
               "en": "Two",
               "fr": "Deux",
-              "uk": "два",
+              "uk": "Два",
               "es": "Dos"
             },
             "correct": false
@@ -2074,7 +2074,7 @@ export const picQuizData = [
             "word": {
               "de": "Drei",
               "en": "Three",
-              "fr": "3",
+              "fr": "Trois",
               "uk": "Три",
               "es": "Tercera"
             },
@@ -2083,9 +2083,9 @@ export const picQuizData = [
           {
             "word": {
               "de": "Viertel",
-              "en": "quarter",
-              "es": "cuarto",
-              "fr": "quart",
+              "en": "Quarter",
+              "es": "Cuarto",
+              "fr": "Quart",
               "uk": "Одна четвертна"
             },
             "correct": false
@@ -2101,7 +2101,7 @@ export const picQuizData = [
               "de": "Zwei",
               "en": "Two",
               "es": "Dos",
-              "uk": "два",
+              "uk": "Два",
               "fr": "Deux"
             },
             "correct": false
@@ -2132,7 +2132,7 @@ export const picQuizData = [
               "en": "Three",
               "uk": "Три",
               "es": "Tercera",
-              "fr": "3"
+              "fr": "Trois"
             },
             "correct": false
           }
@@ -2166,7 +2166,7 @@ export const picQuizData = [
             "word": {
               "de": "Acht",
               "en": "Eight",
-              "fr": " Huit",
+              "fr": "Huit",
               "es": "Ocho",
               "uk": "Вісім"
             },
@@ -2175,10 +2175,10 @@ export const picQuizData = [
           {
             "word": {
               "de": "Zehn",
-              "en": "ten",
+              "en": "Ten",
               "fr": "Dix",
-              "es": "diez",
-              "uk": "10"
+              "es": "Diez",
+              "uk": "Десять"
             },
             "correct": false
           }
@@ -2193,7 +2193,7 @@ export const picQuizData = [
               "de": "Zwei",
               "en": "Two",
               "fr": "Deux",
-              "uk": "два",
+              "uk": "Два",
               "es": "Dos"
             },
             "correct": true
@@ -2204,7 +2204,7 @@ export const picQuizData = [
               "en": "One",
               "fr": "Une ",
               "uk": "Один",
-              "es": "uno"
+              "es": "Uno"
             },
             "correct": false
           },
@@ -2212,7 +2212,7 @@ export const picQuizData = [
             "word": {
               "de": "Drei",
               "en": "Three",
-              "fr": "3",
+              "fr": "Trois",
               "es": "Tercera",
               "uk": "Три"
             },
@@ -2250,7 +2250,7 @@ export const picQuizData = [
               "en": "Eight",
               "uk": "Вісім",
               "es": "Ocho",
-              "fr": " Huit"
+              "fr": "Huit"
             },
             "correct": false
           },
@@ -2259,7 +2259,7 @@ export const picQuizData = [
               "de": "Sieben",
               "en": "Sieving",
               "fr": "Sept",
-              "uk": "7",
+              "uk": "Cім",
               "es": "Siete"
             },
             "correct": false
@@ -2267,9 +2267,9 @@ export const picQuizData = [
           {
             "word": {
               "de": "Zehn",
-              "en": "ten",
-              "es": "diez",
-              "uk": "10",
+              "en": "Ten",
+              "es": "Diez",
+              "uk": "Десять",
               "fr": "Dix"
             },
             "correct": false
@@ -2285,7 +2285,7 @@ export const picQuizData = [
               "de": "Sieben",
               "en": "Sieving",
               "fr": "Sept",
-              "uk": "7",
+              "uk": "Cім",
               "es": "Siete"
             },
             "correct": true
@@ -2294,7 +2294,7 @@ export const picQuizData = [
             "word": {
               "de": "Acht",
               "en": "Eight",
-              "fr": " Huit",
+              "fr": "Huit",
               "uk": "Вісім",
               "es": "Ocho"
             },
@@ -2357,7 +2357,7 @@ export const picQuizData = [
               "en": "Wrist",
               "fr": "Poignet",
               "es": "Muñeca",
-              "uk": "Променево- зап’ястковий суглоб. "
+              "uk": "Зап’ясток"
             },
             "correct": false
           },
@@ -2365,7 +2365,7 @@ export const picQuizData = [
             "word": {
               "de": "Handfläche",
               "en": "Palm",
-              "fr": "paume",
+              "fr": "Paume",
               "es": "Palma",
               "uk": "Долоня"
             },
@@ -2401,8 +2401,8 @@ export const picQuizData = [
             "word": {
               "de": "Kinn",
               "en": "Chin",
-              "es": "barba",
-              "fr": "menton",
+              "es": "Barba",
+              "fr": "Menton",
               "uk": "Підборіддя"
             },
             "correct": false
@@ -2413,7 +2413,7 @@ export const picQuizData = [
               "en": "Forehead",
               "fr": "Le front",
               "uk": "Чоло",
-              "es": "frente"
+              "es": "Frente"
             },
             "correct": false
           }
@@ -2484,7 +2484,7 @@ export const picQuizData = [
               "de": "Brust",
               "en": "Chest",
               "es": "Pecho",
-              "fr": "poitrine",
+              "fr": "Poitrine",
               "uk": "Грудна клітка"
             },
             "correct": false
@@ -2492,8 +2492,8 @@ export const picQuizData = [
           {
             "word": {
               "de": "Rücken",
-              "en": "back",
-              "fr": "dos",
+              "en": "Back",
+              "fr": "Dos",
               "uk": "Спина",
               "es": "Espalda"
             },
@@ -2503,9 +2503,9 @@ export const picQuizData = [
             "word": {
               "de": "Bein",
               "en": "Leg",
-              "es": "hueso",
+              "es": "Hueso",
               "uk": "Нога",
-              "fr": "jambe"
+              "fr": "Jambe"
             },
             "correct": false
           }
@@ -2520,8 +2520,8 @@ export const picQuizData = [
               "de": "Bein",
               "en": "Leg",
               "uk": "Нога",
-              "es": "hueso",
-              "fr": "jambe"
+              "es": "Hueso",
+              "fr": "Jambe"
             },
             "correct": true
           },
@@ -2575,7 +2575,7 @@ export const picQuizData = [
             "word": {
               "de": "Finger",
               "en": "Fingers",
-              "fr": "doigt",
+              "fr": "Doigt",
               "uk": "Палець руки",
               "es": "Dedo"
             },
@@ -2595,9 +2595,9 @@ export const picQuizData = [
             "word": {
               "de": "Schulter",
               "en": "Shoulder",
-              "es": "hombro",
-              "fr": "épaule",
-              "uk": "Плечовий суглоб людини"
+              "es": "Hombro",
+              "fr": "Épaule",
+              "uk": "Плече"
             },
             "correct": false
           }
@@ -2632,7 +2632,7 @@ export const picQuizData = [
               "de": "Stirn",
               "en": "Forehead",
               "fr": "Le front",
-              "es": "frente",
+              "es": "Frente",
               "uk": "Чоло"
             },
             "correct": false
@@ -2640,7 +2640,7 @@ export const picQuizData = [
           {
             "word": {
               "de": "Ohr",
-              "en": "ear",
+              "en": "Ear",
               "fr": "Oreille",
               "es": "Oído",
               "uk": "Вухо"
@@ -2656,10 +2656,10 @@ export const picQuizData = [
           {
             "word": {
               "de": "Auge",
-              "en": "eye,",
-              "es": "ojo",
+              "en": "Eye,",
+              "es": "Ojo",
               "uk": "Око",
-              "fr": "oeil"
+              "fr": "Oeil"
             },
             "correct": true
           },
@@ -2712,7 +2712,7 @@ export const picQuizData = [
           {
             "word": {
               "de": "Hand",
-              "en": "hand",
+              "en": "Hand",
               "es": "Manual",
               "fr": "Manuel",
               "uk": "Кисть"
@@ -2724,8 +2724,8 @@ export const picQuizData = [
               "de": "Bein",
               "en": "Leg",
               "uk": "Нога",
-              "es": "hueso",
-              "fr": "jambe"
+              "es": "Hueso",
+              "fr": "Jambe"
             },
             "correct": false
           },
@@ -2768,7 +2768,7 @@ export const picQuizData = [
           {
             "word": {
               "de": "Ohr",
-              "en": "ear",
+              "en": "Ear",
               "es": "Oído",
               "uk": "Вухо",
               "fr": "Oreille"
@@ -2778,9 +2778,9 @@ export const picQuizData = [
           {
             "word": {
               "de": "Auge",
-              "en": "eye,",
-              "es": "ojo",
-              "fr": "oeil",
+              "en": "Eye,",
+              "es": "Ojo",
+              "fr": "Oeil",
               "uk": "Око"
             },
             "correct": false
@@ -2802,7 +2802,7 @@ export const picQuizData = [
               "en": "Socks",
               "fr": "Chaussettes",
               "uk": "Шкарпетки",
-              "es": "calcetines"
+              "es": "Calcetines"
             },
             "correct": true
           },
@@ -2820,7 +2820,7 @@ export const picQuizData = [
             "word": {
               "de": "Jacke",
               "en": "Jacket",
-              "es": "chaqueta",
+              "es": "Chaqueta",
               "uk": "Куртка",
               "fr": "Veste"
             },
@@ -2831,8 +2831,8 @@ export const picQuizData = [
               "de": "Hose",
               "en": "Trousers",
               "uk": "Штани",
-              "fr": "court",
-              "es": "pantalónes"
+              "fr": "Court",
+              "es": "Pantalónes"
             },
             "correct": false
           }
@@ -2845,7 +2845,7 @@ export const picQuizData = [
           {
             "word": {
               "de": "Hemd",
-              "en": "shirt",
+              "en": "Shirt",
               "es": "Camisa",
               "fr": "Chemise",
               "uk": "Сорочка"
@@ -2857,7 +2857,7 @@ export const picQuizData = [
               "de": "Jacke",
               "en": "Jacket",
               "fr": "Veste",
-              "es": "chaqueta",
+              "es": "Chaqueta",
               "uk": "Куртка"
             },
             "correct": true
@@ -2865,9 +2865,9 @@ export const picQuizData = [
           {
             "word": {
               "de": "Mütze",
-              "en": "Wool cap",
-              "fr": "bonnet",
-              "es": "gorras",
+              "en": "Cap",
+              "fr": "Bonnet",
+              "es": "Gorras",
               "uk": "Капелюх"
             },
             "correct": false
@@ -2891,10 +2891,10 @@ export const picQuizData = [
           {
             "word": {
               "de": "Mütze",
-              "en": "Wool cap",
+              "en": "Cap",
               "uk": "Капелюх",
-              "fr": "bonnet",
-              "es": "gorras"
+              "fr": "Bonnet",
+              "es": "Gorras"
             },
             "correct": true
           },
@@ -2902,7 +2902,7 @@ export const picQuizData = [
             "word": {
               "de": "Hose",
               "en": "Trousers",
-              "es": "pantalónes",
+              "es": "Pantalónes",
               "uk": "Штани",
               "fr": "court"
             },
@@ -2914,7 +2914,7 @@ export const picQuizData = [
               "en": "Shoes",
               "fr": "Chaussures",
               "es": "Calzado",
-              "uk": "Легке взуття"
+              "uk": "Bзуття"
             },
             "correct": false
           },
@@ -2939,8 +2939,8 @@ export const picQuizData = [
               "de": "T-Shirt",
               "en": "T-Shirt",
               "uk": "Футболка",
-              "es": "camiseta",
-              "fr": "t-shirt"
+              "es": "Camiseta",
+              "fr": "T-shirt"
             },
             "correct": true
           },
@@ -2948,9 +2948,9 @@ export const picQuizData = [
             "word": {
               "de": "Hose",
               "en": "Trousers",
-              "es": "pantalónes",
+              "es": "Pantalónes",
               "uk": "Штани",
-              "fr": "court"
+              "fr": "Court"
             },
             "correct": false
           },
@@ -2968,7 +2968,7 @@ export const picQuizData = [
             "word": {
               "de": "Jacke",
               "en": "Jacket",
-              "es": "chaqueta",
+              "es": "Chaqueta",
               "fr": "Veste",
               "uk": "Куртка"
             },
@@ -2983,7 +2983,7 @@ export const picQuizData = [
           {
             "word": {
               "de": "Hemd",
-              "en": "shirt",
+              "en": "Shirt",
               "fr": "Chemise",
               "es": "Camisa",
               "uk": "Сорочка"
@@ -2993,9 +2993,9 @@ export const picQuizData = [
           {
             "word": {
               "de": "Mütze",
-              "en": "Wool cap",
-              "fr": "bonnet",
-              "es": "gorras",
+              "en": "Cap",
+              "fr": "Bonnet",
+              "es": "Gorras",
               "uk": "Капелюх"
             },
             "correct": false
@@ -3006,7 +3006,7 @@ export const picQuizData = [
               "en": "Socks",
               "uk": "Шкарпетки",
               "fr": "Chaussettes",
-              "es": "calcetines"
+              "es": "Calcetines"
             },
             "correct": false
           },
@@ -3015,8 +3015,8 @@ export const picQuizData = [
               "de": "Rock",
               "en": "Skirt",
               "fr": "Rock",
-              "uk": "Камінь",
-              "es": "jersey"
+              "uk": "Спідниця",
+              "es": "Jersey"
             },
             "correct": false
           }
@@ -3052,7 +3052,7 @@ export const picQuizData = [
               "en": "Shoes",
               "es": "Calzado",
               "fr": "Chaussures",
-              "uk": "Легке взуття"
+              "uk": "Bзуття"
             },
             "correct": false
           },
@@ -3061,7 +3061,7 @@ export const picQuizData = [
               "de": "Rock",
               "en": "Skirt",
               "fr": "Rock",
-              "uk": "Камінь",
+              "uk": "Спідниця",
               "es": "jersey"
             },
             "correct": false
@@ -3077,8 +3077,8 @@ export const picQuizData = [
               "de": "Hose",
               "en": "Trousers",
               "uk": "Штани",
-              "fr": "court",
-              "es": "pantalónes"
+              "fr": "Court",
+              "es": "Pantalónes"
             },
             "correct": true
           },
@@ -3088,17 +3088,17 @@ export const picQuizData = [
               "en": "Socks",
               "uk": "Шкарпетки",
               "fr": "Chaussettes",
-              "es": "calcetines"
+              "es": "Calcetines"
             },
             "correct": false
           },
           {
             "word": {
               "de": "Mütze",
-              "en": "Wool cap",
-              "fr": "bonnet",
+              "en": "Cap",
+              "fr": "Bonnet",
               "uk": "Капелюх",
-              "es": "gorras"
+              "es": "Gorras"
             },
             "correct": false
           },
@@ -3107,7 +3107,7 @@ export const picQuizData = [
               "de": "T-Shirt",
               "en": "T-Shirt",
               "es": "camiseta",
-              "fr": "t-shirt",
+              "fr": "T-shirt",
               "uk": "Футболка"
             },
             "correct": false
@@ -3123,8 +3123,8 @@ export const picQuizData = [
               "de": "Hose",
               "en": "Trousers",
               "uk": "Штани",
-              "fr": "court",
-              "es": "pantalónes"
+              "fr": "Court",
+              "es": "Pantalónes"
             },
             "correct": false
           },
@@ -3141,9 +3141,9 @@ export const picQuizData = [
           {
             "word": {
               "de": "Mütze",
-              "en": "Wool cap",
-              "fr": "bonnet",
-              "es": "gorras",
+              "en": "Cap",
+              "fr": "Bonnet",
+              "es": "Gorras",
               "uk": "Капелюх"
             },
             "correct": false
@@ -3154,7 +3154,7 @@ export const picQuizData = [
               "en": "Jacket",
               "fr": "Veste",
               "uk": "Куртка",
-              "es": "chaqueta"
+              "es": "Chaqueta"
             },
             "correct": false
           }
@@ -3168,8 +3168,8 @@ export const picQuizData = [
             "word": {
               "de": "Rock",
               "en": "Skirt",
-              "uk": "Камінь",
-              "es": "jersey",
+              "uk": "Спідниця",
+              "es": "Jersey",
               "fr": "Rock"
             },
             "correct": true
@@ -3178,7 +3178,7 @@ export const picQuizData = [
             "word": {
               "de": "T-Shirt",
               "en": "T-Shirt",
-              "es": "camiseta",
+              "es": "Camiseta",
               "uk": "Футболка",
               "fr": "t-shirt"
             },
@@ -3189,7 +3189,7 @@ export const picQuizData = [
               "de": "Socken",
               "en": "Socks",
               "uk": "Шкарпетки",
-              "es": "calcetines",
+              "es": "Calcetines",
               "fr": "Chaussettes"
             },
             "correct": false
@@ -3224,7 +3224,7 @@ export const picQuizData = [
             "word": {
               "de": "Schuhe",
               "en": "Shoes",
-              "uk": "Легке взуття",
+              "uk": "Bзуття",
               "es": "Calzado",
               "fr": "Chaussures"
             },
@@ -3236,7 +3236,7 @@ export const picQuizData = [
               "en": "Socks",
               "fr": "Chaussettes",
               "uk": "Шкарпетки",
-              "es": "calcetines"
+              "es": "Calcetines"
             },
             "correct": false
           },
@@ -3245,7 +3245,7 @@ export const picQuizData = [
               "de": "Jacke",
               "en": "Jacket",
               "fr": "Veste",
-              "es": "chaqueta",
+              "es": "Chaqueta",
               "uk": "Куртка"
             },
             "correct": false
@@ -4340,7 +4340,7 @@ export const picQuizData = [
               "en": "Air travel",
               "fr": "Avion",
               "uk": "Літак",
-              "es": "avión"
+              "es": "Avión"
             },
             "correct": true
           },
@@ -4349,7 +4349,7 @@ export const picQuizData = [
               "de": "Zug",
               "en": "Zug",
               "uk": "Поїзд",
-              "es": "tren",
+              "es": "Tren",
               "fr": "Tirage"
             },
             "correct": false
@@ -4358,7 +4358,7 @@ export const picQuizData = [
             "word": {
               "de": "Taxi",
               "en": "Taxi ",
-              "es": "taxi",
+              "es": "Taxi",
               "fr": "Commander un",
               "uk": "Таксі"
             },
@@ -4393,7 +4393,7 @@ export const picQuizData = [
           {
             "word": {
               "de": "Fahrrad",
-              "en": "bicycle",
+              "en": "Bicycle",
               "uk": "Велосипед",
               "es": "Bicicleta",
               "fr": "Vélo"
@@ -4404,9 +4404,9 @@ export const picQuizData = [
             "word": {
               "de": "Motorrad",
               "en": "Motorcycle",
-              "es": "motocicleta",
+              "es": "Motocicleta",
               "uk": "Мотоцикл",
-              "fr": "moto"
+              "fr": "Moto"
             },
             "correct": false
           },
@@ -4416,7 +4416,7 @@ export const picQuizData = [
               "en": "Auto",
               "fr": "Voiture",
               "uk": "Автомобіль",
-              "es": "coche"
+              "es": "Coche"
             },
             "correct": false
           }
@@ -4439,7 +4439,7 @@ export const picQuizData = [
           {
             "word": {
               "de": "Fahrrad",
-              "en": "bicycle",
+              "en": "Bicycle",
               "uk": "Велосипед",
               "es": "Bicicleta",
               "fr": "Vélo"
@@ -4461,7 +4461,7 @@ export const picQuizData = [
               "de": "U-Bahn",
               "en": "Underground train",
               "uk": "Потяг метро",
-              "es": "metro",
+              "es": "Metro",
               "fr": "Métro"
             },
             "correct": false
@@ -4475,7 +4475,7 @@ export const picQuizData = [
           {
             "word": {
               "de": "Fahrrad",
-              "en": "bicycle",
+              "en": "Bicycle",
               "fr": "Vélo",
               "uk": "Велосипед",
               "es": "Bicicleta"
@@ -4487,8 +4487,8 @@ export const picQuizData = [
               "de": "Motorrad",
               "en": "Motorcycle",
               "uk": "Мотоцикл",
-              "es": "motocicleta",
-              "fr": "moto"
+              "es": "Motocicleta",
+              "fr": "Moto"
             },
             "correct": false
           },
@@ -4496,7 +4496,7 @@ export const picQuizData = [
             "word": {
               "de": "Auto",
               "en": "Auto",
-              "es": "coche",
+              "es": "Coche",
               "fr": "Voiture",
               "uk": "Автомобіль"
             },
@@ -4522,7 +4522,7 @@ export const picQuizData = [
             "word": {
               "de": "U-Bahn",
               "en": "Underground train",
-              "es": "metro",
+              "es": "Metro",
               "uk": "Потяг метро",
               "fr": "Métro"
             },
@@ -4532,7 +4532,7 @@ export const picQuizData = [
             "word": {
               "de": "Flugzeug",
               "en": "Air travel",
-              "es": "avión",
+              "es": "Avión",
               "fr": "Avion",
               "uk": "Літак"
             },
@@ -4553,7 +4553,7 @@ export const picQuizData = [
               "de": "Taxi",
               "en": "Taxi ",
               "uk": "Таксі",
-              "es": "taxi",
+              "es": "Taxi",
               "fr": "Commander un"
             },
             "correct": false
@@ -4577,7 +4577,7 @@ export const picQuizData = [
           {
             "word": {
               "de": "Fahrrad",
-              "en": "bicycle",
+              "en": "Bicycle",
               "fr": "Vélo",
               "uk": "Велосипед",
               "es": "Bicicleta"
@@ -4615,7 +4615,7 @@ export const picQuizData = [
               "de": "Zug",
               "en": "Zug",
               "uk": "Поїзд",
-              "es": "tren",
+              "es": "Tren",
               "fr": "Tirage"
             },
             "correct": true
@@ -4626,7 +4626,7 @@ export const picQuizData = [
               "en": "Auto",
               "fr": "Voiture",
               "uk": "Автомобіль",
-              "es": "coche"
+              "es": "Coche"
             },
             "correct": false
           },
@@ -4635,8 +4635,8 @@ export const picQuizData = [
               "de": "Motorrad",
               "en": "Motorcycle",
               "uk": "Мотоцикл",
-              "fr": "moto",
-              "es": "motocicleta"
+              "fr": "Moto",
+              "es": "Motocicleta"
             },
             "correct": false
           },
@@ -4661,8 +4661,8 @@ export const picQuizData = [
               "de": "Motorrad",
               "en": "Motorcycle",
               "uk": "Мотоцикл",
-              "es": "motocicleta",
-              "fr": "moto"
+              "es": "Motocicleta",
+              "fr": "Moto"
             },
             "correct": true
           },
@@ -4670,7 +4670,7 @@ export const picQuizData = [
             "word": {
               "de": "Zug",
               "en": "Zug",
-              "es": "tren",
+              "es": "Tren",
               "fr": "Tirage",
               "uk": "Поїзд"
             },
@@ -4691,7 +4691,7 @@ export const picQuizData = [
               "de": "Flugzeug",
               "en": "Air travel",
               "fr": "Avion",
-              "es": "avión",
+              "es": "Avión",
               "uk": "Літак"
             },
             "correct": false
@@ -4717,7 +4717,7 @@ export const picQuizData = [
               "de": "Taxi",
               "en": "Taxi ",
               "uk": "Таксі",
-              "es": "taxi",
+              "es": "Taxi",
               "fr": "Commander un"
             },
             "correct": false
@@ -4727,7 +4727,7 @@ export const picQuizData = [
               "de": "Auto",
               "en": "Auto",
               "uk": "Автомобіль",
-              "es": "coche",
+              "es": "Coche",
               "fr": "Voiture"
             },
             "correct": false
@@ -4735,7 +4735,7 @@ export const picQuizData = [
           {
             "word": {
               "de": "Fahrrad",
-              "en": "bicycle",
+              "en": "Bicycle",
               "fr": "Vélo",
               "es": "Bicicleta",
               "uk": "Велосипед"
@@ -4752,7 +4752,7 @@ export const picQuizData = [
             "word": {
               "de": "Auto",
               "en": "Auto",
-              "es": "coche",
+              "es": "Coche",
               "uk": "Автомобіль",
               "fr": "Voiture"
             },
@@ -4762,7 +4762,7 @@ export const picQuizData = [
             "word": {
               "de": "Flugzeug",
               "en": "Air travel",
-              "es": "avión",
+              "es": "Avión",
               "uk": "Літак",
               "fr": "Avion"
             },
@@ -4783,8 +4783,8 @@ export const picQuizData = [
               "de": "Motorrad",
               "en": "Motorcycle",
               "uk": "Мотоцикл",
-              "es": "motocicleta",
-              "fr": "moto"
+              "es": "Motocicleta",
+              "fr": "Moto"
             },
             "correct": false
           }
@@ -4793,7 +4793,7 @@ export const picQuizData = [
     ]
   },
   {
-    "category": "möbel",
+    "category": "Möbel",
     "questions": [
       {
         "id": 1201,
@@ -4813,7 +4813,7 @@ export const picQuizData = [
             "word": {
               "de": "Bett",
               "en": "Bed.",
-              "fr": "le",
+              "fr": "Le",
               "uk": "Ліжко",
               "es": "Cama"
             },
@@ -4825,7 +4825,7 @@ export const picQuizData = [
               "en": "Table",
               "uk": "Стіл",
               "fr": "Table",
-              "es": "mesa"
+              "es": "Mesa"
             },
             "correct": false
           },
@@ -4833,8 +4833,8 @@ export const picQuizData = [
             "word": {
               "de": "Sofa",
               "en": "Sofa",
-              "fr": "canapé-lit",
-              "uk": "Кушетка",
+              "fr": "Canapé-lit",
+              "uk": "Диван",
               "es": "Sofá"
             },
             "correct": false
@@ -4860,7 +4860,7 @@ export const picQuizData = [
               "de": "Lampe",
               "en": "Lamp",
               "fr": "Lampe",
-              "es": "flexo arquitecto",
+              "es": "Flexo arquitecto",
               "uk": "Лампа"
             },
             "correct": false
@@ -4868,7 +4868,7 @@ export const picQuizData = [
           {
             "word": {
               "de": "Schrank",
-              "en": "cupboard",
+              "en": "Cupboard",
               "fr": "Armoire",
               "uk": "Шафа",
               "es": "Armario"
@@ -4897,7 +4897,7 @@ export const picQuizData = [
               "en": "Sofa",
               "es": "Sofá",
               "uk": "Кушетка",
-              "fr": "canapé-lit"
+              "fr": "Canapé-lit"
             },
             "correct": true
           },
@@ -4917,7 +4917,7 @@ export const picQuizData = [
               "en": "Table",
               "uk": "Стіл",
               "fr": "Table",
-              "es": "mesa"
+              "es": "Mesa"
             },
             "correct": false
           },
@@ -4927,7 +4927,7 @@ export const picQuizData = [
               "en": "Bed.",
               "uk": "Ліжко",
               "es": "Cama",
-              "fr": "le"
+              "fr": "Le"
             },
             "correct": false
           }
@@ -4942,7 +4942,7 @@ export const picQuizData = [
               "de": "Lampe",
               "en": "Lamp",
               "fr": "Lampe",
-              "es": "flexo arquitecto",
+              "es": "Flexo arquitecto",
               "uk": "Лампа"
             },
             "correct": true
@@ -4953,7 +4953,7 @@ export const picQuizData = [
               "en": "Sofa",
               "uk": "Кушетка",
               "es": "Sofá",
-              "fr": "canapé-lit"
+              "fr": "Canapé-lit"
             },
             "correct": false
           },
@@ -4970,7 +4970,7 @@ export const picQuizData = [
           {
             "word": {
               "de": "Schrank",
-              "en": "cupboard",
+              "en": "Cupboard",
               "uk": "Шафа",
               "es": "Armario",
               "fr": "Armoire"
@@ -4986,7 +4986,7 @@ export const picQuizData = [
           {
             "word": {
               "de": "Schrank",
-              "en": "cupboard",
+              "en": "Cupboard",
               "uk": "Шафа",
               "fr": "Armoire",
               "es": "Armario"
@@ -4999,7 +4999,7 @@ export const picQuizData = [
               "en": "Table",
               "fr": "Table",
               "uk": "Стіл",
-              "es": "mesa"
+              "es": "Mesa"
             },
             "correct": false
           },
@@ -5008,7 +5008,7 @@ export const picQuizData = [
               "de": "Bett",
               "en": "Bed.",
               "es": "Cama",
-              "fr": "le",
+              "fr": "Le",
               "uk": "Ліжко"
             },
             "correct": false
@@ -5034,7 +5034,7 @@ export const picQuizData = [
               "de": "Tisch",
               "en": "Table",
               "fr": "Table",
-              "es": "mesa",
+              "es": "Mesa",
               "uk": "Стіл"
             },
             "correct": true
@@ -5043,7 +5043,7 @@ export const picQuizData = [
             "word": {
               "de": "Bett",
               "en": "Bed.",
-              "fr": "le",
+              "fr": "Le",
               "es": "Cama",
               "uk": "Ліжко"
             },
@@ -5052,7 +5052,7 @@ export const picQuizData = [
           {
             "word": {
               "de": "Schrank",
-              "en": "cupboard",
+              "en": "Cupboard",
               "uk": "Шафа",
               "es": "Armario",
               "fr": "Armoire"
@@ -5063,7 +5063,7 @@ export const picQuizData = [
             "word": {
               "de": "Sofa",
               "en": "Sofa",
-              "fr": "canapé-lit",
+              "fr": "Canapé-lit",
               "es": "Sofá",
               "uk": "Кушетка"
             },
@@ -5100,7 +5100,7 @@ export const picQuizData = [
               "de": "Lampe",
               "en": "Lamp",
               "fr": "Lampe",
-              "es": "flexo arquitecto",
+              "es": "Flexo arquitecto",
               "uk": "Лампа"
             },
             "correct": false
@@ -5109,7 +5109,7 @@ export const picQuizData = [
             "word": {
               "de": "Sofa",
               "en": "Sofa",
-              "fr": "canapé-lit",
+              "fr": "Canapé-lit",
               "uk": "Кушетка",
               "es": "Sofá"
             },
@@ -5127,14 +5127,14 @@ export const picQuizData = [
               "en": "Bed.",
               "uk": "Ліжко",
               "es": "Cama",
-              "fr": "le"
+              "fr": "Le"
             },
             "correct": true
           },
           {
             "word": {
               "de": "Schrank",
-              "en": "cupboard",
+              "en": "Cupboard",
               "uk": "Шафа",
               "fr": "Armoire",
               "es": "Armario"
@@ -5156,7 +5156,7 @@ export const picQuizData = [
               "de": "Tisch",
               "en": "Table",
               "uk": "Стіл",
-              "es": "mesa",
+              "es": "Mesa",
               "fr": "Table"
             },
             "correct": false
@@ -5182,7 +5182,7 @@ export const picQuizData = [
               "de": "Lampe",
               "en": "Lamp",
               "uk": "Лампа",
-              "es": "flexo arquitecto",
+              "es": "Lexo arquitecto",
               "fr": "Lampe"
             },
             "correct": false
@@ -5192,8 +5192,8 @@ export const picQuizData = [
               "de": "Sofa",
               "en": "Sofa",
               "es": "Sofá",
-              "uk": "Кушетка",
-              "fr": "canapé-lit"
+              "uk": "Диван",
+              "fr": "Canapé-lit"
             },
             "correct": false
           },
@@ -5201,7 +5201,7 @@ export const picQuizData = [
             "word": {
               "de": "Bett",
               "en": "Bed.",
-              "fr": "le",
+              "fr": "Le",
               "uk": "Ліжко",
               "es": "Cama"
             },
@@ -5226,7 +5226,7 @@ export const picQuizData = [
           {
             "word": {
               "de": "Schrank",
-              "en": "cupboard",
+              "en": "Cupboard",
               "fr": "Armoire",
               "es": "Armario",
               "uk": "Шафа"
@@ -5237,7 +5237,7 @@ export const picQuizData = [
             "word": {
               "de": "Sofa",
               "en": "Sofa",
-              "uk": "Кушетка",
+              "uk": "Диван",
               "fr": "canapé-lit",
               "es": "Sofá"
             },
