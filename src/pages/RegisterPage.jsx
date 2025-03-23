@@ -112,7 +112,7 @@ const RegisterPage = () => {
 
           <button
             onClick={handleNavigation}
-            className="mt-4 text-xl bg-amber-400 text-white py-3 rounded hover:bg-amber-300 transition w-full"
+            className="mt-4 text-xl bg-amber-400 text-purple-900 py-3 rounded hover:bg-amber-300 transition w-full"
           >
             {appState.isLoggedIn ? "Zu deinem Profil" : "Zurück zur Startseite"}
           </button>

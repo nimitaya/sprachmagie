@@ -75,7 +75,7 @@ const Quiz = () => {
           </div>
           <button
             onClick={() => navigate("/quiz")}
-            className="mt- sm:mt-8 py-2 px-4 text-lg sm:py-3 sm:px-3 sm:text-2xl lg:py-4 lg:px-8 lg:text-2xl mb-7 mx-6 bg-lime-500 text-white font-bold rounded-lg sm:rounded-xl transition-all duration-300 transform hover:scale-105 active:scale-95"
+            className="mt- sm:mt-8 py-2 px-4 text-lg sm:py-3 sm:px-3 sm:text-2xl lg:py-4 lg:px-8 lg:text-2xl mb-7 mx-6 bg-purple-600 text-white font-bold rounded-lg sm:rounded-xl transition-all duration-300 transform hover:scale-105 active:scale-95"
           >
             Zurück zum Thema Auswahl
           </button>

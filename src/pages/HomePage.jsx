@@ -114,7 +114,7 @@ const HomePage = () => {
             </form>
 
             <Link to="/register">
-              <button className="mt-4 text-xl bg-amber-400 text-white py-3 rounded hover:bg-amber-300 transition w-full">
+              <button className="mt-4 text-xl bg-amber-400 text-purple-900 py-3 rounded hover:bg-amber-300 transition w-full">
                 Neu registrieren
               </button>
             </Link>
