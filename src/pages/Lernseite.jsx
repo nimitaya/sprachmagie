@@ -27,7 +27,7 @@ const Lernseite = () => {
               className="w-full h-32 sm:h-40 md:h-48 lg:h-56 object-cover"
             />
             <div className="absolute inset-0 flex items-center justify-center  bg-opacity-50">
-              <p className="text-purple-700 bg-amber-300 text-xl font-semibold px-4 py-2 rounded-lg">
+              <p className="text-purple-700 bg-amber-300 text-xl  px-4 py-2 rounded-lg">
                 Karten
               </p>
             </div>
@@ -43,7 +43,7 @@ const Lernseite = () => {
               className="w-full h-36 sm:h-40 md:h-48 lg:h-56  object-cover "
             />
             <div className="absolute inset-0 flex items-center justify-center  bg-opacity-50 ">
-              <p className="text-purple-700 bg-amber-300 text-xl  font-semibold px-4 py-2 rounded-lg">
+              <p className="text-purple-700 bg-amber-300 text-xl  px-4 py-2 rounded-lg">
                 Bilder Quiz
               </p>
             </div>
@@ -59,7 +59,7 @@ const Lernseite = () => {
               className="w-full h-32 sm:h-40 md:h-48 lg:h-56 object-cover object-top"
             />
             <div className="absolute inset-0 flex items-center justify-center bg-opacity-50">
-              <p className="text-purple-700 bg-amber-300 text-xl  font-semibold px-4 py-2 rounded-lg">
+              <p className="text-purple-700 bg-amber-300 text-xl   px-4 py-2 rounded-lg">
                 Wort Quiz
               </p>
             </div>

@@ -12,7 +12,7 @@ const ProgressQuiz = () => {
     <div className="p-4 flex flex-col">
         {/* Badge above Progress Bar */}
         <div className="flex mb-2 items-center">
-          <span className="text-xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-purple-700 bg-pink-200">
+          <span className="text-xl inline-block py-1 px-2 uppercase rounded-full text-purple-700 bg-pink-200">
             Abgeschlossene Quizzes
           </span>
         </div>
@@ -22,7 +22,7 @@ const ProgressQuiz = () => {
         </div>
         {/* Percentage */}
         <div className="w-28 aspect-square bg-pink-200 rounded-full flex justify-center items-center self-center">
-          <span className="text-3xl font-semibold inline-block text-purple-700">
+          <span className="text-3xl  inline-block text-purple-700">
             {/* percentage taken from context */}
             {earnedProgress<100 ? earnedProgress : "100"}%
           </span>
