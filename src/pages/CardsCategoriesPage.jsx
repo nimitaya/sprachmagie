@@ -50,7 +50,7 @@ const CardsCategoriesPage = () => {
       <div className="flex justify-center">
         <LanguageSelect />
       </div>
-      <h1 className="text-purple-700 text-6xl sm:text-8xl my-6 p-2 bg-white/30 rounded-lg shadow-2xl w-fit">
+      <h1 className="text-purple-700 text-4xl sm:text-8xl my-6 p-2 bg-white/30 rounded-lg shadow-2xl w-fit">
         Kategorien
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
