@@ -58,7 +58,7 @@ const RegisterPage = () => {
               onChange={(e) =>
                 setUserObj({ ...userObj, username: e.target.value.toLowerCase().trim() })
               }
-              className="p-2 border-3 rounded mb-2 focus:outline-none focus:ring-2 border-pink-400 focus:ring-amber-300 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via bg-purple-300 to-purple-400 text-2xl"
+              className="p-2 border-3 rounded mb-2 focus:outline-none focus:ring-2 border-pink-400 focus:ring-pink-300 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via bg-purple-300 to-purple-400 text-2xl"
               placeholder="Gib deinen Namen an"
             />
             {/* Warnung, falls der Name schon existiert! */}
@@ -77,7 +77,7 @@ const RegisterPage = () => {
               id="age"
               value={userObj.age}
               onChange={(e) => setUserObj({ ...userObj, age: e.target.value.trim() })}
-              className="p-2 border-3 rounded mb-2 focus:outline-none focus:ring-2 border-pink-400 focus:ring-amber-300 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via bg-purple-300 to-purple-400 text-2xl"
+              className="p-2 border-3 rounded mb-2 focus:outline-none focus:ring-2 border-pink-400 focus:ring-pink-300 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via bg-purple-300 to-purple-400 text-2xl"
               placeholder="Gib dein Alter an"
             />
 
@@ -94,7 +94,7 @@ const RegisterPage = () => {
               onChange={(e) =>
                 setUserObj({ ...userObj, password: e.target.value })
               }
-              className="p-2 border-3 rounded mb-4 focus:outline-none focus:ring-2 border-pink-400 focus:ring-amber-300 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via bg-purple-300 to-purple-400 text-2xl"
+              className="p-2 border-3 rounded mb-4 focus:outline-none focus:ring-2 border-pink-400 focus:ring-pink-300 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via bg-purple-300 to-purple-400 text-2xl"
               placeholder="Erstelle ein Passwort"
             />
 
@@ -106,7 +106,7 @@ const RegisterPage = () => {
             </button>
             {/* Info, wenn erfolgreich registriert */}
             {appState.success && (
-              <p className="text-green-500 text-sm mt-2">{appState.success}</p>
+              <p className="text-pink-500 text-lg mt-2">{appState.success}</p>
             )}
           </form>
 

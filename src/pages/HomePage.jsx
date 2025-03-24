@@ -58,7 +58,7 @@ const HomePage = () => {
       <div className="absolute inset-0 backdrop-blur-sm"></div>
 
       <div className="relative z-10 flex flex-col items-center">
-        <div className="w-33 h-36 sm:w-36 sm:h-56 md:w-50 md:h-50 lg:w-47 lg:h-47">
+        <div className="w-33 h-36 sm:w-36 sm:h-56 md:w-50 md:h-50 lg:w-40 lg:h-40">
           <img
             src="logo.png"
             alt="Logo"
@@ -69,7 +69,7 @@ const HomePage = () => {
         <h1 className="font-barriecito text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-6xl font-bold text-center text-pink-200">
           Sprachmagie
         </h1>
-        <h2 className="text-center text-xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-3xl text-purple-600  mt-7 bg-pink-200">
+        <h2 className="text-center text-xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-3xl text-purple-600  mt-5  p-2 bg-pink-200">
           Jede Sprache ist ein Abenteuer
         </h2>
 
