@@ -78,7 +78,7 @@ const CardsPage = () => {
       </div>
      
       <div>
-      <BackButton path={"/learning"}/>
+      <BackButton path={"/cards-categories"}/>
     </div>
     </div>
   );
