@@ -42,7 +42,7 @@ const Quiz = () => {
         // Reset correct answer for the next question
       } else {
         setShowResults(true);
-        setEarnedPoints((prevPoints) => prevPoints + score );
+        setEarnedPoints((prevPoints) => prevPoints + score);
         console.log(score, "---", earnedProgress);
         // Only when score is 100% add progress
         if (score +1 === questions.length) {

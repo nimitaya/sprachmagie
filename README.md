@@ -61,6 +61,6 @@ Dieses Projekt steht unter der MIT-Lizenz. Weitere Informationen findest du in d
 Bei Fragen oder Anregungen kannst du uns gerne kontaktieren:
 
 <!-- - E-Mail: info@sprachmagie.de -->
-- GitHub: [nimitaya](https://github.com/nimitaya)
+- GitHub: [nataliia-petrukhina](https://github.com/nataliia-petrukhina), [nimitaya](https://github.com/nimitaya), [Olena-prydalna](https://github.com/Olena-prydalna)
 
 Vielen Dank, dass du Sprachmagie nutzt und unterstützt!
