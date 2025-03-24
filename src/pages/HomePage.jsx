@@ -73,7 +73,7 @@ const HomePage = () => {
           Jede Sprache ist ein Abenteuer
         </h2>
 
-        <div className="w-full max-w-xs md:max-w-md lg:max-w-lg bg-pink-200 p-6 rounded-lg shadow-2xl mt-11">
+        <div className="w-full max-w-xs md:max-w-md lg:max-w-lg bg-pink-200 p-6 rounded-lg shadow-2xl mt-5">
           <div className="mt-4">
             <h2 className="text-xl  text-center text-purple-600 mb-5">
               Login:
