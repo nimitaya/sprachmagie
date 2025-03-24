@@ -37,7 +37,7 @@ const Profile = () => {
         </div>
         <Link
           to="/learning"
-          className="my-6 bg-purple-700 text-xl text-white px-9 py-3 rounded hover:bg-purple-600 transition cursor-pointer"
+          className="my-6 bg-purple-700 text-xl text-pink-200 px-9 py-3 rounded hover:bg-purple-600 transition cursor-pointer"
         >
           Jetzt Lernen
         </Link>
