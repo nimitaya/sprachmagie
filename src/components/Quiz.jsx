@@ -30,7 +30,7 @@ const Quiz = () => {
     setCorrectAnswer(currentCorrectAnswer);
 
     if (selectedAnswer === questions[currentQuestion].answer) {
-      setScore(score + 1);
+      setScore((prevScore) => prevScore + 1);
     }
 
     // Delay moving to the next question to allow the user to see the correct answer
