@@ -4793,7 +4793,7 @@ export const picQuizData = [
     ]
   },
   {
-    "category": "Möbel",
+    "category": "möbel",
     "questions": [
       {
         "id": 1201,
