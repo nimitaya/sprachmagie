@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { LanguageContext } from "../contexts/LanguageContext";
 import { cardsData } from "../data/data";
 import Card from "../components/Card";
+import BackButton from "../components/BackButton";
 
 
 const CardsPage = () => {
@@ -75,6 +76,10 @@ const CardsPage = () => {
           Weiter
         </button>
       </div>
+     
+      <div>
+      <BackButton path={"/learning"}/>
+    </div>
     </div>
   );
 };
