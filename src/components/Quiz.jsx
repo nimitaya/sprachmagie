@@ -36,7 +36,7 @@ const Quiz = () => {
     // Delay moving to the next question to allow the user to see the correct answer
     setTimeout(() => {
       if (currentQuestion + 1 < questions.length) {
-        setCurrentQuestion(currentQuestion + 1);
+        setCurrentQuestion((prevQuestion) => prevQuestion + 1);
         setSelectedAnswer(null);
         setCorrectAnswer(null);
         // Reset correct answer for the next question
