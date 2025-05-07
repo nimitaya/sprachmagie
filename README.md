@@ -9,23 +9,24 @@ Diese App soll Kindern spielerisch helfen, neue Sprachen zu lernen und ihre Neug
 ## Projektübersicht
 
 Sprachmagie ist eine interaktive Lernplattform, die speziell für Kinder entwickelt wurde. Die App bietet eine Vielzahl von Funktionen, um das Sprachenlernen spannend und unterhaltsam zu gestalten.
+Bisher noch ohne einen Backend-Server, auf dem die Daten gespeichert werden.
 
 ## Aktueller Stand
 
 Derzeit ist die Grundstruktur der App implementiert. Zu den aktuellen Funktionen gehören:
 
 - **Profilseite**: Benutzer können ihr Profilbild ändern, indem sie auf das Bild klicken.
-- **Fortschrittspunkte**: Anzeige des Lernfortschritts.
+- **Fortschrittspunkte**: Anzeige des Lernfortschritts temporär.
 - **Quiz**: Kleine Quizspiele, um das Gelernte zu überprüfen.
 
 ## Geplante Funktionen
 
 In zukünftigen Versionen der App planen wir, folgende Funktionen hinzuzufügen:
 
-- **Interaktive Spiele**: Verschiedene Spiele, die das Lernen von Vokabeln und Grammatik fördern.
+- **Interaktive Spiele**: Verschiedene Spiele, die das Lernen von Vokabeln fördern.
 - **Mehrsprachige Unterstützung**: Unterstützung für mehrere Sprachen, damit Kinder verschiedene Sprachen lernen können.
-- **Belohnungssystem**: Ein System, das Kinder für ihre Fortschritte belohnt und sie motiviert, weiterzulernen.
-- **Eltern-Dashboard**: Ein Dashboard für Eltern, um den Fortschritt ihrer Kinder zu überwachen.
+<!-- - **Belohnungssystem**: Ein System, das Kinder für ihre Fortschritte belohnt und sie motiviert, weiterzulernen.
+- **Eltern-Dashboard**: Ein Dashboard für Eltern, um den Fortschritt ihrer Kinder zu überwachen. -->
 
 ## Installation
 

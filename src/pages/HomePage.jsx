@@ -69,7 +69,7 @@ const HomePage = () => {
         <h1 className="font-barriecito text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-6xl font-bold text-center text-pink-200">
           Sprachmagie
         </h1>
-        <h2 className="text-center text-xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-3xl text-purple-600  mt-5  p-2 bg-pink-200">
+        <h2 className="text-center text-xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-3xl text-purple-600 rounded-lg mt-5  p-2 bg-pink-200">
           Jede Sprache ist ein Abenteuer
         </h2>
 
@@ -86,7 +86,9 @@ const HomePage = () => {
                 id="username"
                 required
                 value={username}
-                onChange={(e) => setUsername(e.target.value.toLowerCase().trim())}
+                onChange={(e) =>
+                  setUsername(e.target.value.toLowerCase().trim())
+                }
                 className="p-2 border-3 rounded mb-2 focus:outline-none focus:ring-2 border-pink-400 focus:ring-pink-400 text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via bg-purple-300 to-purple-400 text-2xl "
                 placeholder="Gib deinen Namen an"
               />
@@ -119,6 +121,18 @@ const HomePage = () => {
               </button>
             </Link>
           </div>
+        </div>
+
+        <div className="text-center text-xl sm:text-xl lg:text-2xl text-purple-600 lg:max-w-1/2 mt-5 rounded-lg p-2 bg-pink-200">
+          <p className="mb-3">
+            Sprachenlernen ist Magie! Du kannst mehr von der Welt entdecken und
+            verstehen, wenn du dich mit Personen aus anderen Ländern, die eine
+            andere Sprache sprechen, verständigen kannst.
+          </p>
+          <p>
+            Diese App soll Kindern spielerisch helfen, neue Sprachen zu lernen
+            und ihre Neugierde zu wecken.
+          </p>
         </div>
       </div>
     </div>
